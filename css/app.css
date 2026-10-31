@@ -331,3 +331,4 @@ html.wide.mid .content { padding-left: 18px; padding-right: 18px; }
   .course-btn { padding: 6px 10px; }
 }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; animation: none !important; } }
+html.zoomed, html.zoomed body { overflow-x: hidden; }

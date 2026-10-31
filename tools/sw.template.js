@@ -4,7 +4,8 @@ const CACHE = 'glossa-' + VERSION;
 const ASSETS = __ASSETS__;
 
 self.addEventListener('install', e => {
-  e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)));
+  // cache: 'reload' para no guardar copias viejas de la caché HTTP del navegador
+  e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS.map(u => new Request(u, { cache: 'reload' })))));
 });
 self.addEventListener('activate', e => {
   e.waitUntil(caches.keys()

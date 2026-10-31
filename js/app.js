@@ -19,11 +19,15 @@
       const s1 = (window.screen && screen.width) || iw, s2 = (window.screen && screen.height) || ih;
       const sw = iw > ih ? Math.max(s1, s2) : Math.min(s1, s2);
       let z = 1;
-      if (touch && sw > 0 && iw > sw * 1.25) z = Math.min(4, Math.round(iw / sw * 100) / 100);
+      if (touch && sw > 0 && iw > sw * 1.25) z = iw / sw;
+      // Respaldo: la página se ha cargado «alejada», como una web de escritorio en un móvil.
+      const vv = window.visualViewport;
+      if (vv && vv.scale > 0.2 && vv.scale < 0.85 && iw >= 600) z = Math.max(z, 1 / vv.scale);
+      z = Math.min(4, Math.round(z * 100) / 100);
       const ew = iw / z, wide = ew >= 680, mid = wide && ew <= 900;
       const changed = wide !== o.matches || mid !== o.mid || z !== o.zoom;
       o.matches = wide; o.mid = mid; o.zoom = z;
-      de.classList.toggle('wide', wide); de.classList.toggle('mid', mid);
+      de.classList.toggle('wide', wide); de.classList.toggle('mid', mid); de.classList.toggle('zoomed', z > 1);
       de.style.zoom = z === 1 ? '' : String(z);
       de.style.setProperty('--z', String(z));
       return changed;
@@ -927,7 +931,7 @@
       <div class="row-btns"><button class="btn" data-act="backup-save">Guardar copia</button><label class="btn ghost filebtn">Restaurar copia<input type="file" accept="application/json,.json,text/plain" data-act="backup-load" hidden></label></div>
       ${G(ui.course).l.length ? `<button class="btn ghost small" data-act="gen-clear">Borrar tus lecturas de ${esc(lower(ui.course))} (${G(ui.course).l.length})</button>` : ''}
       <p class="hint" id="persist-note"></p></section>`;
-    h += `<section class="card form"><h2>App</h2><p class="muted small">Glossa ${esc(VERSION)}${isStandalone() ? ' · instalada' : ''}.</p>
+    h += `<section class="card form"><h2>App</h2><p class="muted small">Glossa ${esc(VERSION)}${isStandalone() ? ' · instalada' : ''}.</p><p class="muted small">Pantalla ${(window.screen && screen.width) || '?'}×${(window.screen && screen.height) || '?'} · página ${window.innerWidth} px · escala ${window.visualViewport ? visualViewport.scale.toFixed(2) : '?'} · ampliación ${WIDE_Q.zoom}</p>
       ${!isStandalone() && ui.installEvt ? '<button class="btn primary" data-act="install">Instalar Glossa</button>' : ''}
       ${!isStandalone() && !ui.installEvt ? `<p class="hint">${isIOS ? 'Para instalarla: Safari › Compartir › Añadir a pantalla de inicio.' : 'Para instalarla: Chrome › menú ⋮ › Instalar aplicación.'}</p>` : ''}
       <button class="btn ghost small" data-act="check-update">Buscar actualizaciones</button></section>`;
@@ -981,8 +985,8 @@
   document.addEventListener('pointerdown', touch, { passive: true });
   document.addEventListener('keydown', touch);
   document.addEventListener('visibilitychange', () => {
-    if (document.visibilityState === 'hidden') { commitAct(); drillStop(); ST.flush(); }
-    else if (window.__swReg) window.__swReg.update().catch(() => {});
+    if (document.visibilityState === 'hidden') { commitAct(); drillStop(); ST.flush(); applyUpdate(window.__swReg); }
+    else { UPD.since = Date.now(); UPD.touched = false; if (window.__swReg) window.__swReg.update().catch(() => {}); }
   });
   window.addEventListener('pagehide', () => { commitAct(); ST.flush(); });
   window.addEventListener('hashchange', route);
@@ -1179,16 +1183,25 @@
   });
 
   // ---------------- Arranque ----------------
+  // Actualizaciones: si llega una versión nueva al abrir o volver a la app (antes de tocar nada),
+  // o mientras está en segundo plano, se instala sola. Si ya la estás usando, aparece «Actualizar».
+  const UPD = { since: Date.now(), touched: false };
+  ['pointerdown', 'keydown'].forEach(t => window.addEventListener(t, () => { UPD.touched = true; }, true));
+  const applyUpdate = reg => { if (reg && reg.waiting) reg.waiting.postMessage('skipWaiting'); };
   function registerSW() {
     if (!('serviceWorker' in navigator)) return;
     if (!(location.protocol === 'https:' || location.hostname === 'localhost' || location.hostname === '127.0.0.1')) return;
-    navigator.serviceWorker.register('sw.js').then(reg => {
+    navigator.serviceWorker.register('sw.js', { updateViaCache: 'none' }).then(reg => {
       window.__swReg = reg;
-      const show = () => { ui.update = reg; renderStatus(); };
-      if (reg.waiting && navigator.serviceWorker.controller) show();
+      const ready = () => {
+        if (!navigator.serviceWorker.controller || !reg.waiting) return;
+        if (document.visibilityState === 'hidden' || (!UPD.touched && Date.now() - UPD.since < 30000)) applyUpdate(reg);
+        else { ui.update = reg; renderStatus(); }
+      };
+      ready();
       reg.addEventListener('updatefound', () => {
         const nw = reg.installing;
-        if (nw) nw.addEventListener('statechange', () => { if (nw.state === 'installed' && navigator.serviceWorker.controller) show(); });
+        if (nw) nw.addEventListener('statechange', () => { if (nw.state === 'installed') ready(); });
       });
     }).catch(() => { /* sin service worker */ });
     let reloaded = false;
