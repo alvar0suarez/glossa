@@ -71,7 +71,7 @@ window.CONTENT.grc.semanas.push({
         },
         {
           t: "nota",
-          x: "El acento de los nombres griegos no siempre coincide con el español, que los tomó del latín: *Σωκράτης* se lee «Sokrátes», *Πλάτων* «Pláton» y *Ἀριστοτέλης* «Aristotéles». Y los atenienses no hablaban exactamente así: la erasmiana es una convención escolar, pensada para distinguir todas las letras. En griego moderno, por ejemplo, η, ι y υ suenan las tres «i»."
+          x: "El acento de los nombres griegos no siempre coincide con el español, que los tomó del latín: *Σωκράτης* se lee «Sokrátes», *Πλάτων* «Pláton» y *Ἀριστοτέλης* «Aristotéles». Y los atenienses no hablaban exactamente así: la erasmiana es una convención escolar que distingue letras que el griego posterior confundió. En griego moderno, por ejemplo, η, ι y υ suenan las tres «i»."
         }
       ],
       vocab: [
@@ -159,7 +159,7 @@ window.CONTENT.grc.semanas.push({
         },
         {
           t: "p",
-          x: "**Iota suscrita.** Una *ι* pequeña bajo *ᾳ*, *ῃ* o *ῳ* es una *i* que ya no se pronunciaba en época clásica, y tú tampoco la lees: *ζῷον* «dsóon» (ser vivo, animal), *ᾠδή* «odé» (canto, oda)."
+          x: "**Iota suscrita.** Una *ι* pequeña bajo *ᾳ*, *ῃ* o *ῳ* es una *i* que dejó de pronunciarse después de la época clásica (por eso los copistas medievales la escribieron pequeña, debajo), y tú no la lees: *ζῷον* «dsóon» (ser vivo, animal), *ᾠδή* «odé» (canto, oda)."
         },
         {
           t: "p",
@@ -254,7 +254,7 @@ window.CONTENT.grc.semanas.push({
         },
         {
           t: "nota",
-          x: "No hay signos de apertura: la pregunta solo se ve en el *;* final o en la palabra que la abre, como *τί* (qué). Y en las ediciones modernas solo llevan mayúscula los nombres propios y el comienzo de párrafo o de cita; en tus lecturas de estas semanas la verás también al empezar cada frase, para ayudarte."
+          x: "No hay signos de apertura: la pregunta solo se ve en el *;* final o en la palabra que la abre, como *τί* (qué). Y en las ediciones modernas solo llevan mayúscula los nombres propios y el comienzo de párrafo o de cita; en las lecturas de esta primera semana la verás también al empezar cada frase, para ayudarte."
         },
         { t: "p", x: "Ahora, las ocho palabras que más verás en Platón y Aristóteles. Léelas despacio, sílaba a sílaba:" },
         {
@@ -570,7 +570,7 @@ window.CONTENT.grc.semanas.push({
         },
         {
           t: "nota",
-          x: "**ἀ- privativa.** Como en español (*ateo*, *anónimo*), *ἀ-* (o *ἀν-* ante vocal) niega: *θάνατος* (muerte) → *ἀθάνατος* (inmortal); *δίκαιος* → *ἄδικος* (injusto). Estos adjetivos compuestos sirven igual para masculino y femenino: *ἡ ψυχὴ ἀθάνατος*, con *-ος* aunque *ψυχή* sea femenino."
+          x: "**ἀ- privativa.** Como en español (*ateo*, *anónimo*), *ἀ-* (o *ἀν-* ante vocal) niega: *θάνατος* (muerte) → *ἀθάνατος* (inmortal); *δίκη* (justicia) → *ἄδικος* (injusto). Estos adjetivos compuestos sirven igual para masculino y femenino: *ἡ ψυχὴ ἀθάνατος*, con *-ος* aunque *ψυχή* sea femenino."
         },
         {
           t: "ej",
@@ -623,7 +623,7 @@ window.CONTENT.grc.semanas.push({
     },
     {
       id: "grc1-7",
-      titulo: "Preguntas y respuestas: τί ἐστι;",
+      titulo: "Preguntas y respuestas: τί ἐστι…;",
       min: 35,
       intro: "Los diálogos de Platón avanzan a base de preguntas de Sócrates («¿qué es la virtud?») y respuestas breves de su interlocutor. Hoy aprendes a preguntar y a contestar como ellos.",
       bloques: [
@@ -732,12 +732,12 @@ window.CONTENT.grc.semanas.push({
           filas: [
             ["Γνῶθι σεαυτόν.", "conoce · a ti mismo", "Conócete a ti mismo."],
             ["Μηδὲν ἄγαν.", "nada · demasiado", "Nada en exceso."],
-            ["Ἐγγύα, πάρα δ᾽ ἄτη.", "sal fiador · cerca está · y · la ruina", "Sal fiador, y la ruina está cerca."]
+            ["Ἐγγύη πάρα δ᾽ ἄτη.", "fianza · cerca está · y · la ruina", "Fianza, y la ruina está cerca."]
           ]
         },
         {
           t: "p",
-          x: "*γνῶθι* es un imperativo, «conoce», y *σεαυτόν*, «a ti mismo» (Platón escribe la forma breve *σαυτόν*). *μηδέν* es «nada» y *ἄγαν*, «demasiado». En latín se dicen *nōsce tē ipsum* y *nē quid nimis*. La tercera, menos citada, desaconseja salir fiador de nadie."
+          x: "*γνῶθι* es un imperativo, «conoce», y *σεαυτόν*, «a ti mismo» (Platón escribe la forma breve *σαυτόν*). *μηδέν* es «nada» y *ἄγαν*, «demasiado». En latín se dicen *nōsce tē ipsum* y *nē quid nimis*. La tercera, menos citada (Platón la recoge en el *Cármides*, 165a), desaconseja salir fiador de nadie: *ἐγγύη* es «fianza»."
         },
         {
           t: "p",
@@ -815,7 +815,7 @@ window.CONTENT.grc.semanas.push({
       nivel: "Inicial",
       texto: "Ὁ Σωκράτης Ἀθηναῖός ἐστιν. Φιλόσοφός ἐστιν, οὐ σοφιστής. Οὐ καλός ἐστιν ὁ Σωκράτης, οὐδὲ πλούσιος, ἀλλὰ σοφὸς καὶ ἀγαθός.\n\nὉ Πλάτων καὶ ὁ Ξενοφῶν μαθηταί εἰσιν. Ὁ Κρίτων φίλος ἐστίν. Οἱ μαθηταὶ νέοι εἰσίν· ὁ δὲ Σωκράτης γέρων ἐστίν.\n\nὉ θεὸς σοφός ἐστιν· ὁ δὲ Σωκράτης οὐ σοφός, ἀλλὰ φιλόσοφος.",
       traduccion: "Sócrates es ateniense. Es filósofo, no sofista. Sócrates no es guapo, ni rico, sino sabio y bueno.\n\nPlatón y Jenofonte son discípulos suyos. Critón es su amigo. Los discípulos son jóvenes; Sócrates, en cambio, es viejo.\n\nEl dios es sabio; Sócrates, en cambio, no es sabio, sino filósofo.",
-      notas: "Fíjate en *ὁ δέ*: «y él, en cambio». *δέ* contrapone una frase a la anterior: *οἱ μαθηταὶ νέοι εἰσίν· ὁ δὲ Σωκράτης γέρων ἐστίν*. En *Οὐ καλός ἐστιν ὁ Σωκράτης* el sujeto va al final, y lo reconoces porque lleva artículo. Que Sócrates era feo lo cuentan Platón y Jenofonte, que lo comparan con un sileno.",
+      notas: "Fíjate en *ὁ δὲ Σωκράτης*: «Sócrates, en cambio». *δέ* contrapone una frase a la anterior: *οἱ μαθηταὶ νέοι εἰσίν· ὁ δὲ Σωκράτης γέρων ἐστίν*. En *Οὐ καλός ἐστιν ὁ Σωκράτης* el sujeto va al final, y lo reconoces porque lleva artículo. Que Sócrates era feo lo cuentan Platón y Jenofonte, que lo comparan con un sileno.",
       glosa: {
         "ὁ": "el (artículo masculino)",
         "σωκράτης": "Sócrates",

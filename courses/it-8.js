@@ -247,7 +247,7 @@ window.CONTENT.it.semanas.push({
         },
         {
           t: "p",
-          x: "**Mismo sujeto: di + infinitivo.** Si quien opina o desea es el mismo que hace la acción, no hay *che*: *Penso di avere ragione* (Creo que tengo razón), *Spero di finire entro venerdì* (Espero terminar para el viernes). Con sujetos distintos, *che* + congiuntivo: *Spero che tu finisca entro venerdì*."
+          x: "**Mismo sujeto: di + infinitivo.** Si quien opina o desea es el mismo que hace la acción, no hay *che*: *Penso di avere ragione* (Creo que tengo razón), *Spero di finire entro venerdì* (Espero terminar para el viernes); con *volere* y *preferire*, sin *di*: *Voglio finire oggi*. Con sujetos distintos, *che* + congiuntivo: *Spero che tu finisca entro venerdì*."
         },
         {
           t: "p",
@@ -356,7 +356,7 @@ window.CONTENT.it.semanas.push({
         },
         {
           t: "p",
-          x: "**Proponer.** *Propongo che* + congiuntivo cuando la acción la hace otro; *propongo di* + infinitivo cuando la hacéis todos o la haces tú. También sirven *Perché non…?* y *Che ne dite di…?* + infinitivo."
+          x: "**Proponer.** *Propongo che* + congiuntivo cuando dices quién hace la acción (*che Marco prepari*, *che lanciamo*); *propongo di* + infinitivo cuando no hace falta decirlo, porque la haces tú o la hacéis todos. También sirven *Perché non…?* y *Che ne dite di…?* + infinitivo."
         },
         {
           t: "tabla",
@@ -511,7 +511,7 @@ window.CONTENT.it.semanas.push({
         ["rispondere a tutti", "responder a todos (acento: ri-SPON-de-re)"],
         ["inoltrare una mail", "reenviar un correo"],
         ["Ti giro la mail di Marco.", "Te reenvío el correo de Marco. (informal)"],
-        ["mettere in copia", "poner en copia"],
+        ["mettere in copia", "poner en copia (acento: MET-te-re)"],
         ["Metto in copia Marco.", "Pongo en copia a Marco."],
         ["la bozza", "el borrador"],
         ["un sollecito", "un recordatorio de algo pendiente (acento: sol-LE-ci-to)"],
@@ -521,7 +521,7 @@ window.CONTENT.it.semanas.push({
         ["Come d'accordo…", "Como quedamos…"],
         ["Mi scuso per il ritardo nella risposta.", "Disculpe el retraso en responder."],
         ["Resto a disposizione per qualsiasi chiarimento.", "Quedo a su disposición para cualquier aclaración."],
-        ["Grazie in anticipo.", "Gracias de antemano."],
+        ["Grazie in anticipo.", "Gracias de antemano. (acento: an-TI-ci-po)"],
         ["aggiornare qualcuno", "poner al día a alguien"],
         ["seguire un progetto", "llevar un proyecto, encargarse de él"]
       ],
@@ -540,7 +540,7 @@ window.CONTENT.it.semanas.push({
       id: "it8-6",
       titulo: "Textos de trabajo (2): el acta y el informe mensual",
       min: 45,
-      intro: "Después de cada reunión alguien escribe el *verbale* (el acta), y a final de mes te pedirán un *rapporto* (informe) breve. Son textos muy fijos: con sus fórmulas los lees en un minuto y los escribes sin miedo.",
+      intro: "Después de cada reunión alguien escribe el *verbale* (el acta), y a final de mes te pedirán un *report* (informe) breve. Son textos muy fijos: con sus fórmulas los lees en un minuto y los escribes sin miedo.",
       bloques: [
         {
           t: "p",
@@ -569,11 +569,11 @@ window.CONTENT.it.semanas.push({
         },
         {
           t: "nota",
-          x: "Falsos amigos de oficina: en italiano *informe* es un adjetivo («sin forma»); el informe es *il rapporto* o *la relazione* (que también significa «relación»). Y *il presupposto* es «la premisa»: el presupuesto de un proveedor es *il preventivo*, y el de un proyecto, *il budget*."
+          x: "Falsos amigos de oficina: en italiano *informe* es un adjetivo («sin forma»); el informe es *il report* (lo más habitual en la oficina), *il rapporto* (más formal) o *la relazione* (que también significa «relación»). Y *il presupposto* es «la premisa»: el presupuesto de un proveedor es *il preventivo*, y el de un proyecto, *il budget*."
         },
         {
           t: "p",
-          x: "**El rapporto mensile** también tiene apartados fijos: *attività svolte* (actividades realizadas), *risultati* (resultados), *criticità* (puntos críticos, problemas) y *prossimi passi* (próximos pasos). Para comparar cifras, *rispetto a* (con respecto a)."
+          x: "**El report mensile** también tiene apartados fijos: *attività svolte* (actividades realizadas), *risultati* (resultados), *criticità* (puntos críticos, problemas) y *prossimi passi* (próximos pasos). Para comparar cifras, *rispetto a* (con respecto a)."
         },
         {
           t: "tabla",
@@ -601,10 +601,10 @@ window.CONTENT.it.semanas.push({
             ["È stato deciso che Marco seguirà i test.", "Se ha decidido que Marco se encargará de las pruebas."],
             ["Il budget è stato approvato.", "El presupuesto ha sido aprobado."],
             ["Nel mese di ottobre abbiamo completato la fase di test.", "En octubre hemos completado la fase de pruebas."],
-            ["Il fornitore ha consegnato con una settimana di ritardo.", "El proveedor entregó con una semana de retraso."],
+            ["Il fornitore ha consegnato con due settimane di ritardo.", "El proveedor entregó con dos semanas de retraso."],
             ["Il numero di utenti è salito del 12% rispetto a settembre.", "El número de usuarios ha subido un 12 % con respecto a septiembre."],
             ["La principale criticità è il ritardo del fornitore.", "El principal problema es el retraso del proveedor."],
-            ["Per novembre prevediamo di lanciare la prima versione.", "Para noviembre tenemos previsto lanzar la primera versión."]
+            ["Per dicembre prevediamo di lanciare la prima versione.", "Para diciembre tenemos previsto lanzar la primera versión."]
           ]
         }
       ],
@@ -618,7 +618,7 @@ window.CONTENT.it.semanas.push({
         ["Il budget è stato approvato.", "El presupuesto ha sido aprobado."],
         ["all'unanimità", "por unanimidad"],
         ["i prossimi passi", "los próximos pasos"],
-        ["il rapporto mensile", "el informe mensual"],
+        ["il report mensile", "el informe mensual (más formal: il rapporto mensile)"],
         ["le attività svolte", "las actividades realizadas"],
         ["la criticità", "el punto crítico, el problema"],
         ["Il fatturato è aumentato del 5%.", "La facturación ha aumentado un 5 %."],
@@ -677,7 +677,7 @@ window.CONTENT.it.semanas.push({
             ["Certo. Se vuole, preparo io una presentazione per il cliente.", "Carlos: Claro. Si quiere, preparo yo una presentación para el cliente."],
             ["Perfetto. Allora, ricapitolando: Carlos prepara la presentazione, Marco sente il fornitore e Giulia fissa un incontro con il cliente.", "Ferrari: Perfecto. Entonces, resumiendo: Carlos prepara la presentación, Marco habla con el proveedor y Giulia concierta una reunión con el cliente."],
             ["Mando il verbale a tutti entro stasera.", "Chiara: Mando el acta a todos esta misma tarde."],
-            ["Grazie. Spero che il cliente sia d'accordo. Buon lavoro a tutti!", "Ferrari: Gracias. Espero que el cliente esté de acuerdo. ¡Buen trabajo a todos!"]
+            ["Grazie. Spero che il cliente sia d'accordo. Buon lavoro a tutti!", "Ferrari: Gracias. Espero que el cliente esté de acuerdo. ¡Que vaya bien el trabajo a todos!"]
           ]
         },
         {
@@ -704,7 +704,7 @@ window.CONTENT.it.semanas.push({
         },
         {
           t: "nota",
-          x: "Falsos amigos del nivel, por última vez: *burro* (mantequilla), *salire* (subir), *guardare* (mirar), *caldo* (calor, caliente), *imbarazzato* (avergonzado; «embarazada» es *incinta*). Y dos de oficina: *informe* («sin forma»: el informe es *il rapporto*) y *pretendere* (exigir: *Il cliente pretende uno sconto*, el cliente exige un descuento)."
+          x: "Falsos amigos del nivel, por última vez: *burro* (mantequilla), *salire* (subir), *guardare* (mirar), *caldo* (calor, caliente), *imbarazzato* (avergonzado; «embarazada» es *incinta*). Y dos de oficina: *informe* («sin forma»: el informe es *il report* o *il rapporto*) y *pretendere* (exigir: *Il cliente pretende uno sconto*, el cliente exige un descuento)."
         },
         {
           t: "p",
@@ -732,7 +732,7 @@ window.CONTENT.it.semanas.push({
         ["sentire il fornitore", "hablar con el proveedor, consultarlo"],
         ["fissare un incontro", "concertar una reunión"],
         ["entro stasera", "antes de esta noche, esta misma tarde"],
-        ["Buon lavoro a tutti!", "¡Buen trabajo a todos!"],
+        ["Buon lavoro a tutti!", "¡Que vaya bien el trabajo a todos! (un deseo, no «¡buen trabajo!»)"],
         ["Spero che il cliente sia d'accordo.", "Espero que el cliente esté de acuerdo."],
         ["pretendere", "exigir (¡no «pretender»!) (acento: pre-TEN-de-re)"],
         ["Il cliente pretende uno sconto.", "El cliente exige un descuento."]
@@ -1074,15 +1074,16 @@ window.CONTENT.it.semanas.push({
     },
     {
       id: "it8-r3",
-      titulo: "Il rapporto mensile",
+      titulo: "Il report mensile",
       nivel: "B1",
-      texto: "Rapporto mensile – ottobre\nProgetto: nuova piattaforma per i clienti\nA cura di: Carlos (sede di Madrid)\nDestinatari: dott. Ferrari, Giulia Rossi\n\n1. Attività svolte\nNel mese di ottobre il team ha completato la fase di test. Il fornitore ha consegnato i server il 19 ottobre, con due settimane di ritardo, ma abbiamo recuperato parte del tempo perso lavorando anche il sabato. Il cliente ha approvato la nostra proposta di un lancio in due fasi.\n\n2. Risultati\n– Errori risolti: 46 su 52.\n– Tempi di risposta della piattaforma: ridotti del 30% rispetto a settembre.\n– Costi: in linea con il budget.\n\n3. Criticità\nRestano sei errori, di cui due gravi. Inoltre il fornitore non ha ancora confermato le date di manutenzione per dicembre.\n\n4. Prossimi passi\nA novembre prepareremo il lancio della prima versione, previsto per il primo dicembre. Penso che i tempi siano stretti, ma realistici. Tuttavia è importante che il fornitore confermi le date entro il 10 novembre, e bisogna che il cliente scelga al più presto i primi utenti. Propongo quindi che a metà novembre facciamo una riunione di verifica con tutto il team.\n\nIn sintesi, nonostante il ritardo del fornitore, il progetto procede bene.",
-      traduccion: "Informe mensual – octubre\nProyecto: nueva plataforma para los clientes\nElaborado por: Carlos (sede de Madrid)\nDestinatarios: Dr. Ferrari, Giulia Rossi\n\n1. Actividades realizadas\nEn octubre el equipo ha completado la fase de pruebas. El proveedor entregó los servidores el 19 de octubre, con dos semanas de retraso, pero hemos recuperado parte del tiempo perdido trabajando también los sábados. El cliente ha aprobado nuestra propuesta de un lanzamiento en dos fases.\n\n2. Resultados\n– Errores resueltos: 46 de 52.\n– Tiempos de respuesta de la plataforma: un 30 % menos que en septiembre.\n– Costes: dentro del presupuesto.\n\n3. Puntos críticos\nQuedan seis errores, dos de ellos graves. Además, el proveedor todavía no ha confirmado las fechas de mantenimiento de diciembre.\n\n4. Próximos pasos\nEn noviembre prepararemos el lanzamiento de la primera versión, previsto para el 1 de diciembre. Creo que los plazos son ajustados, pero realistas. Sin embargo, es importante que el proveedor confirme las fechas antes del 10 de noviembre, y hace falta que el cliente elija cuanto antes a los primeros usuarios. Por eso propongo que a mediados de noviembre hagamos una reunión de seguimiento con todo el equipo.\n\nEn resumen, a pesar del retraso del proveedor, el proyecto avanza bien.",
+      texto: "Report mensile – ottobre\nProgetto: Delta, la nuova piattaforma per i clienti\nA cura di: Carlos (sede di Madrid)\nDestinatari: dott. Ferrari, Giulia Rossi\n\n1. Attività svolte\nNel mese di ottobre il team ha completato la fase di test. Il fornitore ha consegnato i server il 19 ottobre, con due settimane di ritardo, ma abbiamo recuperato parte del tempo perso lavorando anche il sabato. Il cliente ha approvato la nostra proposta di un lancio in due fasi.\n\n2. Risultati\n– Errori risolti: 46 su 52.\n– Tempi di risposta della piattaforma: ridotti del 30% rispetto a settembre.\n– Costi: in linea con il budget.\n\n3. Criticità\nRestano sei errori, di cui due gravi. Inoltre il fornitore non ha ancora confermato le date di manutenzione per dicembre.\n\n4. Prossimi passi\nA novembre prepareremo il lancio della prima versione, previsto per il primo dicembre. Penso che i tempi siano stretti, ma realistici. Tuttavia è importante che il fornitore confermi le date entro il 10 novembre, e bisogna che il cliente scelga al più presto i primi utenti. Propongo quindi che a metà novembre facciamo una riunione di verifica con tutto il team.\n\nIn sintesi, nonostante il ritardo del fornitore, il progetto procede bene.",
+      traduccion: "Informe mensual – octubre\nProyecto: Delta, la nueva plataforma para los clientes\nElaborado por: Carlos (sede de Madrid)\nDestinatarios: Dr. Ferrari, Giulia Rossi\n\n1. Actividades realizadas\nEn octubre el equipo ha completado la fase de pruebas. El proveedor entregó los servidores el 19 de octubre, con dos semanas de retraso, pero hemos recuperado parte del tiempo perdido trabajando también los sábados. El cliente ha aprobado nuestra propuesta de un lanzamiento en dos fases.\n\n2. Resultados\n– Errores resueltos: 46 de 52.\n– Tiempos de respuesta de la plataforma: un 30 % menos que en septiembre.\n– Costes: dentro del presupuesto.\n\n3. Puntos críticos\nQuedan seis errores, dos de ellos graves. Además, el proveedor todavía no ha confirmado las fechas de mantenimiento de diciembre.\n\n4. Próximos pasos\nEn noviembre prepararemos el lanzamiento de la primera versión, previsto para el 1 de diciembre. Creo que los plazos son ajustados, pero realistas. Sin embargo, es importante que el proveedor confirme las fechas antes del 10 de noviembre, y hace falta que el cliente elija cuanto antes a los primeros usuarios. Por eso propongo que a mediados de noviembre hagamos una reunión de seguimiento con todo el equipo.\n\nEn resumen, a pesar del retraso del proveedor, el proyecto avanza bien.",
       glosa: {
-        rapporto: "informe (también «relación»: «rapporto di lavoro»)",
+        report: "informe (inglés, invariable: il report, i report; más formal, «il rapporto»)",
         mensile: "mensual",
         ottobre: "octubre",
         progetto: "proyecto",
+        delta: "Delta (nombre del proyecto)",
         nuova: "nueva",
         piattaforma: "plataforma",
         per: "para; «previsto per» = previsto para",

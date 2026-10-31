@@ -42,7 +42,7 @@ window.CONTENT.it.semanas.push({
         },
         {
           t: "p",
-          x: "Con un infinitivo, el pronombre puede ir delante del verbo conjugado o pegado al infinitivo, que pierde la *-e* final: *Ti posso chiamare?* = *Posso chiamarti?* Igual que «¿Te puedo llamar?» y «¿Puedo llamarte?»."
+          x: "Con *potere*, *volere* o *dovere* + infinitivo, el pronombre puede ir delante del verbo conjugado o pegado al infinitivo, que pierde la *-e* final: *Ti posso chiamare?* = *Posso chiamarti?* Igual que «¿Te puedo llamar?» y «¿Puedo llamarte?». Con casi todos los demás verbos, solo pegado: *Preferisco chiamarti*."
         },
         {
           t: "nota",
@@ -400,7 +400,7 @@ window.CONTENT.it.semanas.push({
         },
         {
           t: "nota",
-          x: "Para cerrar un favor: *Fammi sapere* (avísame) o, con *Lei*, *Mi faccia sapere* (avíseme). Con el imperativo de *tu* (la forma de pedir o mandar algo), el pronombre va pegado detrás: *fammi*, *dimmi*. Con *Lei* va delante: *mi faccia*, *mi dica*."
+          x: "Para cerrar un favor: *Fammi sapere* (avísame) o, con *Lei*, *Mi faccia sapere* (avíseme). Son imperativos (la forma de pedir o mandar algo); de momento, apréndelos como frases hechas. Con el de *tu*, el pronombre va pegado detrás y la *m* se dobla: *fammi* (*fa* + *mi*), *dimmi* (*di* + *mi*). Con *Lei* va delante: *mi faccia*, *mi dica*."
         }
       ],
       vocab: [
@@ -489,27 +489,27 @@ window.CONTENT.it.semanas.push({
             ["Ciao Marco, ho visto la tua chiamata.", "Hola, Marco, he visto tu llamada."]
           ]
         },
-        { t: "p", x: "Para deletrear, los italianos usan nombres de ciudades. Las letras dobles se dicen con *doppia*: *doppia L*, *doppia S*." },
+        { t: "p", x: "Para deletrear, los italianos usan sobre todo nombres de ciudades. Las letras dobles se dicen con *doppia*: *doppia L*, *doppia S*." },
         {
           t: "tabla",
-          cab: ["De la A a la I", "De la L a la V"],
+          cab: ["De la A a la L", "De la M a la V"],
           audio: [0, 1],
           filas: [
-            ["A come Ancona", "L come Livorno"],
-            ["B come Bologna", "M come Milano"],
-            ["C come Como", "N come Napoli"],
-            ["D come Domodossola", "O come Otranto"],
-            ["E come Empoli", "P come Palermo"],
+            ["A come Ancona", "M come Milano"],
+            ["B come Bologna", "N come Napoli"],
+            ["C come Como", "O come Otranto"],
+            ["D come Domodossola", "P come Palermo"],
+            ["E come Empoli", "Q come Quarto"],
             ["F come Firenze", "R come Roma"],
             ["G come Genova", "S come Savona"],
             ["H come hotel", "T come Torino"],
             ["I come Imola", "U come Udine"],
-            ["Q come quaderno", "V come Venezia"]
+            ["L come Livorno", "V come Venezia"]
           ]
         },
         {
           t: "nota",
-          x: "Ojo al acento de varias ciudades: *GE-no-va*, *I-mo-la*, *U-di-ne*, *EM-po-li*, *O-tran-to*, *NA-po-li*. La Z es *Z come Zara*, y las letras que no son italianas tienen nombre propio: J *i lunga*, K *cappa*, W *doppia vu*, X *ics*, Y *ipsilon*."
+          x: "Ojo al acento de varias ciudades: *GE-no-va*, *I-mo-la*, *U-di-ne*, *EM-po-li*, *O-tran-to*, *NA-po-li*, *do-mo-DOS-so-la*. La Z es *Z come Zara*, y las letras que no son italianas tienen nombre propio: J *i lunga*, K *cappa*, W *doppia vu*, X *ics*, Y *ipsilon*. Oirás variantes (*B come Bari*, *Q come quadro*): vale cualquier palabra clara."
         },
         {
           t: "ej",
@@ -588,7 +588,7 @@ window.CONTENT.it.semanas.push({
             ["Mi senti adesso?", "¿Me oyes ahora?"],
             ["Non ti sento.", "No te oigo."],
             ["Ti sento a scatti.", "Te oigo entrecortado."],
-            ["Sei muto.", "Tienes el micro silenciado."],
+            ["Sei in muto.", "Tienes el micro silenciado."],
             ["Hai il microfono spento.", "Tienes el micro apagado."],
             ["C'è un'eco.", "Hay eco."],
             ["Non ti vediamo.", "No te vemos."],
@@ -598,7 +598,7 @@ window.CONTENT.it.semanas.push({
         },
         {
           t: "nota",
-          x: "*Muto* es «mudo»: *Sei muto!* es lo que te dirán cuando hables con el micro silenciado (a una mujer, *Sei muta!*). Lo mismo con *bloccato*: *Giulia, ti sei bloccata!*"
+          x: "*Muto* es «mudo», e *in muto*, «silenciado»: *Sei in muto!* es lo que te dirán cuando hables con el micro silenciado. *In muto* no cambia, pero *bloccato* concuerda: *Giulia, ti sei bloccata!*"
         },
         { t: "p", x: "Conexión y pantalla:" },
         {
@@ -628,7 +628,7 @@ window.CONTENT.it.semanas.push({
           items: [
             ["Ciao a tutti! Mi sentite?", "¡Hola a todos! ¿Me oís?"],
             ["Ti sento, ma non ti vedo.", "Te oigo, pero no te veo."],
-            ["Marco, sei muto!", "¡Marco, tienes el micro silenciado!"],
+            ["Marco, sei in muto!", "¡Marco, tienes el micro silenciado!"],
             ["Scusate, adesso mi sentite?", "Perdonad, ¿ahora me oís?"],
             ["Ti sei bloccato. Puoi ripetere?", "Te has quedado congelado. ¿Puedes repetir?"],
             ["Ho la connessione lenta: spengo la telecamera.", "Tengo la conexión lenta: apago la cámara."],
@@ -641,7 +641,7 @@ window.CONTENT.it.semanas.push({
         ["Mi senti adesso?", "¿Me oyes ahora?"],
         ["Non ti sento.", "No te oigo."],
         ["Ti sento a scatti.", "Te oigo entrecortado."],
-        ["Sei muto.", "Tienes el micro silenciado."],
+        ["Sei in muto.", "Tienes el micro silenciado."],
         ["Hai il microfono spento.", "Tienes el micro apagado."],
         ["Non ti vediamo.", "No te vemos."],
         ["Puoi accendere la telecamera?", "¿Puedes encender la cámara?"],
@@ -667,7 +667,7 @@ window.CONTENT.it.semanas.push({
           ops: ["Marco, non ti sento.", "Marco, non ti ascolto.", "Marco, non mi senti."],
           ok: 0
         },
-        { t: "mc", q: "Giulia habla, pero no se oye nada. Le dices:", ops: ["Giulia, sei muta!", "Giulia, sei muto!", "Giulia, sei spenta!"], ok: 0 },
+        { t: "mc", q: "Giulia habla, pero no se oye nada. Le dices:", ops: ["Giulia, sei in muto!", "Giulia, non ti ascolto!", "Giulia, sei spenta!"], ok: 0 },
         {
           t: "mc",
           q: "En una videollamada, *Ti sei bloccato* significa…",
@@ -774,7 +774,7 @@ window.CONTENT.it.semanas.push({
         {
           t: "mc",
           q: "En la videollamada la imagen de Giulia no se mueve. Le dices:",
-          ops: ["Giulia, ti sei bloccata!", "Giulia, sei pronta!", "Giulia, sei muta!"],
+          ops: ["Giulia, ti sei bloccata!", "Giulia, sei pronta!", "Giulia, sei in muto!"],
           ok: 0
         },
         { t: "oir", x: "Ce li hai?", ops: ["Ce li hai?", "Ce l'hai?", "Ce le hai?"], ok: 0 },
@@ -788,8 +788,8 @@ window.CONTENT.it.semanas.push({
       id: "it5-r1",
       titulo: "Una telefonata in ufficio",
       nivel: "A2",
-      texto: "È lunedì mattina. Nell'ufficio di Milano squilla il telefono e Chiara risponde.\n\n– Pronto, ufficio del dottor Ferrari, buongiorno.\n– Buongiorno, sono Paolo Galli, un fornitore di Torino. Posso parlare con il dottor Ferrari?\n– Un attimo, glielo passo… Mi dispiace, è ancora in riunione. Può richiamare più tardi?\n– Purtroppo oggi pomeriggio sono in viaggio. Allora Le lascio un messaggio per lui.\n– Certo, mi dica.\n– La consegna dei pezzi è in ritardo: arriva venerdì, non giovedì. Il dottore conosce il problema, ma gli devo spiegare i dettagli. Può dirgli di richiamarmi entro mezzogiorno?\n– Va bene, glielo dico appena esce. Il dottore ha il Suo numero?\n– Sì, ce l'ha.\n– Scusi, come si scrive il cognome?\n– Galli: G come Genova, A come Ancona, doppia L, I come Imola.\n– Perfetto, signor Galli. Arrivederci!\n– Grazie a Lei. ArrivederLa!\n\nAlle undici il dottor Ferrari esce dalla riunione. Chiara gli dà il messaggio e lui richiama subito il signor Galli.",
-      traduccion: "Es lunes por la mañana. En la oficina de Milán suena el teléfono y Chiara contesta.\n\n—¿Sí? Despacho del doctor Ferrari, buenos días.\n—Buenos días, soy Paolo Galli, un proveedor de Turín. ¿Puedo hablar con el doctor Ferrari?\n—Un momento, se lo paso… Lo siento, todavía está en una reunión. ¿Puede volver a llamar más tarde?\n—Por desgracia, esta tarde estoy de viaje. Entonces le dejo un recado para él.\n—Claro, dígame.\n—La entrega de las piezas lleva retraso: llega el viernes, no el jueves. El doctor conoce el problema, pero tengo que explicarle los detalles. ¿Puede decirle que me devuelva la llamada antes de las doce?\n—De acuerdo, se lo digo en cuanto salga. ¿El doctor tiene su número?\n—Sí, lo tiene.\n—Perdone, ¿cómo se escribe el apellido?\n—Galli: G de Génova, A de Ancona, doble L, I de Ímola.\n—Perfecto, señor Galli. ¡Adiós!\n—Gracias a usted. ¡Adiós, buenos días!\n\nA las once el doctor Ferrari sale de la reunión. Chiara le da el recado y él llama enseguida al señor Galli.",
+      texto: "È lunedì mattina. Nell'ufficio di Milano squilla il telefono e Chiara risponde.\n\n– Pronto, ufficio del dottor Ferrari, buongiorno.\n– Buongiorno, sono Paolo Galli, un cliente di Torino. Posso parlare con il dottor Ferrari?\n– Un attimo, glielo passo… Mi dispiace, è ancora in riunione. Può richiamare più tardi?\n– Purtroppo oggi pomeriggio sono in viaggio. Allora Le lascio un messaggio per lui.\n– Certo, mi dica.\n– La consegna dei pezzi è in ritardo: arriva venerdì, non giovedì. Il dottore conosce il problema, ma gli devo spiegare i dettagli. Può dirgli di richiamarmi entro mezzogiorno?\n– Va bene, glielo dico appena esce. Il dottore ha il Suo numero?\n– Sì, ce l'ha.\n– Scusi, come si scrive il cognome?\n– Galli: G come Genova, A come Ancona, doppia L, I come Imola.\n– Perfetto, signor Galli. Arrivederci!\n– Grazie a Lei. ArrivederLa!\n\nAlle undici il dottor Ferrari esce dalla riunione. Chiara gli dà il messaggio e lui richiama subito il signor Galli.",
+      traduccion: "Es lunes por la mañana. En la oficina de Milán suena el teléfono y Chiara contesta.\n\n—¿Sí? Despacho del doctor Ferrari, buenos días.\n—Buenos días, soy Paolo Galli, un cliente de Turín. ¿Puedo hablar con el doctor Ferrari?\n—Un momento, se lo paso… Lo siento, todavía está en una reunión. ¿Puede volver a llamar más tarde?\n—Por desgracia, esta tarde estoy de viaje. Entonces le dejo un recado para él.\n—Claro, dígame.\n—La entrega de las piezas lleva retraso: llega el viernes, no el jueves. El doctor conoce el problema, pero tengo que explicarle los detalles. ¿Puede decirle que me devuelva la llamada antes de las doce?\n—De acuerdo, se lo digo en cuanto salga. ¿El doctor tiene su número?\n—Sí, lo tiene.\n—Perdone, ¿cómo se escribe el apellido?\n—Galli: G de Génova, A de Ancona, doble L, I de Ímola.\n—Perfecto, señor Galli. ¡Adiós!\n—Gracias a usted. ¡Adiós, buenos días!\n\nA las once el doctor Ferrari sale de la reunión. Chiara le da el recado y él llama enseguida al señor Galli.",
       glosa: {
         "è": "es, está (essere)",
         "lunedì": "lunes",
@@ -813,7 +813,7 @@ window.CONTENT.it.semanas.push({
         paolo: "Paolo (nombre)",
         galli: "Galli (apellido)",
         un: "un",
-        fornitore: "proveedor",
+        cliente: "cliente",
         torino: "Turín",
         posso: "puedo (potere)",
         parlare: "hablar",
@@ -919,7 +919,7 @@ window.CONTENT.it.semanas.push({
       id: "it5-r2",
       titulo: "Problemi di connessione",
       nivel: "A2",
-      texto: "Sono le dieci. Giulia è nella sala riunioni, Marco è alla sua scrivania e Carlos è a Madrid. Hanno una call sul nuovo progetto.\n\n– Ciao a tutti! Mi sentite? – chiede Giulia.\n– Io ti sento benissimo – risponde Carlos. – Marco, ci sei?\n\nMarco muove la bocca, ma non si sente niente.\n\n– Marco, sei muto! – dice Giulia.\n– Scusate! Adesso mi sentite?\n– Sì, ma non ti vediamo. Hai la telecamera spenta.\n– Lo so, l'accendo subito… Eccomi!\n\nPoi Carlos condivide lo schermo per mostrare le slide.\n\n– Lo vedete?\n– Io lo vedo – dice Giulia. – Marco, e tu?\n\nSilenzio. L'immagine di Marco è bloccata: ha la bocca aperta e una brioche in mano.\n\n– Si è bloccato! – ride Carlos.\n\nDopo un minuto arriva un messaggio in chat: «Ho la connessione lentissima. Esco e rientro.»\n\nMarco rientra, ma la connessione è ancora lenta. Alla fine Giulia ha un'idea:\n– Marco, sei a dieci metri da me. Vieni qui in sala riunioni!\n– E io? – chiede Carlos. – Vengo anch'io?\n– Da Madrid? Ci metti due ore in aereo!",
+      texto: "Sono le dieci. Giulia è nella sala riunioni, Marco è alla sua scrivania e Carlos è a Madrid. Hanno una call sul nuovo progetto.\n\n– Ciao a tutti! Mi sentite? – chiede Giulia.\n– Io ti sento benissimo – risponde Carlos. – Marco, ci sei?\n\nMarco muove la bocca, ma non si sente niente.\n\n– Marco, sei in muto! – dice Giulia.\n– Scusate! Adesso mi sentite?\n– Sì, ma non ti vediamo. Hai la telecamera spenta.\n– Lo so, l'accendo subito… Eccomi!\n\nPoi Carlos condivide lo schermo per mostrare le slide.\n\n– Lo vedete?\n– Io lo vedo – dice Giulia. – Marco, e tu?\n\nSilenzio. L'immagine di Marco è bloccata: ha la bocca aperta e una brioche in mano.\n\n– Si è bloccato! – ride Carlos.\n\nDopo un minuto arriva un messaggio in chat: «Ho la connessione lentissima. Esco e rientro.»\n\nMarco rientra, ma la connessione è ancora lenta. Alla fine Giulia ha un'idea:\n– Marco, sei a dieci metri da me. Vieni qui in sala riunioni!\n– E io? – chiede Carlos. – Vengo anch'io?\n– Da Madrid? Ci metti due ore in aereo!",
       traduccion: "Son las diez. Giulia está en la sala de reuniones, Marco está en su mesa y Carlos está en Madrid. Tienen una videollamada sobre el nuevo proyecto.\n\n—¡Hola a todos! ¿Me oís? —pregunta Giulia.\n—Yo te oigo perfectamente —contesta Carlos—. Marco, ¿estás ahí?\n\nMarco mueve la boca, pero no se oye nada.\n\n—¡Marco, tienes el micro silenciado! —dice Giulia.\n—¡Perdonad! ¿Ahora me oís?\n—Sí, pero no te vemos. Tienes la cámara apagada.\n—Ya lo sé, la enciendo enseguida… ¡Ya estoy!\n\nLuego Carlos comparte la pantalla para enseñar las diapositivas.\n\n—¿La veis?\n—Yo la veo —dice Giulia—. Marco, ¿y tú?\n\nSilencio. La imagen de Marco está congelada: tiene la boca abierta y un cruasán en la mano.\n\n—¡Se ha quedado congelado! —se ríe Carlos.\n\nAl cabo de un minuto llega un mensaje al chat: «Tengo la conexión lentísima. Salgo y vuelvo a entrar».\n\nMarco vuelve a entrar, pero la conexión sigue lenta. Al final Giulia tiene una idea:\n—Marco, estás a diez metros de mí. ¡Ven aquí, a la sala de reuniones!\n—¿Y yo? —pregunta Carlos—. ¿Voy yo también?\n—¿Desde Madrid? ¡Tardas dos horas en avión!",
       glosa: {
         sono: "son (essere: «sono le dieci» = son las diez)",
@@ -955,7 +955,7 @@ window.CONTENT.it.semanas.push({
         benissimo: "muy bien, perfectamente",
         risponde: "contesta (rispondere)",
         ci: "«ci sei?» = ¿estás ahí?; «ci metti» = tardas (metterci)",
-        sei: "eres, estás (essere: «sei muto» = tienes el micro silenciado; «sei a dieci metri» = estás a diez metros)",
+        sei: "eres, estás (essere: «sei in muto» = tienes el micro silenciado; «sei a dieci metri» = estás a diez metros)",
         muove: "mueve (muovere)",
         la: "la (artículo)",
         bocca: "boca",
@@ -964,7 +964,7 @@ window.CONTENT.it.semanas.push({
         si: "se («non si sente niente» = no se oye nada; «si è bloccato» = se ha quedado congelado)",
         sente: "oye («non si sente» = no se oye)",
         niente: "nada",
-        muto: "mudo («sei muto» = tienes el micro silenciado)",
+        muto: "mudo; «in muto» = silenciado («sei in muto» = tienes el micro silenciado)",
         dice: "dice (dire)",
         scusate: "perdonad (a varios)",
         adesso: "ahora",
@@ -995,7 +995,7 @@ window.CONTENT.it.semanas.push({
         ha: "tiene (avere)",
         aperta: "abierta",
         brioche: "cruasán (en Milán, «brioche»; en Roma, «cornetto»)",
-        in: "en («in mano» = en la mano; «in chat» = en el chat; «in aereo» = en avión)",
+        in: "en («in mano» = en la mano; «in chat» = en el chat; «in aereo» = en avión); «in muto» = silenciado",
         mano: "mano (la mano: femenino)",
         bloccato: "congelado («si è bloccato» = se ha quedado congelado)",
         ride: "se ríe (ridere)",

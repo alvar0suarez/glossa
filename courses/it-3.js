@@ -185,7 +185,7 @@ window.CONTENT.it.semanas.push({
         ["venire (vengo, vieni, viene)", "venir"],
         ["vengono", "vienen (acento: VEN-go-no)"],
         ["uscire (esco, esci, usciamo)", "salir (de un sitio)"],
-        ["escono (E-sco-no)", "salen"],
+        ["escono", "salen (acento: E-sco-no)"],
         ["andare in ufficio", "ir a la oficina"],
         ["andare da Giulia", "ir a donde está Giulia"],
         ["Andiamo al bar?", "¿Vamos al bar?"],
@@ -242,7 +242,7 @@ window.CONTENT.it.semanas.push({
         },
         {
           t: "p",
-          x: "Estar casi nunca es *stare*. Para dónde estás y para estados como cansado, contento u ocupado, el italiano usa *essere*: *Sono in ufficio* (Estoy en la oficina), *Sono in riunione* (Estoy en una reunión), *Sono stanco* (Estoy cansado), *La sala è libera* (La sala está libre). *Stare* se queda con estos usos:"
+          x: "Estar casi nunca es *stare*. Para dónde estás y para estados como cansado, contento u ocupado, el italiano usa *essere*: *Sono in ufficio* (Estoy en la oficina), *Sono in riunione* (Estoy en una reunión), *Sono stanco* (Estoy cansado; *sto stanco* se oye en Roma y en el sur, pero es regional), *La sala è libera* (La sala está libre). *Stare* se queda con estos usos:"
         },
         {
           t: "tabla",
@@ -262,7 +262,7 @@ window.CONTENT.it.semanas.push({
         },
         {
           t: "nota",
-          x: "El italiano usa *stare* + gerundio menos que el español: solo para lo que está pasando ahora mismo. «Estoy trabajando en un proyecto nuevo» (estos meses) es, simplemente, *Lavoro a un progetto nuovo*."
+          x: "El italiano usa *stare* + gerundio menos que el español: sobre todo para lo que está pasando ahora mismo, y no para costumbres. «Estoy yendo en bici a la oficina todos los días» es *Vado in ufficio in bicicletta tutti i giorni*. Para «Estoy trabajando en un proyecto nuevo» (estos meses) basta el presente: *Lavoro a un progetto nuovo*."
         },
         {
           t: "ej",
@@ -591,7 +591,7 @@ window.CONTENT.it.semanas.push({
         },
         {
           t: "nota",
-          x: "Falsos amigos de la agenda: el «compromiso» es *l'impegno* (*compromesso* es una concesión, un término medio), y «estoy ocupado» es *sono impegnato*; *occupato* se dice sobre todo de la línea, el baño o una sala (*La sala è occupata*). *Cancellare* también se oye, pero su primer sentido es «borrar»: para una reunión, mejor *annullare*."
+          x: "Falsos amigos de la agenda: el «compromiso» es *l'impegno* (*compromesso* es una concesión, un término medio), y «estoy ocupado» es *sono impegnato* (*sono occupato* también vale, sobre todo para «ahora mismo»); *occupato* se dice además de la línea, el baño o una sala (*La sala è occupata*). *Cancellare* también se oye, pero su primer sentido es «borrar»: para una reunión, mejor *annullare*."
         },
         {
           t: "ej",

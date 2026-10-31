@@ -58,11 +58,11 @@ window.CONTENT.it.semanas.push({
         },
         {
           t: "nota",
-          x: "Trampa para hispanohablantes: el italiano no usa «ir a + infinitivo» para hablar del futuro. *Vado a…* implica moverse: *Vado a prendere un caffè* (voy a por un café). «Te voy a mandar el archivo» se dice *Ti mando il file* o *Ti manderò il file*. Para «estoy a punto de…», usa *sto per…*: *Sto per uscire* (estoy a punto de salir). Solo en presentaciones oirás a veces *Andiamo a vedere…* (Vamos a ver…)."
+          x: "Trampa para hispanohablantes: el italiano no usa «ir a + infinitivo» para hablar del futuro. *Vado a…* implica moverse: *Vado a prendere un caffè* (voy a por un café). «Te voy a mandar el archivo» se dice *Ti mando il file* o *Ti manderò il file*. Para «estoy a punto de…», usa *sto per…*: *Sto per uscire* (estoy a punto de salir). En presentaciones y en el lenguaje burocrático oirás a veces *andare a* + infinitivo con valor de futuro (*Andiamo a vedere i dati*, *Andiamo ad analizzare i costi*), pero muchos italianos lo critican como calco: entiéndelo y no lo copies."
         },
         {
           t: "p",
-          x: "¿Presente o futuro? Como en español, para un plan cercano y seguro basta el presente: *Domani parto per Milano*. El futuro suena más a promesa o a plan, y en correos y reuniones lo oirás a todas horas: *Vi manderò il verbale domani* (Os mandaré el acta mañana)."
+          x: "¿Presente o futuro? Como en español, para un plan cercano y seguro basta el presente: *Venerdì parto per Milano*. El futuro suena más a promesa o a plan, y en correos y reuniones lo oirás a todas horas: *Vi manderò il verbale domani* (Os mandaré el acta mañana)."
         },
         {
           t: "ej",
@@ -272,7 +272,7 @@ window.CONTENT.it.semanas.push({
         {
           t: "ej",
           items: [
-            ["Vorrei parlare con il dottor Ferrari.", "Quisiera hablar con el señor Ferrari."],
+            ["Vorrei parlare con il dottor Ferrari.", "Quisiera hablar con el doctor Ferrari."],
             ["Vorrei un caffè, per favore.", "Querría un café, por favor."],
             ["Potrebbe mandarmi il preventivo?", "¿Podría mandarme el presupuesto?"],
             ["Potresti richiamarmi più tardi?", "¿Podrías volver a llamarme más tarde?"],
@@ -287,7 +287,7 @@ window.CONTENT.it.semanas.push({
       ],
       vocab: [
         ["Vorrei…", "Querría…, quisiera…"],
-        ["Vorrei parlare con il dottor Ferrari.", "Quisiera hablar con el señor Ferrari."],
+        ["Vorrei parlare con il dottor Ferrari.", "Quisiera hablar con el doctor Ferrari."],
         ["Potrebbe…? (Lei)", "¿Podría…? (a usted)"],
         ["Potresti…? (tu)", "¿Podrías…?"],
         ["Potrebbe mandarmi il preventivo?", "¿Podría mandarme el presupuesto?"],
@@ -544,7 +544,7 @@ window.CONTENT.it.semanas.push({
         ["il calo", "la bajada, el descenso"],
         ["aumentare", "aumentar, subir"],
         ["diminuire (diminuisce)", "disminuir, bajar"],
-        ["l'argomento", "el tema, el asunto (¡no «argumento»!)"],
+        ["l'argomento", "el tema, el asunto (falso amigo: casi siempre es «tema»)"],
         ["Siamo sulla strada giusta.", "Vamos por buen camino."],
         ["l'obiettivo", "el objetivo"]
       ],
@@ -676,7 +676,7 @@ window.CONTENT.it.semanas.push({
       id: "it6-7",
       titulo: "Repaso: una invitación a Milán",
       min: 40,
-      intro: "Repaso de la semana con una videollamada justo después de la presentación de Carlos. Lee el diálogo en voz alta haciendo de Carlos: hay futuro, condicional, propuestas, un «no» cortés y el paso de *Lei* a *tu*.",
+      intro: "Repaso de la semana con una videollamada justo después de la presentación de Carlos. Lee el diálogo en voz alta haciendo de Carlos: hay futuro, condicional, propuestas, un «no» cortés, y *Lei* con el director pero *tu* con Giulia.",
       bloques: [
         {
           t: "ej",
@@ -685,11 +685,11 @@ window.CONTENT.it.semanas.push({
             ["Grazie mille, dottor Ferrari. Giulia mi ha aiutato molto.", "Carlos: Muchas gracias, señor Ferrari. Giulia me ha ayudado mucho."],
             ["Senta, Le andrebbe di presentare il progetto anche qui a Milano?", "Ferrari: Oiga, ¿le apetecería presentar el proyecto también aquí, en Milán?"],
             ["Volentieri! Mi farebbe molto piacere.", "Carlos: ¡Con mucho gusto! Me encantaría."],
-            ["Che ne dice della settimana prossima?", "Ferrari: ¿Qué le parece la semana que viene?"],
-            ["Purtroppo la settimana prossima sono già impegnato. Sarebbe possibile tra due settimane?", "Carlos: Por desgracia, la semana que viene ya tengo compromisos. ¿Sería posible dentro de dos semanas?"],
+            ["Che ne dice di lunedì prossimo, quando sarà qui?", "Ferrari: ¿Qué le parece el lunes que viene, cuando esté aquí?"],
+            ["Purtroppo lunedì sono già impegnato. Sarebbe possibile martedì mattina?", "Carlos: Por desgracia, el lunes ya tengo compromisos. ¿Sería posible el martes por la mañana?"],
             ["Certo, nessun problema.", "Ferrari: Claro, ningún problema."],
-            ["Perfetto! Organizzo io la trasferta: ti prenoterò l'albergo vicino all'ufficio.", "Giulia: ¡Perfecto! Yo me encargo del viaje: te reservaré el hotel cerca de la oficina."],
-            ["Grazie, Giulia. Arriverò lunedì mattina e tornerò a Madrid venerdì.", "Carlos: Gracias, Giulia. Llegaré el lunes por la mañana y volveré a Madrid el viernes."],
+            ["Perfetto! Organizzo io la trasferta: l'albergo è già prenotato, vicino all'ufficio.", "Giulia: ¡Perfecto! Yo me encargo del viaje: el hotel ya está reservado, cerca de la oficina."],
+            ["Grazie, Giulia. Arriverò venerdì mattina e rimarrò anche il weekend.", "Carlos: Gracias, Giulia. Llegaré el viernes por la mañana y me quedaré también el fin de semana."],
             ["Quando arriverai, ti farò vedere l'ufficio e poi andremo a pranzo con Marco.", "Giulia: Cuando llegues, te enseñaré la oficina y luego iremos a comer con Marco."],
             ["Ottima idea! Ma Marco mi parlerà solo dell'Inter, vero?", "Carlos: ¡Muy buena idea! Pero Marco solo me hablará del Inter, ¿verdad?"],
             ["Sicuramente!", "Giulia: ¡Seguro!"],
@@ -699,7 +699,7 @@ window.CONTENT.it.semanas.push({
         },
         {
           t: "nota",
-          x: "Fíjate en los registros: el dottor Ferrari y Carlos se hablan de *Lei* (*Senta*, *Le andrebbe…?*, *Che ne dice…?*, *Chiara La chiamerà*); Giulia y Carlos, de *tu* (*ti prenoterò*, *quando arriverai*, *ti farò vedere*)."
+          x: "Fíjate en los registros: el dottor Ferrari y Carlos se hablan de *Lei* (*Senta*, *Le andrebbe…?*, *Che ne dice…?*, *Chiara La chiamerà*); Giulia y Carlos, de *tu* (*quando arriverai*, *ti farò vedere*)."
         },
         {
           t: "tabla",
@@ -731,14 +731,14 @@ window.CONTENT.it.semanas.push({
         ["Senta…", "Oiga… (a usted)"],
         ["Senti…", "Oye…"],
         ["Mi farebbe molto piacere.", "Me encantaría."],
-        ["Che ne dice della settimana prossima?", "¿Qué le parece la semana que viene?"],
+        ["Che ne dice di lunedì prossimo?", "¿Qué le parece el lunes que viene?"],
         ["tra due settimane", "dentro de dos semanas"],
         ["Nessun problema.", "Ningún problema."],
         ["la trasferta", "el viaje de trabajo"],
         ["Organizzo io.", "Yo me encargo."],
         ["prenotare l'albergo", "reservar el hotel"],
         ["vicino all'ufficio", "cerca de la oficina"],
-        ["Tornerò a Madrid venerdì.", "Volveré a Madrid el viernes."],
+        ["Rimarrò anche il weekend.", "Me quedaré también el fin de semana."],
         ["far vedere", "enseñar, mostrar"],
         ["Ti farò vedere l'ufficio.", "Te enseñaré la oficina."],
         ["Sicuramente!", "¡Seguro! ¡Sin duda!"],
@@ -750,7 +750,7 @@ window.CONTENT.it.semanas.push({
       ejercicios: [
         {
           t: "mc",
-          q: "En el diálogo, ¿por qué no puede ir Carlos a Milán la semana que viene?",
+          q: "En el diálogo, ¿por qué no puede presentar Carlos el lunes?",
           ops: ["Porque ya tiene compromisos", "Porque no le apetece", "Porque Giulia está de vacaciones"],
           ok: 0
         },
@@ -763,7 +763,7 @@ window.CONTENT.it.semanas.push({
         { t: "mc", q: "«Podríamos» es…", ops: ["potremmo", "potremo", "possiamo"], ok: 0 },
         {
           t: "mc",
-          q: "El dottor Ferrari te pregunta: *Le andrebbe di venire a Milano?* Aceptas con entusiasmo:",
+          q: "El dottor Ferrari te pregunta: *Le andrebbe di presentare il progetto qui a Milano?* Aceptas con entusiasmo:",
           ops: ["Volentieri! Mi farebbe molto piacere.", "Magari un'altra volta.", "Ci devo pensare."],
           ok: 0
         },
@@ -779,8 +779,8 @@ window.CONTENT.it.semanas.push({
       id: "it6-r1",
       titulo: "La presentazione di Carlos",
       nivel: "A2",
-      texto: "Giovedì mattina Carlos presenta il suo progetto in videochiamata. Alla riunione ci sono Giulia, Marco e anche il dottor Ferrari. Carlos è un po' nervoso, ma comincia:\n\n«Buongiorno a tutti e grazie di essere qui. Mi sentite bene? Perfetto, allora condivido lo schermo.\n\nOggi vi presenterò il progetto Delta, un nuovo servizio per i nostri clienti. Prima vi parlerò del problema, poi della soluzione e infine dei tempi.\n\nCome potete vedere da questo grafico, l'anno scorso le macchine dei clienti si sono fermate troppe volte, e ogni guasto è costato tempo e denaro. Delta controllerà le macchine giorno e notte e ci avviserà prima di un guasto.\n\nPassiamo ora ai tempi. A gennaio proveremo il sistema con tre clienti spagnoli. Se tutto andrà bene, a maggio lo offriremo a tutti. Secondo i nostri calcoli, i guasti diminuiranno del trenta per cento.\n\nIn conclusione, vorrei ringraziare Giulia e Marco per il loro aiuto. Ci sono domande?»\n\nIl dottor Ferrari sorride: «Complimenti, Carlos. Mi piacerebbe vedere i primi risultati a febbraio.»",
-      traduccion: "El jueves por la mañana Carlos presenta su proyecto por videollamada. En la reunión están Giulia, Marco y también el señor Ferrari. Carlos está un poco nervioso, pero empieza:\n\n«Buenos días a todos y gracias por estar aquí. ¿Me oís bien? Perfecto, entonces comparto pantalla.\n\nHoy os presentaré el proyecto Delta, un nuevo servicio para nuestros clientes. Primero os hablaré del problema, luego de la solución y, por último, de los plazos.\n\nComo podéis ver en este gráfico, el año pasado las máquinas de los clientes se pararon demasiadas veces, y cada avería costó tiempo y dinero. Delta vigilará las máquinas día y noche y nos avisará antes de una avería.\n\nPasemos ahora a los plazos. En enero probaremos el sistema con tres clientes españoles. Si todo va bien, en mayo se lo ofreceremos a todos. Según nuestros cálculos, las averías bajarán un treinta por ciento.\n\nEn conclusión, me gustaría dar las gracias a Giulia y a Marco por su ayuda. ¿Alguna pregunta?»\n\nEl señor Ferrari sonríe: «Enhorabuena, Carlos. Me gustaría ver los primeros resultados en febrero».",
+      texto: "Giovedì mattina Carlos presenta il suo progetto in videochiamata. Alla riunione ci sono Giulia, Marco e anche il dottor Ferrari. Carlos è un po' nervoso, ma comincia:\n\n«Buongiorno a tutti e grazie di essere qui. Mi sentite bene? Perfetto, allora condivido lo schermo.\n\nOggi vi presenterò il progetto Delta, la nuova piattaforma per i nostri clienti. Prima vi parlerò del problema, poi della soluzione e infine dei tempi.\n\nCome potete vedere da questo grafico, l'anno scorso le macchine dei clienti si sono fermate troppe volte, e ogni guasto è costato tempo e denaro. Delta controllerà le macchine giorno e notte e ci avviserà prima di un guasto.\n\nPassiamo ora ai tempi. A ottobre proveremo il sistema con tre clienti spagnoli. Se tutto andrà bene, a dicembre lo offriremo a tutti. Secondo i nostri calcoli, i guasti diminuiranno del trenta per cento.\n\nIn conclusione, vorrei ringraziare Giulia e Marco per il loro aiuto. Ci sono domande?»\n\nIl dottor Ferrari sorride: «Complimenti, Carlos. Mi piacerebbe vedere i primi risultati a novembre.»",
+      traduccion: "El jueves por la mañana Carlos presenta su proyecto por videollamada. En la reunión están Giulia, Marco y también el señor Ferrari. Carlos está un poco nervioso, pero empieza:\n\n«Buenos días a todos y gracias por estar aquí. ¿Me oís bien? Perfecto, entonces comparto pantalla.\n\nHoy os presentaré el proyecto Delta, la nueva plataforma para nuestros clientes. Primero os hablaré del problema, luego de la solución y, por último, de los plazos.\n\nComo podéis ver en este gráfico, el año pasado las máquinas de los clientes se pararon demasiadas veces, y cada avería costó tiempo y dinero. Delta vigilará las máquinas día y noche y nos avisará antes de una avería.\n\nPasemos ahora a los plazos. En octubre probaremos el sistema con tres clientes españoles. Si todo va bien, en diciembre se lo ofreceremos a todos. Según nuestros cálculos, las averías bajarán un treinta por ciento.\n\nEn conclusión, me gustaría dar las gracias a Giulia y a Marco por su ayuda. ¿Alguna pregunta?»\n\nEl señor Ferrari sonríe: «Enhorabuena, Carlos. Me gustaría ver los primeros resultados en noviembre».",
       glosa: {
         "giovedì": "jueves («giovedì mattina» = el jueves por la mañana)",
         mattina: "mañana (parte del día)",
@@ -808,7 +808,7 @@ window.CONTENT.it.semanas.push({
         ma: "pero",
         comincia: "empieza (cominciare)",
         buongiorno: "buenos días",
-        a: "a; en («a gennaio» = en enero)",
+        a: "a; en («a ottobre» = en octubre)",
         tutti: "todos",
         grazie: "gracias («grazie di…» = gracias por…)",
         di: "de; «grazie di essere qui» = gracias por estar aquí",
@@ -826,8 +826,9 @@ window.CONTENT.it.semanas.push({
         vi: "os, les (a vosotros)",
         "presenterò": "presentaré (futuro de presentare)",
         delta: "Delta (nombre del proyecto)",
-        nuovo: "nuevo",
-        servizio: "servicio",
+        la: "la",
+        nuova: "nueva",
+        piattaforma: "plataforma",
         per: "para, por («per cento» = por ciento)",
         i: "los",
         nostri: "nuestros («i nostri clienti»: posesivo con artículo)",
@@ -869,7 +870,7 @@ window.CONTENT.it.semanas.push({
         passiamo: "pasemos, pasamos (passare)",
         ora: "ahora",
         ai: "a los (a + i)",
-        gennaio: "enero",
+        ottobre: "octubre",
         proveremo: "probaremos (futuro de provare)",
         sistema: "sistema (masculino: il sistema)",
         con: "con",
@@ -878,7 +879,7 @@ window.CONTENT.it.semanas.push({
         se: "si (condicional)",
         tutto: "todo",
         "andrà": "irá (futuro de andare): «se tutto andrà bene» = si todo va bien",
-        maggio: "mayo",
+        dicembre: "diciembre",
         offriremo: "ofreceremos (futuro de offrire)",
         secondo: "según",
         calcoli: "cálculos (singular: il calcolo)",
@@ -891,29 +892,29 @@ window.CONTENT.it.semanas.push({
         ringraziare: "dar las gracias, agradecer",
         loro: "su, de ellos («il loro aiuto» = su ayuda)",
         aiuto: "ayuda",
-        domande: "preguntas (singular: la domanda; ¡no «demanda»!)",
+        domande: "preguntas (singular: la domanda; en economía también es «demanda»)",
         sorride: "sonríe (sorridere)",
         complimenti: "¡enhorabuena!",
         piacerebbe: "gustaría (condicional de piacere): «mi piacerebbe» = me gustaría",
         primi: "primeros",
         risultati: "resultados",
-        febbraio: "febrero"
+        novembre: "noviembre"
       },
       preguntas: [
         {
           q: "¿Qué es el proyecto Delta?",
-          ops: ["Un servicio que vigila las máquinas de los clientes y avisa antes de una avería", "Una máquina nueva para la oficina de Milán", "Un curso de formación para los clientes"],
+          ops: ["Una plataforma que vigila las máquinas de los clientes y avisa antes de una avería", "Una máquina nueva para la oficina de Milán", "Un curso de formación para los clientes"],
           ok: 0
         },
         {
-          q: "¿Qué pasará en enero?",
-          ops: ["Probarán el sistema con tres clientes españoles", "Ofrecerán Delta a todos los clientes", "Carlos irá a Milán"],
+          q: "¿Qué pasará en octubre?",
+          ops: ["Probarán el sistema con tres clientes españoles", "Ofrecerán Delta a todos los clientes", "Cambiarán todas las máquinas de los clientes"],
           ok: 0
         },
         { q: "Según sus cálculos, ¿cuánto bajarán las averías?", ops: ["Un treinta por ciento", "Un trece por ciento", "Un tres por ciento"], ok: 0 },
         {
           q: "¿Qué le gustaría al dottor Ferrari?",
-          ops: ["Ver los primeros resultados en febrero", "Presentar él mismo el proyecto", "Probar Delta en Milán en enero"],
+          ops: ["Ver los primeros resultados en noviembre", "Presentar él mismo el proyecto", "Probar Delta en Milán en enero"],
           ok: 0
         }
       ],
@@ -1018,7 +1019,7 @@ window.CONTENT.it.semanas.push({
         vorrei: "querría (condicional de volere)",
         anche: "también",
         servizio: "servicio",
-        delta: "Delta (el servicio que presentó Carlos)",
+        delta: "Delta (la nueva plataforma que presentó Carlos)",
         gratis: "gratis",
         primo: "primer",
         anno: "año",
@@ -1055,8 +1056,8 @@ window.CONTENT.it.semanas.push({
       id: "it6-r3",
       titulo: "I piani per il prossimo trimestre",
       nivel: "A2",
-      texto: "Oggetto: Piani per il prossimo trimestre\n\nCiao a tutti,\n\nil prossimo trimestre sarà molto importante per la nostra squadra. Ecco i piani principali.\n\nA gennaio cominceremo i test del progetto Delta con tre clienti spagnoli. Carlos seguirà i test da Madrid e ogni venerdì ci manderà un breve report. A marzo verrà a Milano e presenterà i risultati al dottor Ferrari.\n\nMarco preparerà le sei macchine del signor Galli: le prime tre partiranno a febbraio, le altre a marzo. Marco dice che sarà un trimestre perfetto, perché l'Inter vincerà il campionato. Vedremo!\n\nFrancesca organizzerà un corso di spagnolo per tutto il team, il martedì sera. Quando Carlos sarà qui, ci farà anche lui una lezione!\n\nChiara aggiornerà il calendario delle riunioni e lo condividerà con tutti.\n\nIo mi occuperò dei clienti e del budget. Dovremmo anche organizzare le ferie: per favore, mandatemi le vostre date entro fine gennaio.\n\nSarebbe utile fare una riunione il primo lunedì di gennaio. Vi andrebbe bene alle dieci? Vi chiederei di confermare entro venerdì.\n\nBuon lavoro a tutti!\nGiulia",
-      traduccion: "Asunto: Planes para el próximo trimestre\n\nHola a todos:\n\nEl próximo trimestre será muy importante para nuestro equipo. Estos son los planes principales.\n\nEn enero empezaremos las pruebas del proyecto Delta con tres clientes españoles. Carlos seguirá las pruebas desde Madrid y cada viernes nos mandará un breve informe. En marzo vendrá a Milán y presentará los resultados al señor Ferrari.\n\nMarco preparará las seis máquinas del señor Galli: las tres primeras saldrán en febrero, y las demás, en marzo. Marco dice que será un trimestre perfecto, porque el Inter ganará la liga. ¡Ya veremos!\n\nFrancesca organizará un curso de español para todo el equipo, los martes por la tarde. ¡Cuando Carlos esté aquí, también él nos dará una clase!\n\nChiara actualizará el calendario de reuniones y lo compartirá con todos.\n\nYo me ocuparé de los clientes y del presupuesto. También deberíamos organizar las vacaciones: por favor, mandadme vuestras fechas antes de que acabe enero.\n\nSería útil hacer una reunión el primer lunes de enero. ¿Os iría bien a las diez? Os pediría que lo confirmarais antes del viernes.\n\n¡Buena jornada a todos!\nGiulia",
+      texto: "Oggetto: Piani per il prossimo trimestre\n\nCiao a tutti,\n\nil prossimo trimestre sarà molto importante per la nostra squadra. Ecco i piani principali.\n\nA ottobre cominceremo i test del progetto Delta con tre clienti spagnoli. Carlos seguirà i test da Madrid e ogni venerdì ci manderà un breve report. A novembre presenterà i risultati al dottor Ferrari.\n\nMarco preparerà le sei macchine del signor Galli: le prime tre partiranno a febbraio, le altre a marzo. Marco dice che sarà un trimestre perfetto, perché l'Inter vincerà il campionato. Vedremo!\n\nFrancesca organizzerà un corso di spagnolo per tutto il team, il martedì sera. Carlos verrà a Milano venerdì: quando sarà qui, ci farà anche lui una lezione!\n\nChiara aggiornerà il calendario delle riunioni e lo condividerà con tutti.\n\nIo mi occuperò dei clienti e del budget. Dovremmo anche organizzare le ferie: per favore, mandatemi le vostre date entro fine ottobre.\n\nSarebbe utile fare una riunione il primo lunedì di ottobre. Vi andrebbe bene alle dieci? Vi chiederei di confermare entro venerdì.\n\nBuon lavoro a tutti!\nGiulia",
+      traduccion: "Asunto: Planes para el próximo trimestre\n\nHola a todos:\n\nEl próximo trimestre será muy importante para nuestro equipo. Estos son los planes principales.\n\nEn octubre empezaremos las pruebas del proyecto Delta con tres clientes españoles. Carlos seguirá las pruebas desde Madrid y cada viernes nos mandará un breve informe. En noviembre presentará los resultados al señor Ferrari.\n\nMarco preparará las seis máquinas del señor Galli: las tres primeras saldrán en febrero, y las demás, en marzo. Marco dice que será un trimestre perfecto, porque el Inter ganará la liga. ¡Ya veremos!\n\nFrancesca organizará un curso de español para todo el equipo, los martes por la tarde. Carlos vendrá a Milán el viernes: ¡cuando esté aquí, también él nos dará una clase!\n\nChiara actualizará el calendario de reuniones y lo compartirá con todos.\n\nYo me ocuparé de los clientes y del presupuesto. También deberíamos organizar las vacaciones: por favor, mandadme vuestras fechas antes de que acabe octubre.\n\nSería útil hacer una reunión el primer lunes de octubre. ¿Os iría bien a las diez? Os pediría que lo confirmarais antes del viernes.\n\n¡Buena jornada a todos!\nGiulia",
       glosa: {
         oggetto: "asunto (de un correo)",
         piani: "planes (singular: il piano)",
@@ -1065,7 +1066,7 @@ window.CONTENT.it.semanas.push({
         prossimo: "próximo («il prossimo trimestre» = el próximo trimestre)",
         trimestre: "trimestre",
         ciao: "hola",
-        a: "a; en («a gennaio» = en enero)",
+        a: "a; en («a ottobre» = en octubre)",
         tutti: "todos",
         "sarà": "será (futuro de essere)",
         molto: "muy",
@@ -1076,7 +1077,8 @@ window.CONTENT.it.semanas.push({
         ecco: "he aquí («Ecco i piani» = estos son los planes)",
         i: "los",
         principali: "principales",
-        gennaio: "enero",
+        ottobre: "octubre",
+        novembre: "noviembre",
         cominceremo: "empezaremos (futuro de cominciare: pierde la i)",
         test: "pruebas (invariable: il test, i test)",
         del: "del (di + il)",
@@ -1135,7 +1137,7 @@ window.CONTENT.it.semanas.push({
         team: "equipo",
         "martedì": "martes («il martedì» = los martes)",
         sera: "tarde, noche («il martedì sera» = los martes por la tarde)",
-        quando: "cuando (+ futuro: «quando Carlos sarà qui» = cuando Carlos esté aquí)",
+        quando: "cuando (+ futuro: «quando sarà qui» = cuando esté aquí)",
         qui: "aquí",
         "farà": "hará (futuro de fare): «ci farà una lezione» = nos dará una clase",
         anche: "también («anche lui» = él también)",
@@ -1161,8 +1163,8 @@ window.CONTENT.it.semanas.push({
         mandatemi: "mandadme (imperativo de mandare, voi, + mi)",
         vostre: "vuestras",
         date: "fechas (singular: la data)",
-        entro: "antes de, como muy tarde («entro fine gennaio» = antes de que acabe enero)",
-        fine: "final («entro fine gennaio» = antes de que acabe enero)",
+        entro: "antes de, como muy tarde («entro fine ottobre» = antes de que acabe octubre)",
+        fine: "final («entro fine ottobre» = antes de que acabe octubre)",
         sarebbe: "sería (condicional de essere)",
         utile: "útil",
         fare: "hacer",
@@ -1183,7 +1185,7 @@ window.CONTENT.it.semanas.push({
       preguntas: [
         {
           q: "¿Qué hará Carlos durante el trimestre?",
-          ops: ["Seguirá las pruebas desde Madrid y en marzo irá a Milán", "Preparará las máquinas del señor Galli", "Organizará un curso de español"],
+          ops: ["Seguirá las pruebas desde Madrid y en noviembre presentará los resultados", "Preparará las máquinas del señor Galli", "Organizará un curso de español"],
           ok: 0
         },
         {
@@ -1198,7 +1200,7 @@ window.CONTENT.it.semanas.push({
         },
         { q: "*Le ferie* son…", ops: ["las vacaciones", "las ferias comerciales", "los viajes de trabajo"], ok: 0 }
       ],
-      notas: "Un correo de planes es un desfile de futuros: *cominceremo*, *seguirà*, *verrà*, *partiranno*, *vincerà*… Fíjate en *Quando Carlos sarà qui*: tras *quando*, futuro (en español, «cuando esté»). Las peticiones van en condicional: *Sarebbe utile…*, *Vi andrebbe bene…?*, *Vi chiederei…* Y tras *Ciao a tutti,* el correo sigue en minúscula, como es costumbre en italiano."
+      notas: "Un correo de planes es un desfile de futuros: *cominceremo*, *seguirà*, *verrà*, *partiranno*, *vincerà*… Fíjate en *quando sarà qui*: tras *quando*, futuro (en español, «cuando esté»). Las peticiones van en condicional: *Sarebbe utile…*, *Vi andrebbe bene…?*, *Vi chiederei…* Y tras *Ciao a tutti,* el correo sigue en minúscula, como es costumbre en italiano."
     }
   ]
 });

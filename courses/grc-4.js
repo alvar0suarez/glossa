@@ -17,10 +17,10 @@ window.CONTENT.grc.semanas.push({
           cab: ["Caso", "Singular", "Plural"],
           filas: [
             ["nominativo", "-ς o nada", "-ες"],
-            ["genitivo", "-ος", "-ων"],
-            ["dativo", "-ι", "-σι(ν)"],
+            ["vocativo", "igual que el nominativo, o el tema solo", "-ες"],
             ["acusativo", "-α (o -ν)", "-ας"],
-            ["vocativo", "igual que el nominativo, o el tema solo", "-ες"]
+            ["genitivo", "-ος", "-ων"],
+            ["dativo", "-ι", "-σι(ν)"]
           ]
         },
         {
@@ -29,10 +29,10 @@ window.CONTENT.grc.semanas.push({
           audio: [1, 2],
           filas: [
             ["nominativo", "ὁ φύλαξ", "οἱ φύλακες", "el guardián, los guardianes"],
-            ["genitivo", "τοῦ φύλακος", "τῶν φυλάκων", "del guardián, de los guardianes"],
-            ["dativo", "τῷ φύλακι", "τοῖς φύλαξι", "al guardián, a los guardianes"],
+            ["vocativo", "ὦ φύλαξ", "ὦ φύλακες", "¡guardián!, ¡guardianes!"],
             ["acusativo", "τὸν φύλακα", "τοὺς φύλακας", "al guardián, a los guardianes (objeto directo)"],
-            ["vocativo", "ὦ φύλαξ", "ὦ φύλακες", "¡guardián!, ¡guardianes!"]
+            ["genitivo", "τοῦ φύλακος", "τῶν φυλάκων", "del guardián, de los guardianes"],
+            ["dativo", "τῷ φύλακι", "τοῖς φύλαξι", "al guardián, a los guardianes"]
           ]
         },
         {
@@ -118,9 +118,9 @@ window.CONTENT.grc.semanas.push({
           audio: [1, 2],
           filas: [
             ["nominativo", "τὸ σῶμα", "τὰ σώματα", "el cuerpo, los cuerpos"],
+            ["acusativo", "τὸ σῶμα", "τὰ σώματα", "el cuerpo, los cuerpos (objeto directo)"],
             ["genitivo", "τοῦ σώματος", "τῶν σωμάτων", "del cuerpo, de los cuerpos"],
-            ["dativo", "τῷ σώματι", "τοῖς σώμασι", "al cuerpo, a los cuerpos; con el cuerpo"],
-            ["acusativo", "τὸ σῶμα", "τὰ σώματα", "el cuerpo, los cuerpos (objeto directo)"]
+            ["dativo", "τῷ σώματι", "τοῖς σώμασι", "al cuerpo, a los cuerpos; con el cuerpo"]
           ]
         },
         {
@@ -216,14 +216,14 @@ window.CONTENT.grc.semanas.push({
           audio: [1, 2, 3],
           filas: [
             ["nominativo sing.", "ἀνήρ", "πατήρ", "μήτηρ"],
+            ["vocativo sing.", "ἄνερ", "πάτερ", "μῆτερ"],
+            ["acusativo sing.", "ἄνδρα", "πατέρα", "μητέρα"],
             ["genitivo sing.", "ἀνδρός", "πατρός", "μητρός"],
             ["dativo sing.", "ἀνδρί", "πατρί", "μητρί"],
-            ["acusativo sing.", "ἄνδρα", "πατέρα", "μητέρα"],
-            ["vocativo sing.", "ἄνερ", "πάτερ", "μῆτερ"],
             ["nominativo pl.", "ἄνδρες", "πατέρες", "μητέρες"],
+            ["acusativo pl.", "ἄνδρας", "πατέρας", "μητέρας"],
             ["genitivo pl.", "ἀνδρῶν", "πατέρων", "μητέρων"],
-            ["dativo pl.", "ἀνδράσι", "πατράσι", "μητράσι"],
-            ["acusativo pl.", "ἄνδρας", "πατέρας", "μητέρας"]
+            ["dativo pl.", "ἀνδράσι", "πατράσι", "μητράσι"]
           ]
         },
         {
@@ -306,9 +306,9 @@ window.CONTENT.grc.semanas.push({
           audio: [1, 2],
           filas: [
             ["nominativo", "τὸ γένος", "τὰ γένη", "plural: γένε(σ)α → γένη"],
+            ["acusativo", "τὸ γένος", "τὰ γένη", "igual que el nominativo"],
             ["genitivo", "τοῦ γένους", "τῶν γενῶν", "γένε(σ)ος → γένους; γενέ(σ)ων → γενῶν"],
-            ["dativo", "τῷ γένει", "τοῖς γένεσι", "γένε(σ)ι → γένει"],
-            ["acusativo", "τὸ γένος", "τὰ γένη", "igual que el nominativo"]
+            ["dativo", "τῷ γένει", "τοῖς γένεσι", "γένε(σ)ι → γένει"]
           ]
         },
         {
@@ -336,13 +336,13 @@ window.CONTENT.grc.semanas.push({
           audio: [1, 2],
           filas: [
             ["nominativo sing.", "ἀληθής", "ἀληθές"],
+            ["acusativo sing.", "ἀληθῆ", "ἀληθές"],
             ["genitivo sing.", "ἀληθοῦς", "ἀληθοῦς"],
             ["dativo sing.", "ἀληθεῖ", "ἀληθεῖ"],
-            ["acusativo sing.", "ἀληθῆ", "ἀληθές"],
             ["nominativo pl.", "ἀληθεῖς", "ἀληθῆ"],
+            ["acusativo pl.", "ἀληθεῖς", "ἀληθῆ"],
             ["genitivo pl.", "ἀληθῶν", "ἀληθῶν"],
-            ["dativo pl.", "ἀληθέσι", "ἀληθέσι"],
-            ["acusativo pl.", "ἀληθεῖς", "ἀληθῆ"]
+            ["dativo pl.", "ἀληθέσι", "ἀληθέσι"]
           ]
         },
         {
@@ -409,10 +409,10 @@ window.CONTENT.grc.semanas.push({
           audio: [1, 2],
           filas: [
             ["nominativo", "ἡ πόλις", "αἱ πόλεις"],
-            ["genitivo", "τῆς πόλεως", "τῶν πόλεων"],
-            ["dativo", "τῇ πόλει", "ταῖς πόλεσι"],
+            ["vocativo", "ὦ πόλι", "ὦ πόλεις"],
             ["acusativo", "τὴν πόλιν", "τὰς πόλεις"],
-            ["vocativo", "ὦ πόλι", "ὦ πόλεις"]
+            ["genitivo", "τῆς πόλεως", "τῶν πόλεων"],
+            ["dativo", "τῇ πόλει", "ταῖς πόλεσι"]
           ]
         },
         {
@@ -451,19 +451,19 @@ window.CONTENT.grc.semanas.push({
           audio: [1, 2],
           filas: [
             ["nominativo", "ὁ βασιλεύς", "οἱ βασιλεῖς"],
-            ["genitivo", "τοῦ βασιλέως", "τῶν βασιλέων"],
-            ["dativo", "τῷ βασιλεῖ", "τοῖς βασιλεῦσι"],
+            ["vocativo", "ὦ βασιλεῦ", "ὦ βασιλεῖς"],
             ["acusativo", "τὸν βασιλέα", "τοὺς βασιλέας"],
-            ["vocativo", "ὦ βασιλεῦ", "ὦ βασιλεῖς"]
+            ["genitivo", "τοῦ βασιλέως", "τῶν βασιλέων"],
+            ["dativo", "τῷ βασιλεῖ", "τοῖς βασιλεῦσι"]
           ]
         },
         {
           t: "p",
-          x: "La *υ* del tema *βασιλευ-* se pierde ante vocal: *βασιλέ-ως*, *βασιλε-ῖ*, *βασιλέ-α*. En el ático más antiguo el nominativo plural era *βασιλῆς*, y así aparece en algunas ediciones. Igual se declinan otros nombres de oficio: *ἱερεύς* (sacerdote), *ἱππεύς* (jinete), *γονεύς* (progenitor; *οἱ γονεῖς*, los padres)."
+          x: "La *υ* del tema *βασιλευ-* se pierde ante vocal: *βασιλέ-ως*, *βασιλε-ῖ*, *βασιλέ-α*. En el ático de Platón el nominativo plural es *βασιλῆς*, y es la forma que suelen imprimir sus ediciones; *βασιλεῖς*, la de muchas gramáticas, se impuso desde finales del siglo IV a. C. Igual se declinan otros nombres de oficio: *ἱερεύς* (sacerdote), *ἱππεύς* (jinete), *γονεύς* (progenitor; *οἱ γονεῖς*, los padres)."
         },
         {
           t: "nota",
-          x: "Platón, *República* 473c-d: si los filósofos no reinan en las ciudades, o si los que ahora se llaman reyes no se ponen a filosofar de verdad, las ciudades no tendrán descanso de sus males. El verbo «reinar» es *βασιλεύω*, de *βασιλεύς*."
+          x: "Platón, *República* 473c-d: a menos que los filósofos reinen en las ciudades o que los que ahora se llaman reyes se pongan a filosofar de verdad, las ciudades no tendrán descanso de sus males. El verbo «reinar» es *βασιλεύω*, de *βασιλεύς*."
         },
         {
           t: "ej",
@@ -514,13 +514,13 @@ window.CONTENT.grc.semanas.push({
           audio: [1, 2, 3],
           filas: [
             ["nominativo sing.", "πᾶς", "πᾶσα", "πᾶν"],
+            ["acusativo sing.", "πάντα", "πᾶσαν", "πᾶν"],
             ["genitivo sing.", "παντός", "πάσης", "παντός"],
             ["dativo sing.", "παντί", "πάσῃ", "παντί"],
-            ["acusativo sing.", "πάντα", "πᾶσαν", "πᾶν"],
             ["nominativo pl.", "πάντες", "πᾶσαι", "πάντα"],
+            ["acusativo pl.", "πάντας", "πάσας", "πάντα"],
             ["genitivo pl.", "πάντων", "πασῶν", "πάντων"],
-            ["dativo pl.", "πᾶσι", "πάσαις", "πᾶσι"],
-            ["acusativo pl.", "πάντας", "πάσας", "πάντα"]
+            ["dativo pl.", "πᾶσι", "πάσαις", "πᾶσι"]
           ]
         },
         {

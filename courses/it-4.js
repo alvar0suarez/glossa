@@ -200,7 +200,7 @@ window.CONTENT.it.semanas.push({
         ["Dove hai messo il file?", "¿Dónde has puesto el archivo?"],
         ["la cartella condivisa", "la carpeta compartida"],
         ["la relazione", "el informe (y también «relación»)"],
-        ["Il cliente ha risposto subito.", "El cliente ha respondido enseguida (subito: SU-bi-to)."],
+        ["Il cliente ha risposto subito.", "El cliente ha respondido enseguida. (acento: SU-bi-to)"],
         ["Ho chiesto a Chiara.", "Se lo he preguntado a Chiara."]
       ],
       ejercicios: [
@@ -283,7 +283,7 @@ window.CONTENT.it.semanas.push({
         },
         {
           t: "nota",
-          x: "*Dovere, potere* y *volere* + un verbo que va con essere: lo más cuidado es usar essere, *Sono dovuto partire presto* (He tenido que irme temprano). Hablando también oirás *Ho dovuto partire presto*, y se acepta."
+          x: "*Dovere, potere* y *volere* + un verbo que va con essere: lo más cuidado es usar essere, y entonces el participio concuerda: *Sono dovuto partire presto* (He tenido que irme temprano), *Giulia è dovuta partire*. También oirás, y es correcto, *Ho dovuto partire presto*."
         },
         {
           t: "ej",
@@ -417,7 +417,7 @@ window.CONTENT.it.semanas.push({
         ["l'altro ieri", "anteayer"],
         ["stamattina", "esta mañana"],
         ["lunedì scorso", "el lunes pasado"],
-        ["domenica scorsa", "el domingo pasado (domenica: do-ME-ni-ca)"],
+        ["domenica scorsa", "el domingo pasado (acento: do-ME-ni-ca)"],
         ["la settimana scorsa", "la semana pasada"],
         ["il mese scorso", "el mes pasado"],
         ["l'anno scorso", "el año pasado"],
@@ -694,7 +694,7 @@ window.CONTENT.it.semanas.push({
         },
         {
           t: "nota",
-          x: "Fíjate en el cambio de registro: a Giulia, *Hai già mandato…?*; Ferrari y Carlos se hablan de *Lei*: *Ha visto…?*, *Ha già parlato…?*. Y en la concordancia: *sono andati* (los tests: *i test*, masculino plural) y *Sei tornata?* (a Giulia)."
+          x: "Fíjate en el cambio de registro: Giulia y Carlos se tutean (*Hai già mandato…?*); Ferrari y Carlos se hablan de *Lei*: *Ha visto…?*, *Ha già parlato…?*. Y en la concordancia: *sono andati* (los tests: *i test*, masculino plural) y *Sei tornata?* (a Giulia)."
         },
         {
           t: "tabla",
@@ -871,8 +871,8 @@ window.CONTENT.it.semanas.push({
       id: "it4-r2",
       titulo: "Un'email al dottor Ferrari",
       nivel: "A2",
-      texto: "Oggetto: Risultati dei test – prima fase\n\nGentile dottor Ferrari,\n\nLe scrivo per fare il punto sul progetto.\n\nCome concordato nella riunione della settimana scorsa, lunedì e martedì l'ingegner Bianchi e io abbiamo fatto i test della prima fase. Ieri ho finito la relazione tecnica e ho messo tutti i dati nella cartella condivisa. In generale è andato tutto bene: abbiamo trovato due piccoli problemi e abbiamo già risolto il primo.\n\nPurtroppo il fornitore non ha ancora mandato i componenti per la seconda fase. Due giorni fa ho scritto all'ufficio acquisti, ma non ho ancora ricevuto risposta.\n\nIn allegato trova la relazione e una tabella con i risultati. Se è d'accordo, possiamo discutere i prossimi passi nella riunione di giovedì.\n\nResto in attesa di un Suo riscontro.\n\nCordiali saluti,\nCarlos\nUfficio tecnico – Madrid",
-      traduccion: "Asunto: Resultados de las pruebas – primera fase\n\nEstimado doctor Ferrari:\n\nLe escribo para hacer balance del proyecto.\n\nTal como acordamos en la reunión de la semana pasada, el lunes y el martes el ingeniero Bianchi y yo hicimos las pruebas de la primera fase. Ayer terminé el informe técnico y puse todos los datos en la carpeta compartida. En general, todo ha ido bien: hemos encontrado dos pequeños problemas y ya hemos resuelto el primero.\n\nPor desgracia, el proveedor todavía no ha mandado los componentes para la segunda fase. Hace dos días escribí al departamento de compras, pero todavía no he recibido respuesta.\n\nLe adjunto el informe y una tabla con los resultados. Si está de acuerdo, podemos tratar los próximos pasos en la reunión del jueves.\n\nQuedo a la espera de su respuesta.\n\nUn cordial saludo,\nCarlos\nDepartamento técnico – Madrid",
+      texto: "Oggetto: Risultati dei test – prima fase\n\nGentile dottor Ferrari,\n\nLe scrivo per fare il punto sul progetto Delta.\n\nCome concordato nella riunione della settimana scorsa, lunedì e martedì l'ingegner Bianchi e io abbiamo fatto i test della prima fase. Ieri ho finito la relazione tecnica e ho messo tutti i dati nella cartella condivisa. In generale è andato tutto bene: abbiamo trovato due piccoli problemi e abbiamo già risolto il primo.\n\nPurtroppo il fornitore non ha ancora mandato i componenti per la seconda fase. Due giorni fa ho scritto all'ufficio acquisti, ma non ho ancora ricevuto risposta.\n\nIn allegato trova la relazione e una tabella con i risultati. Se è d'accordo, possiamo discutere i prossimi passi nella riunione di giovedì.\n\nResto in attesa di un Suo riscontro.\n\nCordiali saluti,\nCarlos\nUfficio tecnico – Madrid",
+      traduccion: "Asunto: Resultados de las pruebas – primera fase\n\nEstimado doctor Ferrari:\n\nLe escribo para hacer balance del proyecto Delta.\n\nTal como acordamos en la reunión de la semana pasada, el lunes y el martes el ingeniero Bianchi y yo hicimos las pruebas de la primera fase. Ayer terminé el informe técnico y puse todos los datos en la carpeta compartida. En general, todo ha ido bien: hemos encontrado dos pequeños problemas y ya hemos resuelto el primero.\n\nPor desgracia, el proveedor todavía no ha mandado los componentes para la segunda fase. Hace dos días escribí al departamento de compras, pero todavía no he recibido respuesta.\n\nLe adjunto el informe y una tabla con los resultados. Si está de acuerdo, podemos tratar los próximos pasos en la reunión del jueves.\n\nQuedo a la espera de su respuesta.\n\nUn cordial saludo,\nCarlos\nDepartamento técnico – Madrid",
       notas: "Fórmulas que puedes copiar tal cual: *Gentile dottor Ferrari*, *Le scrivo per…*, *Come concordato…*, *In allegato trova…*, *Resto in attesa di un Suo riscontro* y *Cordiali saluti*. *Le* y *Suo* llevan mayúscula de cortesía. Y un solo tiempo para todo el pasado: *Ieri ho finito*, *Due giorni fa ho scritto*, *abbiamo già risolto*.",
       glosa: {
         oggetto: "asunto (de un correo); también «objeto»",
@@ -892,6 +892,7 @@ window.CONTENT.it.semanas.push({
         punto: "punto («fare il punto su…» = hacer balance de…)",
         sul: "sobre el (su + il)",
         progetto: "proyecto",
+        delta: "Delta (el proyecto de Carlos: la nueva plataforma para los clientes)",
         come: "como («come concordato» = tal como acordamos)",
         concordato: "acordado (participio de «concordare»)",
         nella: "en la (in + la)",
@@ -998,9 +999,9 @@ window.CONTENT.it.semanas.push({
       id: "it4-r3",
       titulo: "Il viaggio a Milano è prenotato",
       nivel: "A2",
-      texto: "Oggetto: Viaggio a Milano\n\nCiao Carlos!\n\nBuone notizie: il tuo viaggio a Milano è prenotato. Stamattina ho prenotato il volo: parti da Madrid lunedì 15 alle 7:20 e arrivi a Linate alle 9:25. Ho anche prenotato una camera per tre notti in un albergo in centro, a dieci minuti dall'ufficio.\n\nIl dottor Ferrari ha letto la tua relazione ed è rimasto molto contento. Ha chiesto una breve presentazione dei risultati per martedì mattina. Giulia ha già preparato l'agenda della settimana e ieri ha mandato l'invito a tutti.\n\nE poi una sorpresa: Marco ha preso due biglietti per la partita dell'Inter di martedì sera!\n\nIl check-in online non è ancora aperto: apre due giorni prima del volo. In allegato trovi le prenotazioni del volo e dell'albergo.\n\nPer qualsiasi domanda, sono qui.\n\nA presto,\nChiara",
-      traduccion: "Asunto: Viaje a Milán\n\n¡Hola, Carlos!\n\nBuenas noticias: tu viaje a Milán está reservado. Esta mañana he reservado el vuelo: sales de Madrid el lunes 15 a las 7:20 y llegas a Linate a las 9:25. También he reservado una habitación para tres noches en un hotel del centro, a diez minutos de la oficina.\n\nEl doctor Ferrari ha leído tu informe y se ha quedado muy contento. Ha pedido una breve presentación de los resultados para el martes por la mañana. Giulia ya ha preparado la agenda de la semana y ayer mandó la convocatoria a todos.\n\nY además, una sorpresa: ¡Marco ha sacado dos entradas para el partido del Inter del martes por la noche!\n\nEl check-in online todavía no está abierto: abre dos días antes del vuelo. Te adjunto las reservas del vuelo y del hotel.\n\nPara cualquier pregunta, aquí estoy.\n\nHasta pronto,\nChiara",
-      notas: "*Il viaggio è prenotato*, *il check-in non è ancora aperto*: essere + participio describe un estado, y el participio concuerda como un adjetivo (*la camera è prenotata*, *le camere sono prenotate*). Para el futuro cercano basta el presente: *parti lunedì*, *arrivi alle 9:25*, *apre due giorni prima*. Y compara el registro con el correo a Ferrari: aquí *Ciao Carlos!*, *In allegato trovi…*, *A presto*.",
+      texto: "Oggetto: Viaggio a Milano\n\nCiao Carlos!\n\nBuone notizie: il tuo viaggio a Milano è prenotato. Stamattina ho prenotato il volo: parti da Madrid venerdì 12 alle 7:20 e arrivi a Linate alle 9:25. Ho anche prenotato una camera per otto notti in un albergo in centro, a dieci minuti dall'ufficio.\n\nIl dottor Ferrari ha letto la tua relazione ed è rimasto molto contento. Ha chiesto una breve presentazione dei risultati per martedì mattina. Giulia ha già preparato l'agenda della settimana e ieri ha mandato l'invito a tutti.\n\nE poi una sorpresa: domenica sera c'è il derby!\n\nIl check-in online non è ancora aperto: apre due giorni prima del volo. In allegato trovi le prenotazioni del volo e dell'albergo.\n\nPer qualsiasi domanda, sono qui.\n\nA presto,\nChiara",
+      traduccion: "Asunto: Viaje a Milán\n\n¡Hola, Carlos!\n\nBuenas noticias: tu viaje a Milán está reservado. Esta mañana he reservado el vuelo: sales de Madrid el viernes 12 a las 7:20 y llegas a Linate a las 9:25. También he reservado una habitación para ocho noches en un hotel del centro, a diez minutos de la oficina.\n\nEl doctor Ferrari ha leído tu informe y se ha quedado muy contento. Ha pedido una breve presentación de los resultados para el martes por la mañana. Giulia ya ha preparado la agenda de la semana y ayer mandó la convocatoria a todos.\n\nY además, una sorpresa: ¡el domingo por la noche se juega el derbi!\n\nEl check-in online todavía no está abierto: abre dos días antes del vuelo. Te adjunto las reservas del vuelo y del hotel.\n\nPara cualquier pregunta, aquí estoy.\n\nHasta pronto,\nChiara",
+      notas: "*Il viaggio è prenotato*, *il check-in non è ancora aperto*: essere + participio describe un estado, y el participio concuerda como un adjetivo (*la camera è prenotata*, *le camere sono prenotate*). Para el futuro cercano basta el presente: *parti venerdì*, *arrivi alle 9:25*, *apre due giorni prima*. Y compara el registro con el correo a Ferrari: aquí *Ciao Carlos!*, *In allegato trovi…*, *A presto*.",
       glosa: {
         oggetto: "asunto (de un correo)",
         viaggio: "viaje",
@@ -1012,7 +1013,7 @@ window.CONTENT.it.semanas.push({
         notizie: "noticias",
         il: "el",
         tuo: "tu",
-        "è": "está (con participio: «è prenotato» = está reservado); auxiliar essere («è rimasto» = se ha quedado)",
+        "è": "está (con participio: «è prenotato» = está reservado); auxiliar essere («è rimasto» = se ha quedado); «c'è» = hay",
         prenotato: "reservado (participio de «prenotare»)",
         stamattina: "esta mañana",
         ho: "he (auxiliar avere, yo)",
@@ -1020,7 +1021,7 @@ window.CONTENT.it.semanas.push({
         parti: "sales (de «partire»; presente con valor de futuro)",
         da: "de, desde",
         madrid: "Madrid",
-        "lunedì": "el lunes",
+        "venerdì": "el viernes",
         alle: "a las (a + le)",
         e: "y",
         arrivi: "llegas (de «arrivare»)",
@@ -1028,8 +1029,8 @@ window.CONTENT.it.semanas.push({
         anche: "también",
         una: "una",
         camera: "habitación (CA-me-ra; no «cámara»)",
-        per: "para; durante («per tre notti» = para tres noches)",
-        tre: "tres",
+        per: "para («per otto notti» = para ocho noches; «per martedì» = para el martes)",
+        otto: "ocho",
         notti: "noches (plural de «notte»)",
         in: "en («in centro» = en el centro; «in allegato» = adjunto); en «check-in», parte de la palabra inglesa",
         un: "un",
@@ -1070,15 +1071,12 @@ window.CONTENT.it.semanas.push({
         tutti: "todos («a tutti» = a todos)",
         poi: "luego, además («e poi» = y además)",
         sorpresa: "sorpresa",
-        marco: "Marco (Marco Bianchi, ingeniero e hincha del Inter)",
-        preso: "cogido, sacado (participio irregular de «prendere»: «prendere i biglietti» = sacar las entradas)",
+        domenica: "domingo (do-ME-ni-ca)",
+        sera: "noche, tarde-noche («domenica sera» = el domingo por la noche)",
+        c: "«c'è» = hay (ci + è)",
+        derby: "derbi: aquí, el Inter-Milan",
         due: "dos",
-        biglietti: "entradas, billetes (plural de «biglietto»)",
-        partita: "partido",
         dell: "del (di + l', ante vocal)",
-        inter: "el Inter (equipo de fútbol de Milán)",
-        di: "de («di martedì sera» = del martes por la noche)",
-        sera: "noche, tarde-noche",
         check: "«check-in»: facturación (aquí, por internet)",
         online: "en línea, por internet",
         non: "no",
@@ -1113,7 +1111,7 @@ window.CONTENT.it.semanas.push({
         },
         {
           q: "¿Cuál es la sorpresa?",
-          ops: ["Marco tiene dos entradas para el partido del Inter", "Ferrari va a ir a Madrid", "Giulia ha preparado la agenda"],
+          ops: ["El domingo por la noche se juega el derbi", "Ferrari va a ir a Madrid", "Giulia ha preparado la agenda"],
           ok: 0
         }
       ]

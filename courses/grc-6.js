@@ -212,13 +212,13 @@ window.CONTENT.grc.semanas.push({
           audio: [1, 2, 3],
           filas: [
             ["nominativo", "λύων", "λύουσα", "λῦον"],
+            ["acusativo", "λύοντα", "λύουσαν", "λῦον"],
             ["genitivo", "λύοντος", "λυούσης", "λύοντος"],
             ["dativo", "λύοντι", "λυούσῃ", "λύοντι"],
-            ["acusativo", "λύοντα", "λύουσαν", "λῦον"],
             ["nom. plural", "λύοντες", "λύουσαι", "λύοντα"],
+            ["ac. plural", "λύοντας", "λυούσας", "λύοντα"],
             ["gen. plural", "λυόντων", "λυουσῶν", "λυόντων"],
-            ["dat. plural", "λύουσι", "λυούσαις", "λύουσι"],
-            ["ac. plural", "λύοντας", "λυούσας", "λύοντα"]
+            ["dat. plural", "λύουσι", "λυούσαις", "λύουσι"]
           ]
         },
         {
@@ -273,7 +273,7 @@ window.CONTENT.grc.semanas.push({
         ["τιμῶν, τιμῶσα, τιμῶν", "que honra, honrando"],
         ["περιπατέω, περιπατήσω, περιεπάτησα", "pasear, caminar"],
         ["περιπατῶν", "paseando"],
-        ["διαλέγομαι, διαλέξομαι, διελέχθην", "conversar, dialogar (+ dativo)"],
+        ["διαλέγομαι, διαλέξομαι, διελέχθην", "conversar, dialogar (+ dativo); aor. διελέχθην, «conversé»: forma de aoristo pasivo (marca -θη-), pero no se traduce como pasiva"],
         ["γράφων ἀπέθανεν", "murió escribiendo"],
         ["κλαίω, κλαύσομαι, ἔκλαυσα", "llorar"],
         ["τρέχω, δραμοῦμαι, ἔδραμον", "correr"],
@@ -363,7 +363,7 @@ window.CONTENT.grc.semanas.push({
         ["ὁ βουλόμενος", "cualquiera que quiera"],
         ["τὰ ὄντα", "la realidad, las cosas que son"],
         ["τὰ γιγνόμενα", "lo que llega a ser, lo que cambia"],
-        ["φαίνομαι, φανοῦμαι, ἐφάνην", "aparecer; parecer"],
+        ["φαίνομαι, φανοῦμαι, ἐφάνην", "aparecer; parecer; aor. ἐφάνην, «aparecí»: forma de aoristo pasivo (aquí sin θ), pero no se traduce como pasiva"],
         ["τὰ φαινόμενα", "los fenómenos, lo que aparece"],
         ["τὸ μέλλον", "el futuro"],
         ["τῷ ὄντι", "en realidad, de verdad"],
@@ -406,13 +406,13 @@ window.CONTENT.grc.semanas.push({
           audio: [1, 2, 3],
           filas: [
             ["nominativo", "λύσας", "λύσασα", "λῦσαν"],
+            ["acusativo", "λύσαντα", "λύσασαν", "λῦσαν"],
             ["genitivo", "λύσαντος", "λυσάσης", "λύσαντος"],
             ["dativo", "λύσαντι", "λυσάσῃ", "λύσαντι"],
-            ["acusativo", "λύσαντα", "λύσασαν", "λῦσαν"],
             ["nom. plural", "λύσαντες", "λύσασαι", "λύσαντα"],
+            ["ac. plural", "λύσαντας", "λυσάσας", "λύσαντα"],
             ["gen. plural", "λυσάντων", "λυσασῶν", "λυσάντων"],
-            ["dat. plural", "λύσασι", "λυσάσαις", "λύσασι"],
-            ["ac. plural", "λύσαντας", "λυσάσας", "λύσαντα"]
+            ["dat. plural", "λύσασι", "λυσάσαις", "λύσασι"]
           ]
         },
         {
@@ -555,7 +555,7 @@ window.CONTENT.grc.semanas.push({
         ["γελάω, γελάσομαι, ἐγέλασα", "reír, reírse"],
         ["ἀποκτείνω, ἀποκτενῶ, ἀπέκτεινα", "matar"],
         ["διαφθείρω, διαφθερῶ, διέφθειρα", "corromper; destruir"],
-        ["αἰσχύνομαι, αἰσχυνοῦμαι, ᾐσχύνθην", "avergonzarse, sentir vergüenza"],
+        ["αἰσχύνομαι, αἰσχυνοῦμαι, ᾐσχύνθην", "avergonzarse, sentir vergüenza; aor. ᾐσχύνθην, «me avergoncé»: forma de aoristo pasivo (marca -θη-), pero no se traduce como pasiva"],
         ["παύομαι, παύσομαι, ἐπαυσάμην", "dejar de, cesar (+ participio)"],
         ["τυγχάνω, τεύξομαι, ἔτυχον", "dar la casualidad (+ participio); conseguir (+ genitivo)"],
         ["τυγχάνει ὤν", "resulta que es; está precisamente"],

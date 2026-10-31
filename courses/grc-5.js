@@ -341,11 +341,11 @@ window.CONTENT.grc.semanas.push({
         },
         {
           t: "p",
-          x: "*εἰμί* tiene el futuro en **voz media**, pero con sentido activo: *ἔσομαι*, «seré». Fíjate en *ἔσται*, sin vocal entre la *σ* y la terminación. Lo mismo les pasa a muchos verbos frecuentes: *ἀκούσομαι* (oiré), *θαυμάσομαι* (me asombraré), *μαθήσομαι* (aprenderé), *λήψομαι* (tomaré), *ὄψομαι* (veré). No los traduzcas como pasivos."
+          x: "*εἰμί* tiene el futuro en **voz media**, pero con sentido activo: *ἔσομαι*, «seré». Fíjate en *ἔσται*, sin vocal entre la *σ* y la terminación. Muchos verbos frecuentes tienen también el futuro en voz media con sentido activo: *ἀκούσομαι* (oiré), *θαυμάσομαι* (me asombraré), *μαθήσομαι* (aprenderé), *λήψομαι* (tomaré), *ὄψομαι* (veré). No los traduzcas como pasivos."
         },
         {
           t: "p",
-          x: "Desde hoy aprenderás cada verbo con sus **tiempos principales**: presente, futuro y aoristo, en 1.ª persona del singular: *λύω, λύσω, ἔλυσα*. Es lo que en latín hacía el enunciado (*dīcō, dīcere, dīxī, dictum*). Faltan otros tres (perfecto activo, perfecto medio y aoristo pasivo), que llegarán en la semana 7."
+          x: "Desde hoy aprenderás cada verbo con sus **tiempos principales**: presente, futuro y aoristo, en 1.ª persona del singular: *λύω, λύσω, ἔλυσα*. Es lo que en latín hacía el enunciado (*dīcō, dīcere, dīxī, dictum*). Faltan otros tres (perfecto activo, perfecto medio y aoristo pasivo); los dos perfectos llegarán en la semana 7."
         },
         {
           t: "tabla",
@@ -411,7 +411,7 @@ window.CONTENT.grc.semanas.push({
       id: "grc5-5",
       titulo: "El aoristo temático: ἔλαβον, εἶπον, ἦλθον",
       min: 40,
-      intro: "Los verbos más frecuentes hacen el aoristo sin *σ*: ponen las terminaciones del imperfecto sobre otra raíz. *λαμβάνω* (tomo) → *ἔλαβον* (tomé); *λέγω* (digo) → *εἶπον* (dije). Son pocos, pero salen en cada página de Platón, así que hoy toca aprendérselos.",
+      intro: "Muchos de los verbos más frecuentes hacen el aoristo sin *σ*: ponen las terminaciones del imperfecto sobre otra raíz. *λαμβάνω* (tomo) → *ἔλαβον* (tomé); *λέγω* (digo) → *εἶπον* (dije). Son pocos, pero salen en cada página de Platón, así que hoy toca aprendérselos.",
       bloques: [
         {
           t: "p",
@@ -789,7 +789,7 @@ window.CONTENT.grc.semanas.push({
       vocab: [
         ["νομίζω, νομιῶ, ἐνόμισα", "creer, considerar; tener por (+ dos acusativos)"],
         ["θεοὺς νομίζειν", "reconocer a los dioses, creer en ellos"],
-        ["οἴομαι (οἶμαι), οἰήσομαι, ᾠήθην", "creer, suponer (impf. ᾤμην; el aoristo tiene forma pasiva)"],
+        ["οἴομαι (οἶμαι), οἰήσομαι, ᾠήθην", "creer, suponer (impf. ᾤμην; aor. ᾠήθην, «creí»: forma de aoristo pasivo, pero no se traduce como pasiva)"],
         ["οἴει…;", "¿crees…? (2.ª persona de οἴομαι)"],
         ["οἴεται σοφὸς εἶναι", "cree ser sabio (él mismo)"],
         ["δοκέω, δόξω, ἔδοξα", "parecer; creer, opinar"],
@@ -884,7 +884,7 @@ window.CONTENT.grc.semanas.push({
         "ψεύδεται": "miente (de ψεύδομαι)",
         "ἐντεῦθεν": "desde entonces, a partir de ahí",
         "οὖν": "así pues, por tanto",
-        "ἐξήταζε": "examinaba, ponía a prueba (imperfecto de ἐξετάζω: ἐξ-ε-ετάζω)",
+        "ἐξήταζε": "examinaba, ponía a prueba (imperfecto de ἐξετάζω: ἐξ- + ἤταζε, con aumento temporal ε → η)",
         "τοὺς": "los (acusativo plural)",
         "πολιτικοὺς": "los políticos (de πολιτικός)",
         "ποιητὰς": "los poetas (acusativo plural de ποιητής)",
@@ -919,7 +919,7 @@ window.CONTENT.grc.semanas.push({
       titulo: "Θαλῆς καὶ τὸ φρέαρ (Tales y el pozo)",
       nivel: "Inicial",
       texto: "Θαλῆς ὁ Μιλήσιος πρῶτος τῶν φιλοσόφων ἦν. Νυκτὸς δέ ποτε ἐξῆλθεν ἐκ τῆς οἰκίας καὶ ἄνω ἔβλεπε πρὸς τὰ ἄστρα· ἐβούλετο γὰρ μαθεῖν τὴν τοῦ οὐρανοῦ φύσιν. Ἀλλὰ τὴν ὁδὸν οὐκ ἔβλεπε, καὶ εἰς φρέαρ ἔπεσεν.\n\nΘρᾷττα δέ τις θεραπαινίς, ἐμμελὴς καὶ χαρίεσσα, τοῦτο εἶδε καὶ ἐγέλασεν. «Σὺ μέν, ὦ Θαλῆ», ἔφη, «τὰ ἐν τῷ οὐρανῷ ἐθέλεις γιγνώσκειν, τὰ δὲ πρὸ τῶν ποδῶν οὐ βλέπεις».\n\nὉ δὲ Σωκράτης, ὡς γράφει ὁ Πλάτων, ἔλεγεν ὅτι τοῦτο πάσχουσι πάντες οἱ φιλόσοφοι.",
-      traduccion: "Tales de Mileto fue el primero de los filósofos. Una noche salió de casa y se puso a mirar hacia arriba, a las estrellas, porque quería conocer la naturaleza del cielo. Pero no veía el camino, y se cayó a un pozo.\n\nUna criada tracia, graciosa y ocurrente, lo vio y se echó a reír. «Tú, Tales», le dijo, «quieres conocer lo que hay en el cielo, y no ves lo que tienes delante de los pies».\n\nY Sócrates, según escribe Platón, decía que eso les pasa a todos los filósofos.",
+      traduccion: "Tales de Mileto fue el primero de los filósofos. Una noche salió de casa y miraba hacia arriba, a las estrellas, porque quería conocer la naturaleza del cielo. Pero no veía el camino, y se cayó a un pozo.\n\nUna criada tracia, graciosa y ocurrente, lo vio y se echó a reír. «Tú, Tales», le dijo, «quieres conocer lo que hay en el cielo, y no ves lo que tienes delante de los pies».\n\nY Sócrates, según escribe Platón, decía que eso les pasa a todos los filósofos.",
       notas: "Lo cuenta Sócrates en el *Teeteto* de Platón (174a): la criada era *ἐμμελὴς καὶ χαρίεσσα*, «graciosa y ocurrente». Fíjate en *ἐγέλασεν*: aquí el aoristo marca el comienzo de la acción, «se echó a reír». Aristóteles (*Política* I 11) cuenta la revancha de Tales: los astros le anunciaron una gran cosecha de aceitunas, alquiló todas las prensas de aceite y se hizo rico, para demostrar que un filósofo puede ganar dinero si quiere.",
       glosa: {
         "θαλῆς": "Tales (de Mileto), el primer filósofo griego",
@@ -1010,7 +1010,7 @@ window.CONTENT.grc.semanas.push({
       nivel: "Intermedio",
       texto: "Διογένης ἐκ Σινώπης εἰς Ἀθήνας ἦλθε καὶ πίθον εἶχεν ἀντ᾽ οἰκίας· οἱ δὲ Ἀθηναῖοι αὐτὸν «κύνα» ὠνόμαζον.\n\nΜεθ᾽ ἡμέραν ποτὲ λύχνον ἧψε καὶ διὰ τῆς ἀγορᾶς ἐβάδιζεν. Πολλοὶ δὲ ἐθαύμαζον καὶ ἤροντο· «Τί πράττεις, ὦ Διόγενες; Διὰ τί λύχνον ἔχεις ἐν ἡμέρᾳ;» Ὁ δὲ «Ἄνθρωπον», ἔφη, «ζητῶ». Οἱ δὲ ἐγέλασαν· «Ἀλλὰ πολλοί εἰσιν ἐν τῇ ἀγορᾷ ἄνθρωποι». Διογένης δὲ ἀπεκρίνατο· «Πολλοὺς μὲν εἶδον, ἄνθρωπον δὲ οὐδένα ηὗρον».\n\nἌλλοτε δὲ ἐβόησεν· «Ἰὼ ἄνθρωποι». Πολλοὶ οὖν προσῆλθον. Ὁ δὲ Διογένης τῇ βακτηρίᾳ αὐτοὺς ἐδίωξε καὶ εἶπεν· «Ἀνθρώπους ἐκάλεσα, οὐ καθάρματα».",
       traduccion: "Diógenes llegó de Sínope a Atenas y tenía una tinaja en lugar de casa; los atenienses lo llamaban «el perro».\n\nUna vez, en pleno día, encendió una lámpara y se paseaba por el ágora. Muchos se asombraban y le preguntaron: «¿Qué haces, Diógenes? ¿Por qué llevas una lámpara de día?». Y él dijo: «Busco un hombre». Ellos se rieron: «Pero en el ágora hay muchos hombres». Diógenes respondió: «He visto a muchos, pero no he encontrado ni un hombre».\n\nOtra vez gritó: «¡Eh, hombres!». Así que acudieron muchos. Pero Diógenes los echó a bastonazos y dijo: «He llamado a hombres, no a basura».",
-      notas: "Diógenes Laercio (VI 41) lo cuenta en una línea: *λύχνον μεθ᾽ ἡμέραν ἅψας «ἄνθρωπον», φησί, «ζητῶ»*. *ἅψας*, «tras encender», es un participio de aoristo: lo verás la semana que viene. La segunda anécdota está en VI 32. Fíjate en que el aoristo griego también traduce nuestro pretérito perfecto: *εἶδον*, «he visto»; *ἐκάλεσα*, «he llamado». A Diógenes lo llamaban *κύων*, «perro», y de ahí viene «cínico» (*κυνικός*, «perruno»).",
+      notas: "Diógenes Laercio (VI 41) lo cuenta en una línea: *λύχνον μεθ᾽ ἡμέραν ἅψας περιῄει λέγων «ἄνθρωπον ζητῶ»*, «encendió una lámpara en pleno día y daba vueltas diciendo: “Busco un hombre”». *ἅψας* («tras encender») y *λέγων* («diciendo») son participios: los verás la semana que viene. La segunda anécdota está en VI 32. Fíjate en que el aoristo griego también traduce nuestro pretérito perfecto: *εἶδον*, «he visto»; *ἐκάλεσα*, «he llamado». A Diógenes lo llamaban *κύων*, «perro», y de ahí viene «cínico» (*κυνικός*, «perruno»).",
       glosa: {
         "διογένης": "Diógenes de Sínope, el filósofo cínico",
         "ἐκ": "de, desde (+ genitivo)",

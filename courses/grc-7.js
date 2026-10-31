@@ -45,7 +45,7 @@ window.CONTENT.grc.semanas.push({
         },
         {
           t: "nota",
-          x: "Algunos perfectos no llevan *κ* (*γέγραφα*, *ἀκήκοα*) y otros salen de otra raíz (*εἴρηκα* para *λέγω*, *ἑώρακα* para *ὁράω*): apréndelos como palabras. En los compuestos, la reduplicación va detrás del prefijo, igual que el aumento: *ἀνα-γιγνώσκω* → *ἀν-έγνωκα*."
+          x: "Algunos perfectos no llevan *κ* (*γέγραφα*, *ἀκήκοα*) otros salen de otra raíz (*εἴρηκα* para *λέγω*) y otros tienen una reduplicación irregular (*ἑώρακα* para *ὁράω*): apréndelos como palabras. En los compuestos, la reduplicación va detrás del prefijo, igual que el aumento: *ἀνα-γιγνώσκω* → *ἀν-έγνωκα*."
         },
         {
           t: "nota",
@@ -151,7 +151,7 @@ window.CONTENT.grc.semanas.push({
         },
         {
           t: "p",
-          x: "Otros perfectos que se traducen por presente: *ἔοικα* «parezco» (*ὡς ἔοικε*, «según parece»), *δέδοικα* «temo», *τέθνηκα* «estoy muerto», *γέγονα* «he nacido, soy» y *ἕστηκα* «estoy de pie» (de *ἵστημι*, lección 7). Heráclito usa *ἐοίκασι*, «se parecen», en la primera frase de su libro."
+          x: "Otros perfectos que se traducen por presente: *ἔοικα* «parezco» (*ὡς ἔοικε*, «según parece»), *δέδοικα* «temo», *τέθνηκα* «estoy muerto», *γέγονα* «he nacido, soy» y *ἕστηκα* «estoy de pie» (de *ἵστημι*, lección 7). Heráclito usa *ἐοίκασι*, «se parecen», al comienzo de su libro."
         },
         {
           t: "ej",
@@ -418,12 +418,12 @@ window.CONTENT.grc.semanas.push({
         },
         {
           t: "p",
-          x: "En los diálogos los tipos se mezclan. En el *Menón*, Sócrates une un *εἰ* real con un optativo potencial: «si la virtud es una ciencia, se podrá enseñar». Y en la *Apología* promete examinar a quien le discuta: *ἐάν* + subjuntivo aoristo y, después, futuros."
+          x: "En los diálogos los tipos se mezclan. En el *Menón*, Sócrates une un *εἰ* real con un optativo potencial: «si la virtud es una ciencia, podría enseñarse». Y en la *Apología* promete examinar a quien le discuta: *ἐάν* + subjuntivo aoristo y, después, futuros."
         },
         {
           t: "ej",
           items: [
-            ["εἰ δέ γ᾽ ἐστὶν ἐπιστήμη τις ἡ ἀρετή, δῆλον ὅτι διδακτὸν ἂν εἴη.", "Y si la virtud es una ciencia, está claro que se podrá enseñar. (Platón, Menón 87c)"],
+            ["εἰ δέ γ᾽ ἐστὶν ἐπιστήμη τις ἡ ἀρετή, δῆλον ὅτι διδακτὸν ἂν εἴη.", "Y si la virtud es una ciencia, está claro que podría enseñarse. (Platón, Menón 87c)"],
             ["καὶ ἐάν τις ὑμῶν ἀμφισβητήσῃ καὶ φῇ ἐπιμελεῖσθαι, οὐκ εὐθὺς ἀφήσω αὐτὸν οὐδ᾽ ἄπειμι, ἀλλ᾽ ἐρήσομαι αὐτὸν καὶ ἐξετάσω καὶ ἐλέγξω.", "Y si alguno de vosotros lo discute y dice que sí se ocupa de ello, no lo soltaré enseguida ni me iré, sino que le preguntaré, lo examinaré y lo pondré a prueba. (Platón, Apología 29e)"],
             ["Ἐὰν μὴ μάθῃς, οὐκ εἴσῃ.", "Si no aprendes, no sabrás."],
             ["Ὅταν ὁ Σωκράτης ἐρωτᾷ, οἱ σοφισταὶ σιγῶσιν.", "Cuando Sócrates pregunta, los sofistas se callan."],
@@ -595,7 +595,7 @@ window.CONTENT.grc.semanas.push({
           items: [
             ["ὦ Κρίτων, ἔφη, τῷ Ἀσκληπιῷ ὀφείλομεν ἀλεκτρυόνα· ἀλλὰ ἀπόδοτε καὶ μὴ ἀμελήσητε.", "«Critón», dijo, «le debemos un gallo a Asclepio: pagadlo y no lo descuidéis». (últimas palabras de Sócrates; Platón, Fedón 118a)"],
             ["τὸ τὰ ὀφειλόμενα ἑκάστῳ ἀποδιδόναι δίκαιόν ἐστι.", "Es justo devolver a cada uno lo que se le debe. (Simónides, citado en Platón, República 331e)"],
-            ["πένης εἰμὶ καὶ ἄλλο μὲν οὐδὲν ἔχω, δίδωμι δέ σοι ἐμαυτόν.", "Soy pobre y no tengo nada más, pero te doy a mí mismo. (Esquines a Sócrates; Diógenes Laercio II 34)"],
+            ["πένης εἰμὶ καὶ ἄλλο μὲν οὐδὲν ἔχω, δίδωμι δέ σοι ἐμαυτόν.", "Soy pobre y no tengo nada más, pero me doy a ti. (Esquines a Sócrates; Diógenes Laercio II 34)"],
             ["Ἔδωκα τῷ Λύσιδι τὸ βιβλίον.", "Le di el libro a Lisis."],
             ["Ὁ διδάσκαλος τὸ βιβλίον ἐπὶ τὴν τράπεζαν τίθησιν.", "El maestro pone el libro sobre la mesa."],
             ["Ὑποτιθέμεθα τὴν ψυχὴν ἀθάνατον εἶναι.", "Suponemos que el alma es inmortal."],
@@ -846,7 +846,7 @@ window.CONTENT.grc.semanas.push({
       nivel: "Texto real",
       texto: "τοῦ δὲ λόγου τοῦδ᾽ ἐόντος ἀεὶ ἀξύνετοι γίνονται ἄνθρωποι καὶ πρόσθεν ἢ ἀκοῦσαι καὶ ἀκούσαντες τὸ πρῶτον· γινομένων γὰρ πάντων κατὰ τὸν λόγον τόνδε ἀπείροισιν ἐοίκασι …\n\nποταμοῖσι τοῖσιν αὐτοῖσιν ἐμβαίνουσιν ἕτερα καὶ ἕτερα ὕδατα ἐπιρρεῖ.\n\nκόσμον τόνδε, τὸν αὐτὸν ἁπάντων, οὔτε τις θεῶν οὔτε ἀνθρώπων ἐποίησεν, ἀλλ᾽ ἦν ἀεὶ καὶ ἔστιν καὶ ἔσται πῦρ ἀείζωον, ἁπτόμενον μέτρα καὶ ἀποσβεννύμενον μέτρα.\n\nπόλεμος πάντων μὲν πατήρ ἐστι, πάντων δὲ βασιλεύς, καὶ τοὺς μὲν θεοὺς ἔδειξε τοὺς δὲ ἀνθρώπους, τοὺς μὲν δούλους ἐποίησε τοὺς δὲ ἐλευθέρους.\n\nἦθος ἀνθρώπῳ δαίμων.",
       traduccion: "(B1) De este logos, que es siempre, los hombres se muestran incapaces de comprenderlo, tanto antes de oírlo como después de haberlo oído por primera vez; pues, aunque todo sucede según este logos, se parecen a gente sin experiencia…\n\n(B12) Sobre los que se meten en los mismos ríos fluyen aguas siempre distintas.\n\n(B30) Este mundo, el mismo para todos, no lo hizo ninguno de los dioses ni de los hombres, sino que siempre fue, es y será fuego siempre vivo, que se enciende con medida y se apaga con medida.\n\n(B53) La guerra es padre de todos y rey de todos: a unos los muestra dioses y a otros hombres; a unos los hace esclavos y a otros libres.\n\n(B119) Para el hombre, su carácter es su destino (su daímon).",
-      notas: "Heráclito de Éfeso (hacia 500 a. C.), en la edición de Diels y Kranz (DK 22). En orden: B1, el comienzo de su libro (lo citan Sexto Empírico e Hipólito; aquí, solo el principio); B12 (Ario Dídimo, en Eusebio; DK añade una segunda frase sobre el alma); B30 (Clemente de Alejandría); B53 (Hipólito); B119 (Estobeo). Escribe en jonio: dativos en *-οισι(ν)* (*ποταμοῖσι τοῖσιν αὐτοῖσιν* = *ποταμοῖς τοῖς αὐτοῖς*), *ἐόντος* = *ὄντος*, *γίνονται* = *γίγνονται*. En B1, *ἀεί* puede ir con *ἐόντος* («que es siempre») o con *ἀξύνετοι* («siempre incapaces de comprender»): ya lo señala Aristóteles en la *Retórica* (III 5). *ἐοίκασι* es un perfecto con sentido de presente, como *οἶδα*. En B12, el neutro plural lleva el verbo en singular (*ὕδατα ἐπιρρεῖ*); la frase famosa «no se puede entrar dos veces en el mismo río» es la paráfrasis de Plutarco (B91: *ποταμῷ γὰρ οὐκ ἔστιν ἐμβῆναι δὶς τῷ αὐτῷ*). En B30, *πῦρ ἀείζωον* es el predicado de *ἦν… ἔστιν… ἔσται*.",
+      notas: "Heráclito de Éfeso (hacia 500 a. C.), en la edición de Diels y Kranz (DK 22). En orden: B1, el comienzo de su libro (lo citan Sexto Empírico e Hipólito; aquí, solo el principio); B12 (Ario Dídimo, en Eusebio; DK añade una segunda frase sobre el alma); B30 (Clemente de Alejandría); B53 (Hipólito); B119 (Estobeo). Escribe en jonio: dativos en *-οισι(ν)* (*ποταμοῖσι τοῖσιν αὐτοῖσιν* = *ποταμοῖς τοῖς αὐτοῖς*), *ἐόντος* = *ὄντος*, *γίνονται* = *γίγνονται*. En B1, *ἀεί* puede ir con *ἐόντος* («que es siempre») o con *ἀξύνετοι* («siempre incapaces de comprender»): ya lo señala Aristóteles en la *Retórica* (III 5). *ἐοίκασι* es un perfecto con sentido de presente, como *οἶδα*. En B12, el neutro plural lleva el verbo en singular (*ὕδατα ἐπιρρεῖ*); la frase famosa «no se puede entrar dos veces en el mismo río» viene de paráfrasis posteriores: la de Platón (*Crátilo* 402a, que verás en la última lectura) y la de Plutarco (B91: *ποταμῷ γὰρ οὐκ ἔστιν ἐμβῆναι δὶς τῷ αὐτῷ*). En B30, *πῦρ ἀείζωον* es el predicado de *ἦν… ἔστιν… ἔσται*. En B53, *ἔδειξε* y *ἐποίησε* son aoristos gnómicos (verdades generales): se traducen por presente.",
       glosa: {
         "τοῦ": "del (artículo, genitivo)",
         "δὲ": "y, pues (partícula; va en segundo lugar)",
@@ -893,7 +893,7 @@ window.CONTENT.grc.semanas.push({
         "ἔστιν": "es",
         "ἔσται": "será (futuro de εἰμί)",
         "πῦρ": "fuego",
-        "ἀείζωον": "siempre vivo (ἀεί + ζῷον)",
+        "ἀείζωον": "siempre vivo (ἀεί + ζωός «vivo», de la familia de ζάω)",
         "ἁπτόμενον": "que se enciende (participio medio de ἅπτω)",
         "μέτρα": "con medida (acusativo plural de μέτρον)",
         "ἀποσβεννύμενον": "que se apaga (participio medio de ἀποσβέννυμι)",
@@ -904,10 +904,10 @@ window.CONTENT.grc.semanas.push({
         "βασιλεύς": "rey",
         "τοὺς": "a los; «τοὺς μέν… τοὺς δέ…» = a unos… a otros…",
         "θεοὺς": "dioses (acusativo plural)",
-        "ἔδειξε": "mostró (aoristo de δείκνυμι, otro verbo en -μι)",
+        "ἔδειξε": "mostró; aquí, «muestra» (aoristo gnómico de δείκνυμι, otro verbo en -μι)",
         "ἀνθρώπους": "hombres (acusativo plural)",
         "δούλους": "esclavos (acusativo plural)",
-        "ἐποίησε": "hizo",
+        "ἐποίησε": "hizo; aquí, «hace» (aoristo gnómico)",
         "ἐλευθέρους": "libres (acusativo plural)",
         "ἦθος": "carácter, modo de ser (ἦθος, -ους, τό; de ahí «ética»)",
         "ἀνθρώπῳ": "para el hombre (dativo)",
@@ -933,7 +933,7 @@ window.CONTENT.grc.semanas.push({
       titulo: "Parménides: pensar y ser (DK 28 B3 y B6, 1–5)",
       nivel: "Texto real",
       texto: "… τὸ γὰρ αὐτὸ νοεῖν ἐστίν τε καὶ εἶναι.\n\nχρὴ τὸ λέγειν τε νοεῖν τ᾽ ἐὸν ἔμμεναι· ἔστι γὰρ εἶναι,\nμηδὲν δ᾽ οὐκ ἔστιν· τά σ᾽ ἐγὼ φράζεσθαι ἄνωγα.\nπρώτης γάρ σ᾽ ἀφ᾽ ὁδοῦ ταύτης διζήσιος <εἴργω>,\nαὐτὰρ ἔπειτ᾽ ἀπὸ τῆς, ἣν δὴ βροτοὶ εἰδότες οὐδὲν\nπλάττονται, δίκρανοι· …",
-      traduccion: "(B3) … pues lo mismo es pensar y ser.\n\n(B6) Es necesario decir y pensar que lo que es, es; pues el ser es,\ny la nada no es. Esto te ordeno que lo consideres.\nPues de esta primera vía de búsqueda te aparto,\ny luego también de aquella que se forjan los mortales que nada saben,\nbicéfalos…",
+      traduccion: "(B3) … pues lo mismo es pensar y ser.\n\n(B6) Es necesario decir y pensar que lo que es, es; pues el ser es,\ny la nada no es. Esto te ordeno que lo consideres.\nPues de esta primera vía de búsqueda te aparto,\ny luego también de aquella por la que vagan los mortales que nada saben,\nbicéfalos…",
       notas: "Parménides de Elea (hacia 475 a. C.), en la edición de Diels y Kranz (DK 28). B3 lo citan Clemente de Alejandría y Plotino; B6, Simplicio en su comentario a la *Física* de Aristóteles (aquí, sus cinco primeros versos). En el poema habla una diosa al joven Parménides. Está en hexámetros, con la lengua épica de Homero: *ἐόν* = *ὄν* («lo que es»), *ἔμμεναι* = *εἶναι*, *διζήσιος* es un genitivo jonio (como *φύσιος* = *φύσεως*), *αὐτάρ* = «pero, y», *βροτοί* = «mortales», y el artículo hace de demostrativo: *τά* «esto», *τῆς* «de aquella (vía)». *ἄνωγα* «ordeno» es un perfecto con sentido de presente, como *οἶδα*, y *εἰδότες* es el participio de *οἶδα*. Los corchetes angulares marcan lo que añade el editor: en los manuscritos falta el verbo, y Diels suplió *εἴργω* («te aparto»). La sintaxis es discutida: la traducción sigue la de Kranz en esa edición, pero B3 se entiende también como «lo mismo es lo que puede pensarse y lo que puede ser», y *ἔστι γὰρ εἶναι*, como «pues es posible ser».",
       glosa: {
         "τὸ": "lo (artículo); «τὸ αὐτό» = lo mismo; en B6, «τό… ἐόν» = lo que es",
@@ -970,12 +970,12 @@ window.CONTENT.grc.semanas.push({
         "ἔπειτ": "= ἔπειτα, después, luego",
         "ἀπὸ": "de, desde (+ genitivo)",
         "τῆς": "de aquella (artículo como demostrativo: «de aquella vía»)",
-        "ἣν": "la cual (relativo, acusativo femenino)",
+        "ἣν": "por la cual (relativo, acusativo femenino: la vía que se recorre)",
         "δὴ": "precisamente, justamente (partícula)",
         "βροτοὶ": "los mortales (palabra poética)",
         "εἰδότες": "que saben (participio de οἶδα, nominativo plural)",
         "οὐδὲν": "nada",
-        "πλάττονται": "se forjan, se inventan (de πλάττω, «modelar»)",
+        "πλάττονται": "vagan (así traduce Kranz, como si fuera πλάζονται, «andan errantes»; otros entienden «se forjan», de πλάττω «modelar»)",
         "δίκρανοι": "bicéfalos, de dos cabezas"
       },
       preguntas: [

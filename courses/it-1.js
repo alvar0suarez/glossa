@@ -40,7 +40,7 @@ window.CONTENT.it.semanas.push({
             ["gn", "ñ", "ingegnere, cognome"],
             ["z, zz", "«ts» o «ds»; nunca la z de «zapato»", "grazie, azienda"],
             ["qu", "«cu»: la u siempre suena", "questo, qui"],
-            ["h", "muda: solo endurece la c y la g", "ho, hanno"]
+            ["h", "muda: endurece la c y la g (che, ghi) y distingue ho, ha, hanno de o, a, anno", "ho, hanno"]
           ]
         },
         {
@@ -202,7 +202,7 @@ window.CONTENT.it.semanas.push({
       ],
       vocab: [
         ["Buongiorno!", "¡Buenos días! (hasta media tarde)"],
-        ["Buonasera!", "¡Buenas tardes! ¡Buenas noches! (al llegar)"],
+        ["Buonasera!", "¡Buenas tardes! ¡Buenas noches! (desde media tarde, al llegar o al irte)"],
         ["Buonanotte!", "¡Buenas noches! (al despedirte, ya de noche)"],
         ["Ciao!", "¡Hola! ¡Adiós! (con quien tuteas)"],
         ["Salve!", "¡Hola! (neutro)"],
@@ -360,7 +360,7 @@ window.CONTENT.it.semanas.push({
         ["abbiamo, avete, hanno", "tenemos, tenéis, tienen"],
         ["Sono spagnolo.", "Soy español."],
         ["Sono di Madrid.", "Soy de Madrid."],
-        ["Abito a Madrid.", "Vivo en Madrid. (abito: A-bi-to)"],
+        ["Abito a Madrid.", "Vivo en Madrid. (acento: A-bi-to)"],
         ["Lavoro come ingegnere.", "Trabajo de ingeniero."],
         ["Parlo un po' di italiano.", "Hablo un poco de italiano."],
         ["Di dove sei?", "¿De dónde eres?"],
@@ -603,7 +603,7 @@ window.CONTENT.it.semanas.push({
         ["Ho trentaquattro anni.", "Tengo treinta y cuatro años."],
         ["Qual è il tuo numero di telefono?", "¿Cuál es tu número de teléfono?"],
         ["l'interno", "la extensión (de teléfono)"],
-        ["Può ripetere, per favore?", "¿Puede repetir, por favor?"],
+        ["Può ripetere, per favore?", "¿Puede repetir, por favor? (acento: ri-PE-te-re)"],
         ["Più lentamente, per favore.", "Más despacio, por favor."]
       ],
       ejercicios: [
@@ -769,7 +769,7 @@ window.CONTENT.it.semanas.push({
         ["…, vero?", "…, ¿verdad?"],
         ["Complimenti!", "¡Enhorabuena!"],
         ["già", "ya"],
-        ["ancora", "todavía; otra vez (acento: AN-co-ra)"],
+        ["ancora", "todavía; otra vez (acento: an-CO-ra; AN-co-ra es «ancla»)"],
         ["sempre", "siempre"],
         ["Il mio numero è…", "Mi número es…"],
         ["più", "más (al dictar un teléfono, «più trentaquattro» = +34)"],

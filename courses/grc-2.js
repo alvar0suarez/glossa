@@ -30,7 +30,7 @@ window.CONTENT.grc.semanas.push({
         },
         {
           t: "p",
-          x: "El artículo es tu mejor pista: *ὁ* y *οἱ*, sin acento y con espíritu áspero, son nominativos; todo lo que empieza por *τ-* es otro caso. El vocativo en *-ε* solo existe en singular: *ὦ φίλε*, «¡amigo!»; en plural es igual que el nominativo. *ὦ* no se traduce: en español basta con el nombre."
+          x: "El artículo es tu mejor pista: en el masculino, *ὁ* y *οἱ*, sin acento y con espíritu áspero, son nominativos; todo lo que empieza por *τ-* es otro caso. El vocativo en *-ε* solo existe en singular: *ὦ φίλε*, «¡amigo!»; en plural es igual que el nominativo. *ὦ* no se traduce: en español basta con el nombre."
         },
         {
           t: "tabla",
@@ -118,7 +118,7 @@ window.CONTENT.grc.semanas.push({
         },
         {
           t: "nota",
-          x: "Compara con el latín *legō, legis, legit, legimus, legitis, legunt*: *-ω, -εις, -ει, -ομεν, -ετε, -ουσι*. Como en latín, el pronombre sobra: *λέγω* ya es «digo». La *-ν* de *λύουσιν* es «móvil»: se escribe ante vocal y al final de frase, y suele faltar ante consonante (*λύουσι τὸν…*). Por eso el diccionario la pone entre paréntesis: *λύουσι(ν)*."
+          x: "Compara con el latín *legō, legis, legit, legimus, legitis, legunt*: *-ω, -εις, -ει, -ομεν, -ετε, -ουσι*. Como en latín, el pronombre sobra: *λέγω* ya es «digo». La *-ν* de *λύουσιν* es «móvil»: se escribe ante vocal y al final de frase, y suele faltar ante consonante (*λύουσι τὸν…*). Por eso las gramáticas la ponen entre paréntesis: *λύουσι(ν)*."
         },
         {
           t: "tabla",

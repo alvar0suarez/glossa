@@ -66,7 +66,7 @@ window.CONTENT.it.semanas.push({
         ["parlare", "hablar"],
         ["Lei parla inglese?", "¿Habla usted inglés?"],
         ["Parli spagnolo?", "¿Hablas español?"],
-        ["abitare (abito: A-bi-to)", "vivir (en un sitio)"],
+        ["abitare (abito)", "vivir (en un sitio) (acento: abito: A-bi-to)"],
         ["Dove abiti?", "¿Dónde vives?"],
         ["arrivare", "llegar"],
         ["chiamare", "llamar"],
@@ -169,7 +169,7 @@ window.CONTENT.it.semanas.push({
         ["vivere", "vivir (acento: VI-ve-re)"],
         ["ricevere", "recibir (acento: ri-CE-ve-re)"],
         ["vedere", "ver"],
-        ["partire", "salir (de viaje), irse"],
+        ["partire (parto)", "salir (de viaje), irse"],
         ["dormire", "dormir"],
         ["aprire", "abrir"],
         ["sentire", "oír; sentir"],
@@ -495,7 +495,7 @@ window.CONTENT.it.semanas.push({
         },
         {
           t: "nota",
-          x: "*Con* y *per* no se funden: *con il direttore*, *per i clienti*. Y *da* + persona significa «en casa de» o «en la oficina de», como el *chez* francés: *Oggi Marco è dal cliente* (hoy Marco está en la oficina del cliente)."
+          x: "*Con* y *per* no suelen fundirse: *con il direttore*, *per i clienti* (hablando oirás también *col*, de *con il*). Y *da* + persona significa «en casa de» o «en la oficina de», como el *chez* francés: *Oggi Marco è dal cliente* (hoy Marco está en la oficina del cliente)."
         },
         {
           t: "ej",
@@ -531,7 +531,7 @@ window.CONTENT.it.semanas.push({
         ["in ufficio", "en la oficina (sin artículo)"],
         ["in sala riunioni", "en la sala de reuniones"],
         ["a casa", "en casa; a casa"],
-        ["con il direttore", "con el director («con» no se funde)"],
+        ["con il direttore", "con el director («con» no suele fundirse)"],
         ["la cartella", "la carpeta"],
         ["la chiave (le chiavi)", "la llave"]
       ],
@@ -618,7 +618,7 @@ window.CONTENT.it.semanas.push({
             ["È al primo piano, a destra.", "Está en la primera planta, a la derecha."],
             ["Il bagno è in fondo al corridoio.", "El baño está al fondo del pasillo."],
             ["La macchinetta del caffè è accanto alla finestra.", "La máquina de café está al lado de la ventana."],
-            ["Pronto? C'è Giulia, per favore?", "¿Diga? ¿Está Giulia, por favor?"]
+            ["Pronto? C'è Giulia, per favore?", "Hola, ¿está Giulia, por favor?"]
           ]
         },
         {
@@ -632,7 +632,7 @@ window.CONTENT.it.semanas.push({
         ["C'è Giulia?", "¿Está Giulia?"],
         ["Non c'è problema.", "No hay problema."],
         ["Ci sono domande?", "¿Hay preguntas?"],
-        ["la domanda", "la pregunta (¡no «la demanda»!)"],
+        ["la domanda", "la pregunta (no «la demanda», salvo en economía)"],
         ["Che c'è?", "¿Qué pasa?"],
         ["Dov'è la sala riunioni?", "¿Dónde está la sala de reuniones?"],
         ["non… nessuno", "nadie"],
@@ -756,8 +756,8 @@ window.CONTENT.it.semanas.push({
       id: "it2-r1",
       titulo: "La giornata di Carlos (el día de Carlos)",
       nivel: "A1",
-      texto: "Carlos è un ingegnere spagnolo. Abita a Madrid e lavora per un'azienda italiana: la sede centrale è a Milano.\n\nOgni mattina Carlos si sveglia alle sette. Prende un caffè e alle otto prende la metro. Arriva in ufficio alle nove meno un quarto. Prima legge le email, poi risponde ai messaggi dei colleghi italiani.\n\nIl martedì alle dieci c'è una videochiamata con Milano: Carlos parla con Giulia e Marco. Non capisce sempre tutto, ma impara molto.\n\nCarlos pranza alle due, come molti spagnoli. A Milano, invece, i colleghi pranzano all'una. Finisce di lavorare alle sei e torna a casa. La sera studia italiano per quarantacinque minuti e cena alle nove e mezza.",
-      traduccion: "Carlos es un ingeniero español. Vive en Madrid y trabaja para una empresa italiana: la sede central está en Milán.\n\nCada mañana Carlos se despierta a las siete. Se toma un café y a las ocho coge el metro. Llega a la oficina a las nueve menos cuarto. Primero lee los correos y luego contesta los mensajes de sus compañeros italianos.\n\nLos martes a las diez hay una videollamada con Milán: Carlos habla con Giulia y Marco. No siempre lo entiende todo, pero aprende mucho.\n\nCarlos come a las dos, como muchos españoles. En Milán, en cambio, sus compañeros comen a la una. Termina de trabajar a las seis y vuelve a casa. Por la noche estudia italiano cuarenta y cinco minutos y cena a las nueve y media.",
+      texto: "Carlos è un ingegnere spagnolo. Abita a Madrid e lavora per un'azienda italiana: la sede centrale è a Milano.\n\nOgni mattina Carlos si sveglia alle sette. Prende un caffè e alle otto prende la metro. Arriva in ufficio alle nove meno un quarto. Prima legge le email, poi risponde ai messaggi dei colleghi italiani.\n\nIl martedì alle dieci c'è una videochiamata con Milano: Carlos parla con Giulia e Marco. Non capisce sempre tutto, ma impara molto.\n\nCarlos pranza alle due, come molti spagnoli. A Milano, invece, i colleghi pranzano all'una. Finisce di lavorare alle sei e mezza e torna a casa. La sera studia italiano per quarantacinque minuti e cena alle nove e mezza.",
+      traduccion: "Carlos es un ingeniero español. Vive en Madrid y trabaja para una empresa italiana: la sede central está en Milán.\n\nCada mañana Carlos se despierta a las siete. Se toma un café y a las ocho coge el metro. Llega a la oficina a las nueve menos cuarto. Primero lee los correos y luego contesta los mensajes de sus compañeros italianos.\n\nLos martes a las diez hay una videollamada con Milán: Carlos habla con Giulia y Marco. No siempre lo entiende todo, pero aprende mucho.\n\nCarlos come a las dos, como muchos españoles. En Milán, en cambio, sus compañeros comen a la una. Termina de trabajar a las seis y media y vuelve a casa. Por la noche estudia italiano cuarenta y cinco minutos y cena a las nueve y media.",
       glosa: {
         carlos: "Carlos",
         "è": "es, está (essere); «c'è» = hay",
@@ -957,7 +957,7 @@ window.CONTENT.it.semanas.push({
       id: "it2-r3",
       titulo: "Un'email di Giulia (el horario de la semana)",
       nivel: "A1",
-      texto: "Oggetto: orario della settimana\n\nCiao Carlos,\n\necco l'orario della prossima settimana.\n\nLunedì alle 10 c'è la riunione del team su Teams. Martedì lavoro da casa, ma rispondo alle email e al telefono. Mercoledì mattina sono libera: se hai domande, sono in ufficio dalle 9 alle 13.\n\nMercoledì pomeriggio, alle 15:30, c'è la videochiamata con il dottor Ferrari. È molto puntuale: la riunione comincia alle 15:30 in punto! E ricorda: con lui usiamo il Lei.\n\nGiovedì Marco presenta il nuovo progetto nella sala grande. Tu partecipi online, vero? Venerdì finiamo presto, alle 16.\n\nUna domanda: preferisci la riunione di lunedì alle 10 o alle 11? Per me è uguale.\n\nA presto,\nGiulia",
+      texto: "Oggetto: orario della settimana\n\nCiao Carlos,\n\necco l'orario della prossima settimana.\n\nLunedì alle dieci c'è la riunione del team su Teams. Martedì lavoro da casa, ma rispondo alle email e al telefono. Mercoledì mattina sono libera: se hai domande, sono in ufficio dalle nove alle tredici.\n\nMercoledì pomeriggio, alle quindici e trenta, c'è la videochiamata con il dottor Ferrari. È molto puntuale: la riunione comincia alle quindici e trenta in punto! E ricorda: con lui usiamo il Lei.\n\nGiovedì Marco presenta il nuovo progetto nella sala grande. Tu partecipi online, vero? Venerdì finiamo presto, alle sedici.\n\nUna domanda: preferisci la riunione di lunedì alle dieci o alle undici? Per me è uguale.\n\nA presto,\nGiulia",
       traduccion: "Asunto: horario de la semana\n\nHola, Carlos:\n\naquí tienes el horario de la semana que viene.\n\nEl lunes a las 10 es la reunión de equipo por Teams. El martes trabajo desde casa, pero contesto los correos y el teléfono. El miércoles por la mañana estoy libre: si tienes preguntas, estoy en la oficina de 9 a 13.\n\nEl miércoles por la tarde, a las 15:30, es la videollamada con el doctor Ferrari. Es muy puntual: ¡la reunión empieza a las 15:30 en punto! Y recuerda: a él lo tratamos de usted.\n\nEl jueves Marco presenta el nuevo proyecto en la sala grande. Tú participas en línea, ¿verdad? El viernes terminamos pronto, a las 16.\n\nUna pregunta: ¿prefieres la reunión del lunes a las 10 o a las 11? A mí me da igual.\n\nHasta pronto,\nGiulia",
       glosa: {
         oggetto: "asunto (de un correo); objeto",
@@ -998,7 +998,14 @@ window.CONTENT.it.semanas.push({
         domande: "preguntas (plural de «la domanda»)",
         in: "en («in ufficio», sin artículo; «in punto» = en punto)",
         ufficio: "oficina",
-        dalle: "desde las (da + le): «dalle 9 alle 13» = de 9 a 13",
+        dalle: "desde las (da + le): «dalle nove alle tredici» = de 9 a 13",
+        dieci: "diez («alle dieci» = a las diez)",
+        nove: "nueve",
+        tredici: "trece («alle tredici» = a las 13, la una de la tarde)",
+        quindici: "quince («alle quindici e trenta» = a las 15:30)",
+        trenta: "treinta",
+        sedici: "dieciséis («alle sedici» = a las 16, las cuatro de la tarde)",
+        undici: "once",
         pomeriggio: "tarde (después de comer)",
         videochiamata: "videollamada",
         con: "con",
@@ -1049,7 +1056,7 @@ window.CONTENT.it.semanas.push({
           ok: 0
         }
       ],
-      notas: "En los correos de trabajo las horas van en formato de 24 horas: *alle 15:30* se lee *alle quindici e trenta*; *alle 16*, *alle sedici*. *Lunedì*, *martedì*…, sin artículo: días concretos de la semana que viene. Tras *Ciao Carlos,* el correo sigue en minúscula (*ecco…*), como se hace en italiano. Y *domanda* es «pregunta», no «demanda»."
+      notas: "En los correos de trabajo las horas suelen ir en cifras y en formato de 24 horas (*alle 15:30*, *alle 16*); aquí van en letra, tal como se leen: *alle quindici e trenta*, *alle sedici*. *Lunedì*, *martedì*…, sin artículo: días concretos de la semana que viene. Tras *Ciao Carlos,* el correo sigue en minúscula (*ecco…*), como se hace en italiano. Y *domanda* es «pregunta», no «demanda»."
     }
   ]
 });

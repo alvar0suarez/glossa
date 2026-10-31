@@ -70,7 +70,7 @@ window.CONTENT.it.semanas.push({
       ],
       vocab: [
         ["ero, eri, era", "era, eras, era (imperfetto de essere)"],
-        ["eravamo, eravate, erano (E-ra-no)", "éramos, erais, eran"],
+        ["eravamo, eravate, erano", "éramos, erais, eran (acento: E-ra-no)"],
         ["avevo, avevi, aveva", "tenía, tenías, tenía"],
         ["facevo (fare)", "hacía (yo)"],
         ["dicevo (dire)", "decía (yo)"],
@@ -79,7 +79,7 @@ window.CONTENT.it.semanas.push({
         ["da bambino, da bambina", "de niño, de niña"],
         ["da piccolo", "de pequeño"],
         ["da studente", "de estudiante"],
-        ["da giovane", "de joven"],
+        ["da giovane", "de joven (acento: GIO-va-ne)"],
         ["una volta", "antes, en otros tiempos; una vez"],
         ["prima", "antes"],
         ["mentre", "mientras"],
@@ -174,7 +174,7 @@ window.CONTENT.it.semanas.push({
         },
         {
           t: "nota",
-          x: "El *imperfetto* de cortesía: *Volevo chiederti una cosa* (Quería preguntarte una cosa), *Volevo sapere se…* (Quería saber si…). Suaviza una petición, igual que en español, y en la oficina lo oirás a diario. Con *Lei*: *Dottor Ferrari, volevo chiederle una cosa.*"
+          x: "El *imperfetto* de cortesía: *Volevo chiederti una cosa* (Quería preguntarte una cosa), *Volevo sapere se…* (Quería saber si…). Suaviza una petición, igual que en español, y en la oficina lo oirás a diario. Con *Lei*: *Dottor Ferrari, volevo chiederLe una cosa.*"
         }
       ],
       vocab: [
@@ -256,7 +256,7 @@ window.CONTENT.it.semanas.push({
         },
         {
           t: "nota",
-          x: "Concordancias: con *essere*, el participio concuerda con quien habla: Carlos dice *sono stato*; Giulia, *sono stata*. Con *la* (o *li*, *le*) delante también concuerda: *la cotoletta* → *L'ho assaggiata*. Y ojo con «probar»: la comida se *assaggia* (también se dice *provare*); probarse ropa o intentar algo es *provare*."
+          x: "Concordancias: con *essere*, el participio concuerda con el sujeto: Carlos dice *sono stato*; Giulia, *sono stata*. Con *la* (o *li*, *le*) delante también concuerda: *la cotoletta* → *L'ho assaggiata*. Y ojo con «probar»: la comida se *assaggia* (también se dice *provare*); probarse ropa o intentar algo es *provare*."
         },
         {
           t: "p",
@@ -511,7 +511,7 @@ window.CONTENT.it.semanas.push({
         },
         {
           t: "nota",
-          x: "El español usa «mejor» para todo; el italiano no. Si puedes decir «un ___ mejor», es *migliore*; si responde a «¿cómo?», es *meglio*. Con la comida también se dice *più buono*: *Questa pizza è più buona*. Y *maggiore* y *minore* son «mayor» y «menor» (*mio fratello maggiore*); para el tamaño se prefiere *più grande*. Ojo también con *presto*: es «pronto, temprano», no «rápido»."
+          x: "El español usa «mejor» para todo; el italiano no. Si puedes decir «un ___ mejor», es *migliore*; si responde a «¿cómo?», es *meglio*. Con la comida también se dice *più buono*: *Questa pizza è più buona*. Y *maggiore* y *minore* son «mayor» y «menor» (*mio fratello maggiore*); para el tamaño se prefiere *più grande*. Ojo también con *presto*: suele ser «pronto, temprano» (*partire presto*, salir temprano), no «rápido»."
         },
         {
           t: "p",
@@ -720,13 +720,13 @@ window.CONTENT.it.semanas.push({
             ["…quando avete segnato il terzo gol.", "passato prossimo", "el hecho que lo interrumpe"],
             ["Ero stanchissima.", "imperfetto", "un estado"],
             ["Ho dormito tutta la domenica.", "passato prossimo", "un periodo cerrado"],
-            ["Quella di mia nonna era più buona.", "imperfetto", "costumbre: cómo la hacía siempre"],
+            ["Quella di mia nonna era più buona.", "imperfetto", "descripción: cómo era"],
             ["Volevo chiederti una cosa.", "imperfetto", "cortesía"]
           ]
         },
         {
           t: "nota",
-          x: "Comparativos, en resumen: *più/meno… di* ante nombres y pronombres (*più alto di me*); *più… che* entre dos elementos del mismo tipo (*più freddo a Milano che a Madrid*); *migliore* y *peggiore* con nombres, *meglio* y *peggio* con verbos; y *il più… di* para «el más… de» (*la migliore di Milano*)."
+          x: "Comparativos, en resumen: *più/meno… di* ante nombres y pronombres (*più alto di me*); *più… che* entre dos adjetivos, verbos o complementos (*più freddo a Milano che a Madrid*); *migliore* y *peggiore* con nombres, *meglio* y *peggio* con verbos; y *il più… di* para «el más… de» (*la migliore di Milano*)."
         },
         {
           t: "nota",

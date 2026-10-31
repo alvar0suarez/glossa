@@ -94,7 +94,7 @@ window.CONTENT.grc.semanas.push({
       bloques: [
         {
           t: "p",
-          x: "Casi todas (no *ἀλλά* ni *καί*) son **pospositivas**: nunca abren la frase y van en segundo lugar. Eso las hace muy útiles: al ver *δέ* o *γάρ* sabes que acaba de empezar una frase o un miembro nuevo, y que la palabra anterior es la primera de ese trozo."
+          x: "Casi todas (no *ἀλλά* ni *καί*) son **pospositivas**: nunca abren la frase y van en segundo lugar. Eso las hace muy útiles: al ver *δέ* o *γάρ* sabes que acaba de empezar una frase o un miembro nuevo, y que lo que va justo delante (una palabra o un grupo inseparable, como *πρὸς ἐμαυτὸν δ᾽ οὖν*) es su comienzo."
         },
         {
           t: "tabla",
@@ -586,7 +586,7 @@ window.CONTENT.grc.semanas.push({
         },
         {
           t: "nota",
-          x: "**«Una golondrina no hace verano».** El refrán viene de aquí: *μία γὰρ χελιδὼν ἔαρ οὐ ποιεῖ, οὐδὲ μία ἡμέρα* (1098a18), «una golondrina no hace primavera, ni tampoco un solo día». En griego es *ἔαρ*, la primavera. Aristóteles lo usa para decir que la felicidad pide una vida entera, no un buen día."
+          x: "**«Una golondrina no hace verano».** Aristóteles ya lo cita como refrán: *μία γὰρ χελιδὼν ἔαρ οὐ ποιεῖ, οὐδὲ μία ἡμέρα* (1098a18), «una golondrina no hace primavera, ni tampoco un solo día». En griego es *ἔαρ*, la primavera. Aristóteles lo usa para decir que la felicidad pide una vida entera, no un buen día."
         },
         {
           t: "ej",
@@ -652,7 +652,7 @@ window.CONTENT.grc.semanas.push({
         },
         {
           t: "p",
-          x: "**2. Qué leer, por este orden.** De Platón, la *Apología* entera, el *Critón* y el *Eutifrón*; después, el *Menón* y el libro VII de la *República*. De Aristóteles, la *Metafísica* A 1–2 y el libro I de la *Ética a Nicómaco*. Es el temario del nivel 2 de Glossa."
+          x: "**2. Qué leer, por este orden.** De Platón, la *Apología* entera, el *Critón* y el *Eutifrón*; después, el *Menón* y el libro VII de la *República*. De Aristóteles, la *Metafísica* A 1–2 y el libro I de la *Ética a Nicómaco*. Es el núcleo del nivel 2 de Glossa, que añade las *Categorías* y el *Sobre la interpretación*."
         },
         {
           t: "p",
@@ -936,7 +936,7 @@ window.CONTENT.grc.semanas.push({
       nivel: "Texto real",
       texto: "Πάντες ἄνθρωποι τοῦ εἰδέναι ὀρέγονται φύσει. σημεῖον δ᾽ ἡ τῶν αἰσθήσεων ἀγάπησις· καὶ γὰρ χωρὶς τῆς χρείας ἀγαπῶνται δι᾽ αὑτάς, καὶ μάλιστα τῶν ἄλλων ἡ διὰ τῶν ὀμμάτων. οὐ γὰρ μόνον ἵνα πράττωμεν ἀλλὰ καὶ μηθὲν μέλλοντες πράττειν τὸ ὁρᾶν αἱρούμεθα ἀντὶ πάντων ὡς εἰπεῖν τῶν ἄλλων. αἴτιον δ᾽ ὅτι μάλιστα ποιεῖ γνωρίζειν ἡμᾶς αὕτη τῶν αἰσθήσεων καὶ πολλὰς δηλοῖ διαφοράς.",
       traduccion: "Todos los hombres desean por naturaleza saber. Prueba de ello es el aprecio que sentimos por los sentidos: aun dejando aparte su utilidad, los apreciamos por sí mismos, y más que a ningún otro al de la vista. En efecto, no solo para actuar, sino también cuando no vamos a hacer nada, preferimos ver, por así decirlo, a todo lo demás. La causa es que, de todos los sentidos, este es el que más nos hace conocer y el que nos muestra muchas diferencias.",
-      notas: "**Dónde estás.** Primera línea del libro A (alfa) de la *Metafísica*. Aristóteles quiere llegar a la *σοφία*, la ciencia de las primeras causas y principios, y parte de algo que todos conocemos: nos gusta saber. **El argumento.** Primero una prueba (*σημεῖον*): apreciamos los sentidos aunque no nos sirvan para nada, y la vista más que ninguno. Luego la causa (*αἴτιον*): la vista es el sentido que más nos da a conocer y el que muestra más diferencias entre las cosas. El par *σημεῖον… αἴτιον*, la señal de que algo es así y el porqué, es típico de Aristóteles. **Gramática.** *τοῦ εἰδέναι* y *τὸ ὁρᾶν* son infinitivos con artículo: «el saber», «el ver». *ὀρέγονται* pide genitivo, como el español «tener ganas de». *μηθέν* es la grafía del ático del siglo IV por *μηδέν*. *ὡς εἰπεῖν* suaviza *πάντων*: «a casi todo». **Texto:** edición de Ross (Oxford), la de Perseus.",
+      notas: "**Dónde estás.** Primera línea del libro A (alfa) de la *Metafísica*. Aristóteles quiere llegar a la *σοφία*, la ciencia de las primeras causas y principios, y parte de algo que todos conocemos: nos gusta saber. **El argumento.** Primero una prueba (*σημεῖον*): apreciamos los sentidos aunque no nos sirvan para nada, y la vista más que ninguno. Luego la causa (*αἴτιον*): la vista es el sentido que más nos da a conocer y el que nos muestra muchas diferencias entre las cosas. El par *σημεῖον… αἴτιον*, la señal de que algo es así y el porqué, es típico de Aristóteles. **Gramática.** *τοῦ εἰδέναι* y *τὸ ὁρᾶν* son infinitivos con artículo: «el saber», «el ver». *ὀρέγονται* pide genitivo, como el español «tener ganas de». *μηθέν* es la grafía del ático del siglo IV por *μηδέν*. *ὡς εἰπεῖν* suaviza *πάντων*: «a casi todo». **Texto:** edición de Ross (Oxford), la de Perseus.",
       glosa: {
         "πάντες": "todos (nominativo plural de πᾶς)",
         "ἄνθρωποι": "hombres, seres humanos",
@@ -1008,7 +1008,7 @@ window.CONTENT.grc.semanas.push({
       nivel: "Texto real",
       texto: "Πᾶσα τέχνη καὶ πᾶσα μέθοδος, ὁμοίως δὲ πρᾶξίς τε καὶ προαίρεσις, ἀγαθοῦ τινὸς ἐφίεσθαι δοκεῖ· διὸ καλῶς ἀπεφήναντο τἀγαθόν, οὗ πάντ᾽ ἐφίεται. διαφορὰ δέ τις φαίνεται τῶν τελῶν· τὰ μὲν γάρ εἰσιν ἐνέργειαι, τὰ δὲ παρ᾽ αὐτὰς ἔργα τινά. ὧν δ᾽ εἰσὶ τέλη τινὰ παρὰ τὰς πράξεις, ἐν τούτοις βελτίω πέφυκε τῶν ἐνεργειῶν τὰ ἔργα.",
       traduccion: "Toda técnica y toda investigación, y del mismo modo toda acción y toda elección, parecen tender a algún bien; por eso se ha declarado con razón que el bien es aquello a lo que todas las cosas tienden. Pero se observa cierta diferencia entre los fines: unos son actividades, y otros, ciertas obras distintas de ellas. Y allí donde hay fines aparte de las acciones, las obras son por naturaleza mejores que las actividades.",
-      notas: "**Dónde estás.** Primeras líneas de la *Ética a Nicómaco*. Aristóteles parte de un hecho: todo lo que hacemos (una técnica, una investigación, una acción, una elección) busca algún bien. De ahí saca la definición: el bien es aquello a lo que todo tiende. **Fines distintos.** Unos fines son la actividad misma (*ἐνέργεια*), como mirar o pensar. Otros son una obra (*ἔργον*) que queda aparte, como el barco para el constructor de barcos o la salud para el médico, los ejemplos que pone justo después. Cuando el fin es una obra, la obra vale más que la actividad que la produce. Pocas líneas más abajo buscará el fin que se quiere por sí mismo, el bien supremo, y lo llamará *εὐδαιμονία*. **Gramática.** *τἀγαθόν* es crasis de *τὸ ἀγαθόν*. *οὗ* va en genitivo porque *ἐφίεμαι*, como *ὀρέγομαι*, pide genitivo. *ἀπεφήναντο* tiene sujeto indeterminado: «algunos han declarado». Con sujeto neutro plural el verbo va en singular: *πάντ᾽ ἐφίεται*, *πέφυκε… τὰ ἔργα*. **Texto:** edición de Bywater (Oxford), la de Perseus. Se suele citar solo hasta *ἐφίεται* (1094a1–3); aquí seguimos hasta la línea 6.",
+      notas: "**Dónde estás.** Primeras líneas de la *Ética a Nicómaco*. Aristóteles parte de un hecho: todo lo que hacemos (una técnica, una investigación, una acción, una elección) busca algún bien. De ahí saca la definición: el bien es aquello a lo que todo tiende. **Fines distintos.** Unos fines son la actividad misma (*ἐνέργεια*), como mirar o pensar. Otros son una obra (*ἔργον*) que queda aparte, como el barco para el constructor de barcos o la salud para el médico, los ejemplos que pone justo después. Cuando el fin es una obra, la obra vale más que la actividad que la produce. Pocas líneas más abajo (1094a18) buscará el fin que se quiere por sí mismo, el bien supremo, y en el capítulo 4 (1095a18) lo llamará *εὐδαιμονία*. **Gramática.** *τἀγαθόν* es crasis de *τὸ ἀγαθόν*. *οὗ* va en genitivo porque *ἐφίεμαι*, como *ὀρέγομαι*, pide genitivo. *ἀπεφήναντο* tiene sujeto indeterminado: «algunos han declarado». Con sujeto neutro plural el verbo va en singular: *πάντ᾽ ἐφίεται*, *πέφυκε… τὰ ἔργα*. **Texto:** edición de Bywater (Oxford), la de Perseus. Se suele citar solo hasta *ἐφίεται* (1094a1–3); aquí seguimos hasta la línea 6.",
       glosa: {
         "πᾶσα": "toda (femenino de πᾶς)",
         "τέχνη": "técnica, arte: saber hacer algo",

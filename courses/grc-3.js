@@ -27,7 +27,7 @@ window.CONTENT.grc.semanas.push({
         },
         {
           t: "p",
-          x: "Entre la raíz y la terminación va la misma vocal que en la activa: *ο* ante *μ* y *ν*, *ε* en el resto. Detrás, las terminaciones **-μαι, -ῃ, -ται, -μεθα, -σθε, -νται**. Las que más vas a leer son las de 3.ª persona: **-εται** en singular y **-ονται** en plural."
+          x: "Entre la raíz y la terminación va la misma vocal que en la activa: *ο* ante *μ* y *ν*, *ε* en el resto. Detrás, las terminaciones **-μαι, -ῃ, -ται, -μεθα, -σθε, -νται**; en *-ῃ* la vocal ya va fundida con la terminación antigua *-σαι* (*λυ-ε-σαι* → *λύῃ*). Las que más vas a leer son las de 3.ª persona: **-εται** en singular y **-ονται** en plural."
         },
         {
           t: "nota",
@@ -244,9 +244,9 @@ window.CONTENT.grc.semanas.push({
           audio: [1, 2, 3, 4],
           filas: [
             ["nominativo", "ἐγώ", "σύ", "ἡμεῖς", "ὑμεῖς"],
+            ["acusativo", "ἐμέ, με", "σέ, σε", "ἡμᾶς", "ὑμᾶς"],
             ["genitivo", "ἐμοῦ, μου", "σοῦ, σου", "ἡμῶν", "ὑμῶν"],
-            ["dativo", "ἐμοί, μοι", "σοί, σοι", "ἡμῖν", "ὑμῖν"],
-            ["acusativo", "ἐμέ, με", "σέ, σε", "ἡμᾶς", "ὑμᾶς"]
+            ["dativo", "ἐμοί, μοι", "σοί, σοι", "ἡμῖν", "ὑμῖν"]
           ]
         },
         {
@@ -333,13 +333,13 @@ window.CONTENT.grc.semanas.push({
           audio: [1, 2, 3],
           filas: [
             ["nom. sg.", "αὐτός", "αὐτή", "αὐτό"],
+            ["ac. sg.", "αὐτόν", "αὐτήν", "αὐτό"],
             ["gen. sg.", "αὐτοῦ", "αὐτῆς", "αὐτοῦ"],
             ["dat. sg.", "αὐτῷ", "αὐτῇ", "αὐτῷ"],
-            ["ac. sg.", "αὐτόν", "αὐτήν", "αὐτό"],
             ["nom. pl.", "αὐτοί", "αὐταί", "αὐτά"],
+            ["ac. pl.", "αὐτούς", "αὐτάς", "αὐτά"],
             ["gen. pl.", "αὐτῶν", "αὐτῶν", "αὐτῶν"],
-            ["dat. pl.", "αὐτοῖς", "αὐταῖς", "αὐτοῖς"],
-            ["ac. pl.", "αὐτούς", "αὐτάς", "αὐτά"]
+            ["dat. pl.", "αὐτοῖς", "αὐταῖς", "αὐτοῖς"]
           ]
         },
         { t: "p", x: "Se declina como *ἀγαθός*, salvo el neutro singular, que no lleva *-ν*: *αὐτό*, como el artículo *τό*." },
@@ -371,7 +371,7 @@ window.CONTENT.grc.semanas.push({
         },
         {
           t: "nota",
-          x: "Ojo con *αὐτή* (ella; la misma), con espíritu suave y acento en la última, y *αὕτη* (esta), con espíritu áspero y acento en la primera: es el femenino de *οὗτος* (lección 5). Igual en plural: *αὐταί* frente a *αὗται*."
+          x: "Ojo con *αὐτή* (ella misma; con artículo, *ἡ αὐτή*, la misma), con espíritu suave y acento en la última, y *αὕτη* (esta), con espíritu áspero y acento en la primera: es el femenino de *οὗτος* (lección 5). Igual en plural: *αὐταί* frente a *αὗται*."
         },
         {
           t: "nota",
@@ -431,13 +431,13 @@ window.CONTENT.grc.semanas.push({
           audio: [1, 2, 3],
           filas: [
             ["nom. sg.", "οὗτος", "αὕτη", "τοῦτο"],
+            ["ac. sg.", "τοῦτον", "ταύτην", "τοῦτο"],
             ["gen. sg.", "τούτου", "ταύτης", "τούτου"],
             ["dat. sg.", "τούτῳ", "ταύτῃ", "τούτῳ"],
-            ["ac. sg.", "τοῦτον", "ταύτην", "τοῦτο"],
             ["nom. pl.", "οὗτοι", "αὗται", "ταῦτα"],
+            ["ac. pl.", "τούτους", "ταύτας", "ταῦτα"],
             ["gen. pl.", "τούτων", "τούτων", "τούτων"],
-            ["dat. pl.", "τούτοις", "ταύταις", "τούτοις"],
-            ["ac. pl.", "τούτους", "ταύτας", "ταῦτα"]
+            ["dat. pl.", "τούτοις", "ταύταις", "τούτοις"]
           ]
         },
         {
@@ -513,13 +513,13 @@ window.CONTENT.grc.semanas.push({
           audio: [1, 2],
           filas: [
             ["nom. sg.", "τίς, τί", "τις, τι"],
+            ["ac. sg.", "τίνα, τί", "τινά, τι"],
             ["gen. sg.", "τίνος", "τινός"],
             ["dat. sg.", "τίνι", "τινί"],
-            ["ac. sg.", "τίνα, τί", "τινά, τι"],
             ["nom. pl.", "τίνες, τίνα", "τινές, τινά"],
+            ["ac. pl.", "τίνας, τίνα", "τινάς, τινά"],
             ["gen. pl.", "τίνων", "τινῶν"],
-            ["dat. pl.", "τίσι(ν)", "τισί(ν)"],
-            ["ac. pl.", "τίνας, τίνα", "τινάς, τινά"]
+            ["dat. pl.", "τίσι(ν)", "τισί(ν)"]
           ]
         },
         {
@@ -658,7 +658,7 @@ window.CONTENT.grc.semanas.push({
         },
         {
           t: "nota",
-          x: "Si sabes latín, *οὐ* y *μή* se reparten el trabajo como *nōn* y *nē*. Y un *οὐ* famoso, de la *Apología* de Platón (38a): *ὁ δὲ ἀνεξέταστος βίος οὐ βιωτὸς ἀνθρώπῳ*, «y una vida sin examen no merece vivirla un hombre»."
+          x: "Si sabes latín, *οὐ* y *μή* se reparten el trabajo como *nōn* y *nē*. Y un *οὐ* famoso, de la *Apología* de Platón (38a): *ὁ δὲ ἀνεξέταστος βίος οὐ βιωτὸς ἀνθρώπῳ*, «y una vida sin examen no merece ser vivida por un hombre»."
         },
         {
           t: "ej",
@@ -672,7 +672,7 @@ window.CONTENT.grc.semanas.push({
             ["καὶ ὁ Σωκράτης καὶ ὁ Λύσις γυμνάζονται.", "Tanto Sócrates como Lisis se entrenan."],
             ["μὴ λέγε ταῦτα, ὦ Λύσι.", "No digas eso, Lisis."],
             ["εἰ μὴ σοφός ἐστιν, οὐ διδάσκει.", "Si no es sabio, no enseña."],
-            ["ὁ δὲ ἀνεξέταστος βίος οὐ βιωτὸς ἀνθρώπῳ.", "Y una vida sin examen no merece vivirla un hombre. (Platón, Apología 38a)"]
+            ["ὁ δὲ ἀνεξέταστος βίος οὐ βιωτὸς ἀνθρώπῳ.", "Y una vida sin examen no merece ser vivida por un hombre. (Platón, Apología 38a)"]
           ]
         }
       ],
@@ -824,7 +824,7 @@ window.CONTENT.grc.semanas.push({
       nivel: "Inicial",
       texto: "Ὁ Σωκράτης ἐξ Ἀκαδημείας ἔρχεται εὐθὺ Λυκείου. ἐν δὲ τῇ ὁδῷ ὁ νέος Λύσις αὐτῷ προσέρχεται.\n\n— Χαῖρε, ὦ Λύσι. ποῖ ἔρχῃ καὶ πόθεν;\n— Ἐκ τῆς ἀγορᾶς, ὦ Σώκρατες· εἰς δὲ τὸ γυμνάσιον ἔρχομαι. σὺ δὲ ποῖ;\n— Ἐγὼ μὲν εἰς τὸ Λύκειον· ἀλλὰ σοὶ ἕπομαι, εἰ βούλει.\n— Πάνυ μὲν οὖν, ὦ Σώκρατες.\n\n— Λέγε μοι, ὦ Λύσι· τί βούλει, πλοῦτον ἢ σοφίαν;\n— Σοφίαν ἔγωγε.\n— Εὖ λέγεις. ἀλλὰ τίς σε διδάσκει;\n— Σύ, ὦ Σώκρατες.\n— Ἐγώ; ἀλλ᾽ ἐγὼ οὐ σοφός εἰμι, ἀλλὰ φιλόσοφος. μανθάνομεν οὖν ἅμα, καὶ σὺ καὶ ἐγώ.",
       traduccion: "Sócrates va desde la Academia derecho al Liceo. En el camino se le acerca el joven Lisis.\n\n—Hola, Lisis. ¿Adónde vas y de dónde vienes?\n—Del ágora, Sócrates; y voy al gimnasio. ¿Y tú adónde vas?\n—Yo, al Liceo; pero te sigo a ti, si quieres.\n—Desde luego, Sócrates.\n\n—Dime, Lisis: ¿qué quieres, riqueza o sabiduría?\n—Sabiduría, yo al menos.\n—Bien dicho. Pero ¿quién te enseña?\n—Tú, Sócrates.\n—¿Yo? Pero yo no soy sabio, sino amante de la sabiduría. Así que aprendemos juntos, tú y yo.",
-      notas: "La primera frase imita el comienzo del *Lisis* de Platón: *Ἐπορευόμην μὲν ἐξ Ἀκαδημείας εὐθὺ Λυκείου* («iba yo desde la Academia derecho al Liceo»). La Academia y el Liceo eran gimnasios a las afueras de Atenas; en ellos enseñarán más tarde Platón y Aristóteles. Fíjate en *ἐγὼ μὲν εἰς τὸ Λύκειον*: un *μέν* sin *δέ* que le responda, «yo, por mi parte».",
+      notas: "La primera frase imita el comienzo del *Lisis* de Platón: *Ἐπορευόμην μὲν ἐξ Ἀκαδημείας εὐθὺ Λυκείου* («iba yo desde la Academia derecho al Liceo»). La Academia y el Liceo eran gimnasios a las afueras de Atenas; en ellos enseñarán más tarde Platón y Aristóteles. Fíjate en *ἐγὼ μὲν εἰς τὸ Λύκειον*: a este *μέν* no le responde un *δέ*, sino *ἀλλά*: «yo, por mi parte, al Liceo; pero…».",
       glosa: {
         "ὁ": "el (artículo masculino)",
         "σωκράτης": "Sócrates",
@@ -858,7 +858,7 @@ window.CONTENT.grc.semanas.push({
         "ἔρχομαι": "voy",
         "σὺ": "tú",
         "ἐγὼ": "yo (enfático)",
-        "μὲν": "por mi parte (μέν sin δέ)",
+        "μὲν": "por mi parte (aquí le responde ἀλλά)",
         "λύκειον": "el Liceo (acusativo)",
         "ἀλλὰ": "pero; sino",
         "σοὶ": "a ti (dativo tónico de σύ)",

@@ -1,1 +1,1 @@
-window.GLOSSA_VERSION = '2026.10.31-215bf079f6';
+window.GLOSSA_VERSION = '2026.10.31-ff235ae3d7';
