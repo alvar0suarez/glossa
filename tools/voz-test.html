@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prueba de las voces premium</title>
+<link rel="stylesheet" href="../css/fonts.css">
+<link rel="stylesheet" href="../css/app.css">
+</head>
+<body>
+<!-- Página de tools/test-voz.py: la lógica de voz (core, store, speech, voz-pro) sin el resto de la app. -->
+<main style="max-width:520px;margin:0 auto;padding:12px"><div class="settings"><section class="card form" id="vozpro"></section></div></main>
+<script src="../js/core.js"></script>
+<script src="../js/store.js"></script>
+<script src="../js/speech.js"></script>
+<script src="../js/voz-pro.js"></script>
+<script>
+  window.ajustes = {};
+  window.saves = 0;
+  VozPro.setConfigSource(() => window.ajustes.vozpro);
+  // Habla con Voice.TTS y resuelve poco después del primer onend (así se ve si llegara dos veces).
+  window.say = (text, tag, o) => new Promise(resolve => {
+    const r = { ends: 0, t: 0 }, t0 = performance.now();
+    Voice.TTS.speak(text, tag, Object.assign({}, o, { onend: () => { r.ends++; if (!r.t) r.t = Math.round(performance.now() - t0); setTimeout(() => resolve(r), 300); } }));
+  });
+  window.render = () => VozPro.renderSettings(document.getElementById('vozpro'), window.ajustes, () => { window.saves++; });
+  window.sleep = ms => new Promise(s => setTimeout(s, ms));
+</script>
+</body>
+</html>

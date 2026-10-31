@@ -14,6 +14,11 @@ window.CONTENT.pl = {
     'Consolidación; Nochebuena: saludar, brindar, elogiar la comida, responder preguntas sobre ti.'
   ],
   temasChat: ['presentarte', 'tu familia', 'la comida', 'la Navidad'],
+  niveles: [
+    {"n": 1, "nombre": "Nivel 1", "lema": "Navidad en familia (A1–A2)", "semanas": [1, 2, 3, 4, 5, 6, 7, 8]},
+    {"n": 2, "nombre": "Nivel 2", "lema": "Conversar con soltura (B1)", "temario": ["Contar historias: el aspecto en el pasado y los conectores (najpierw, potem, w końcu)", "Opinar y discutir: myślę, że…; moim zdaniem; estar o no de acuerdo", "Hipótesis y deseos: gdyby, chciałbym, żeby", "Trabajo, estudios y planes de vida", "Salud y cuerpo: el médico, la farmacia, sentirse mal", "La vida diaria en Polonia: casa, trámites, vecinos", "Cultura polaca: cine, música y literatura", "Fiestas del año: Wielkanoc, Wszystkich Świętych, bodas e imieniny"]},
+    {"n": 3, "nombre": "Nivel 3", "lema": "Profundizar (B2)", "temario": ["Los participios y el estilo escrito (imiesłowy)", "La voz pasiva y el lenguaje de las noticias", "Estilo indirecto y matices (podobno, rzekomo, chyba)", "Refranes, modismos y registro coloquial", "Sociedad y actualidad: debatir", "Historia de Polonia, del siglo X al XXI", "Literatura: Mickiewicz, Sienkiewicz y Prus (fragmentos)", "Escribir bien: cartas formales, correos y textos de opinión"]}
+  ],
   semanas: [
     {
       n: 1,

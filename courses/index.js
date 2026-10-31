@@ -1,5 +1,5 @@
 // Glossa · registro de cursos. Para añadir un idioma: una entrada aquí y un archivo courses/<id>.js.
-// voz: etiqueta de la voz del móvil ('la-clasico' = latín clásico leído con voz española).
+// voz: etiqueta de la voz ('la-clasico' = latín clásico y 'grc-erasmo' = griego con pronunciación erasmiana, leídos con voz española).
 // oido: idioma del reconocimiento de voz (null si el móvil no lo reconoce, como el latín).
 window.COURSES = [
   {
@@ -12,7 +12,14 @@ window.COURSES = [
     ]
   },
   { id: 'la', nombre: 'Latín', propio: 'Latina', estado: 'activo', voz: 'la-clasico', oido: null, meta: 'Leer lógica escolástica', escucha: [] },
-  { id: 'grc', nombre: 'Griego antiguo', propio: 'Ἑλληνική', estado: 'proximo', meta: 'Leer filosofía griega' },
-  { id: 'it', nombre: 'Italiano', propio: 'Italiano', estado: 'proximo', meta: 'Para el trabajo' }
+  { id: 'grc', nombre: 'Griego antiguo', propio: 'Ἑλληνική', estado: 'activo', voz: 'grc-erasmo', oido: null, meta: 'Leer filosofía griega', escucha: [] },
+  {
+    id: 'it', nombre: 'Italiano', propio: 'Italiano', estado: 'activo', voz: 'it-IT', oido: 'it-IT', meta: 'Italiano para el trabajo',
+    escucha: [
+      ['https://www.youtube.com/@EasyItalianNews', 'Easy Italian', 'Entrevistas por la calle con subtítulos en italiano e inglés.'],
+      ['https://www.youtube.com/@ItalianoAutomatico', 'Italiano Automatico', 'Italiano real explicado en italiano, despacio.'],
+      ['https://podcastitaliano.com/', 'Podcast Italiano', 'Episodios por niveles, con transcripción.']
+    ]
+  }
 ];
 window.CONTENT = window.CONTENT || {};

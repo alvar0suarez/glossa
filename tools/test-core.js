@@ -5,6 +5,25 @@ const eq = (got, exp, msg) => { if (got !== exp) { fails++; console.log('FALLA',
 // latín -> voz española
 const lat = { 'Cicerō': 'kíkero', 'Sēneca': 'séneka', 'philosophia': 'filosófia', 'sapientia': 'sapiéntia', 'vīta': 'huíta', 'amīcus': 'amíkus', 'discipulus': 'diskípulus', 'magister': 'maguíster', 'cōgitō': 'kóguito', 'quaerit': 'cuáirit', 'Caesar': 'káisar', 'Iūlius': 'yúlius', 'populusque': 'populúscue', 'servus': 'sérwus', 'syllogismus': 'siloguísmus', 'quomodocunque': 'cuomodokúncue' };
 for (const [k, v] of Object.entries(lat)) eq(C.latinWordToSpanish(k), v, 'latín ' + k);
+// griego antiguo -> voz española (erasmiana). υ suelta = u (VOICE.md y COMMON2.md); con { upsilon: 'i' }, ψυχή = psijé.
+const grc = {
+  'λόγος': 'lógos', 'ψυχή': 'psujé', 'φιλοσοφία': 'filosofía', 'Σωκράτης': 'socrátes', 'ἀρετή': 'areté', 'ὁ ἄνθρωπος': 'jo ánzropos',
+  'θεός': 'zeós', 'εὐδαιμονία': 'eudaimonía', 'οὐσία': 'usía', 'πάντα ῥεῖ': 'pánta rréi', 'γνῶθι σεαυτόν': 'gnózi seautón',
+  // γ nasal y ante e/i; κ con ortografía española
+  'ἄγγελος': 'ánguelos', 'ἀνάγκη': 'anánque', 'λόγχη': 'lónje', 'σφίγξ': 'sfínx', 'γένος': 'guénos', 'γίγνομαι': 'guígnomai',
+  'κεφαλή': 'quefalé', 'κίνησις': 'quínesis', 'καί': 'cái', 'κόσμος': 'cósmos', 'κύκλος': 'cúclos',
+  // espíritus, diptongos, iota suscrita, diéresis
+  'ὁ': 'jo', 'ἡ': 'je', 'οἱ': 'joi', 'αἱ': 'jai', 'υἱός': 'juiós', 'οὗτος': 'jútos', 'ὑπό': 'jupó', 'εἶναι': 'éinai', 'νοῦς': 'nús',
+  'τῷ λόγῳ': 'tó lógo', 'ψυχῇ': 'psujé', 'ᾄδω': 'ádo', 'Ἀχαΐα': 'ajaía', 'προϊέναι': 'proiénai',
+  // consonantes, sin acento, dos acentos, mayúsculas, elisión, puntuación
+  'ἄλλος': 'álos', 'Πύρρος': 'púrros', 'ῥήτωρ': 'rrétor', 'ζῷον': 'dsóon', 'ξένος': 'xénos', 'ἐν': 'en', 'εἰς': 'eis', 'οὐκ': 'uc',
+  'ἄνθρωπός τις': 'ánzropos tis', 'ΛΟΓΟΣ': 'logos', 'ἀλλ’ ἐγώ': 'al egó', '῾Ο': 'jo',
+  'τί ἐστιν;': 'tí estin?', 'τί ἐστιν;': 'tí estin?', 'ἀλλά· οὐ': 'alá, u'
+};
+for (const [k, v] of Object.entries(grc)) eq(C.greekToSpanish(k), v, 'griego ' + k);
+eq(C.greekToSpanish('ψυχή', { upsilon: 'i' }), 'psijé', 'griego υ = i');
+eq(C.greekToSpanish('γνῶθι σεαυτόν;'.normalize('NFC')), 'gnózi seautón?', 'griego NFC');
+eq(C.greekToSpanish('Πλάτων (Platón)'), 'pláton (platón)', 'griego con texto latino');
 // impresos antiguos
 eq(C.modernizeLatin('ſecundùm quod conſiderant in eo diuerſos reſpectus'), 'secundum quod considerant in eo diversos respectus', 'antiguo 1');
 eq(C.modernizeLatin('vt à primo, & ſimpliciori'), 'ut a primo, et simpliciori', 'antiguo 2');

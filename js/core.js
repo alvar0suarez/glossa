@@ -1,4 +1,4 @@
-// Glossa · lógica pura: fechas, repaso espaciado, latín para la voz, texto y comparación.
+// Glossa · lógica pura: fechas, repaso espaciado, latín y griego para la voz, texto y comparación.
 // Sin dependencias del navegador: también la usan las pruebas con Node (tools/).
 (function (root) {
   'use strict';
@@ -161,6 +161,69 @@
     return String(text).replace(/[A-Za-zĀāĒēĪīŌōŪūȲȳ]+/g, w => latinWordToSpanish(w));
   }
 
+  // ---------- Griego antiguo -> grafía española (pronunciación erasmiana de los institutos) ----------
+  // θ = z, χ = j, φ = f, ψ = ps, ξ = x, ζ = ds, η = e, ω = o, υ = u; κ y γ con la ortografía española
+  // (ca/que/qui, ga/gue/gui; γ ante γ κ χ ξ = n); ῥ inicial = rr; consonantes dobles simples (λλ = l, no «ll»).
+  // Diptongos αι ει οι υι αυ ευ ηυ, ου = u; iota suscrita muda; la diéresis separa; espíritu áspero = j.
+  // Tilde española en la vocal con acento griego (agudo, grave o circunflejo); en los diptongos, en la vocal
+  // abierta (ῥεῖ → rréi). Si hay dos acentos (ἄνθρωπός τις), vale el primero. «;» = «?» y «·» = «,».
+  // o.upsilon = 'i' lee la υ suelta como i (ψυχή → psijé) en lugar de u (psujé).
+  const GRC_VOW = { 'α': 'a', 'ε': 'e', 'η': 'e', 'ι': 'i', 'ο': 'o', 'υ': 'u', 'ω': 'o' };
+  const GRC_CONS = { 'β': 'b', 'δ': 'd', 'ζ': 'ds', 'θ': 'z', 'λ': 'l', 'μ': 'm', 'ν': 'n', 'ξ': 'x', 'π': 'p', 'σ': 's', 'ς': 's', 'τ': 't', 'φ': 'f', 'χ': 'j', 'ψ': 'ps' };
+  const GRC_DIPH = { 'αι': 'ai', 'ει': 'ei', 'οι': 'oi', 'υι': 'ui', 'αυ': 'au', 'ευ': 'eu', 'ηυ': 'eu', 'ου': 'u' };
+  const GRC_ALT = { 'ϐ': 'β', 'ϑ': 'θ', 'ϕ': 'φ', 'ϖ': 'π', 'ϰ': 'κ', 'ϱ': 'ρ', 'ϲ': 'σ', 'ϵ': 'ε', 'ϳ': 'ι' };
+  const GRC_MARK = { '̀': 'acc', '́': 'acc', '͂': 'acc', '̂': 'acc', '̃': 'acc', '̓': 'sm', '̓': 'sm', '̔': 'ro', 'ͅ': 'sub', '̈': 'dia' };
+  // Espíritus y acentos sueltos delante de una mayúscula (῾Ο, ῎Α): se pasan detrás de la letra.
+  const GRC_FRONT = { '῾': '̔', '῝': '̔̀', '῞': '̔́', '῟': '̔͂', '᾿': '̓', '῍': '̓̀', '῎': '̓́', '῏': '̓͂' };
+
+  function greekWordToSpanish(w, up) {
+    const L = [];
+    for (const ch of w) {
+      const m = GRC_MARK[ch];
+      if (m) { if (L.length) L[L.length - 1][m] = true; continue; }
+      if (ch >= '̀' && ch <= 'ͯ') continue;
+      const b = ch.toLowerCase();
+      L.push({ b: GRC_ALT[b] || b });
+    }
+    const T = [];
+    for (let i = 0; i < L.length; i++) {
+      const x = L[i], y = L[i + 1];
+      if (GRC_VOW[x.b]) {
+        // diptongo: los signos van en la segunda vocal; si la primera lleva acento, espíritu o diéresis, no lo es
+        const d = y && GRC_DIPH[x.b + y.b];
+        if (d && !y.dia && !x.dia && !x.acc && !x.sm && !x.ro) { T.push({ v: d, acc: y.acc, ro: y.ro }); i++; continue; }
+        T.push({ v: x.b === 'υ' ? up : GRC_VOW[x.b], acc: x.acc, ro: x.ro });
+      } else T.push({ c: x.b });
+    }
+    let out = '', stressed = false;
+    for (let i = 0; i < T.length; i++) {
+      const t = T[i], n = T[i + 1];
+      if (t.v) {
+        let s = t.v;
+        if (t.acc && !stressed) { s = s === 'ui' ? 'uí' : ACUTE[s[0]] + s.slice(1); stressed = true; }
+        out += (t.ro ? 'j' : '') + s;
+        continue;
+      }
+      const front = !!(n && n.v && (n.v[0] === 'e' || n.v[0] === 'i'));
+      if (t.c === 'γ') out += n && n.c && 'γκχξ'.indexOf(n.c) >= 0 ? 'n' : front ? 'gu' : 'g';
+      else if (t.c === 'κ') out += n && n.c === 'κ' ? '' : front ? 'qu' : 'c';
+      else if (t.c === 'ρ') out += i === 0 ? 'rr' : 'r';
+      else if (n && n.c === t.c) continue;
+      else out += GRC_CONS[t.c] != null ? GRC_CONS[t.c] : t.c;
+    }
+    return out;
+  }
+  function greekToSpanish(text, o) {
+    const up = o && o.upsilon === 'i' ? 'i' : 'u';
+    let s = String(text == null ? '' : text).normalize('NFD');
+    s = s.replace(/([᾿῾῍-῏῝-῟])([Ͱ-Ͽ])/g, (m, d, l) => l + GRC_FRONT[d]);
+    s = s.replace(/[᾽᾿῾῀῁῍-῏῝-῟῭-`´ʹ͵ͺ΄΅ʹʼ]/g, '');
+    s = s.replace(/([Ͱ-Ͽ][̀-ͯ]*)[’']/g, '$1');   // elisión: ἀλλ’ ἐγώ
+    s = s.replace(/;/g, '?').replace(/[··]/g, ',');
+    s = s.replace(/[Ͱ-Ͽ][̀-ͯͰ-Ͽ]*/g, w => greekWordToSpanish(w, up));
+    return s.normalize('NFC').toLowerCase();
+  }
+
   // ---------- Impresos antiguos: ſ, v/u, æ, &, abreviaturas ----------
   const ABBR = { 'nō': 'non', 'nõ': 'non', 'quã': 'quam', 'tũ': 'tum', 'cũ': 'cum' };
   function matchCase(src, dst) { return src[0] === src[0].toUpperCase() && src[0] !== src[0].toLowerCase() ? dst[0].toUpperCase() + dst.slice(1) : dst; }
@@ -242,7 +305,7 @@
   }
 
   const api = { DAY_MS, localDateStr, dayNum, dayStr, todayNum, weekOf, weekRange, dayLabel, schedule, intervalLabel,
-    tokenizeLatin, latinWordToSpanish, latinToSpanish, modernizeLatin, stripMacrons, normKey, foldKey, words, normSentence,
+    tokenizeLatin, latinWordToSpanish, latinToSpanish, greekToSpanish, modernizeLatin, stripMacrons, normKey, foldKey, words, normSentence,
     shuffle, hash, wordCount, lev, similarity, bestMatch, extractJSON };
   if (typeof module !== 'undefined' && module.exports) module.exports = api; else root.Core = api;
 })(typeof window !== 'undefined' ? window : globalThis);

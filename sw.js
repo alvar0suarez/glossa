@@ -1,5 +1,5 @@
 // Glossa · service worker (generado por tools/release.js: no lo edites a mano)
-const VERSION = '2026.10.31-013b7ef89a';
+const VERSION = '2026.10.31-215bf079f6';
 const CACHE = 'glossa-' + VERSION;
 const ASSETS = [
  "./",
@@ -13,7 +13,26 @@ const ASSETS = [
  "js/core.js",
  "js/speech.js",
  "js/store.js",
+ "js/voz-pro.js",
+ "courses/grc-1.js",
+ "courses/grc-2.js",
+ "courses/grc-3.js",
+ "courses/grc-4.js",
+ "courses/grc-5.js",
+ "courses/grc-6.js",
+ "courses/grc-7.js",
+ "courses/grc-8.js",
+ "courses/grc.js",
  "courses/index.js",
+ "courses/it-1.js",
+ "courses/it-2.js",
+ "courses/it-3.js",
+ "courses/it-4.js",
+ "courses/it-5.js",
+ "courses/it-6.js",
+ "courses/it-7.js",
+ "courses/it-8.js",
+ "courses/it.js",
  "courses/la-2.js",
  "courses/la-3.js",
  "courses/la-4.js",

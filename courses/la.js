@@ -13,6 +13,11 @@ window.CONTENT.la = {
     'Repaso; abreviaturas de citas (D. Thom., lect., §); lectura de la página de Juan de Santo Tomás.'
   ],
   temasChat: ['la lógica', 'el maestro y el discípulo', 'qué es la filosofía', 'Aristóteles y santo Tomás'],
+  niveles: [
+    {"n": 1, "nombre": "Nivel 1", "lema": "Leer lógica escolástica", "semanas": [1, 2, 3, 4, 5, 6, 7, 8]},
+    {"n": 2, "nombre": "Nivel 2", "lema": "Lectura continuada", "temario": ["Juan de Santo Tomás, Ars logica: el resto del capítulo I y el capítulo II (el signo)", "Pedro Hispano, Tractatus I–II: proposiciones y predicables", "Boecio, comentario a la Isagoge: el problema de los universales", "Tomás de Aquino, De ente et essentia, capítulos 1–2", "Tomás de Aquino, Suma teológica I q.16: la verdad", "La suposición de los términos (Pedro Hispano y Ockham)", "Las Categorías de Aristóteles en la traducción de Boecio", "Descartes, Meditationes I–II (latín moderno)"]},
+    {"n": 3, "nombre": "Nivel 3", "lema": "Autonomía", "temario": ["Juan de Santo Tomás, Tractatus de signis (selección)", "Tomás de Aquino, De veritate q.1 a.1", "Suárez, Disputationes metaphysicae (selección)", "Ockham, Summa logicae I (selección)", "Anselmo, Proslogion 2–4", "Agustín, Confessiones XI: el tiempo", "Spinoza, Ethica I: definiciones y axiomas", "Lectura libre con apoyo: tus propios libros"]}
+  ],
   semanas: [
     {
       n: 1,

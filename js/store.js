@@ -99,19 +99,36 @@
     },
     exportData() {
       const data = clone(this.data);
-      if (data.perfil && data.perfil.ajustes && data.perfil.ajustes.ia) data.perfil.ajustes.ia.key = '';
+      const aj = data.perfil && data.perfil.ajustes;
+      // Las claves (Claude y voces premium) no salen nunca en las copias.
+      if (aj && aj.ia) aj.ia.key = '';
+      if (aj && aj.vozpro && typeof aj.vozpro === 'object') aj.vozpro.clave = '';
       return { app: 'glossa', version: 1, fecha: new Date().toISOString(), data };
     },
     importData(obj) {
       const data = obj && obj.app === 'glossa' && obj.data ? obj.data : null;
       if (!data || typeof data !== 'object' || !data.perfil) return false;
-      const key = this.data.perfil && this.data.perfil.ajustes && this.data.perfil.ajustes.ia ? this.data.perfil.ajustes.ia.key : '';
+      const aj0 = this.data.perfil && this.data.perfil.ajustes;
+      const key = aj0 && aj0.ia ? aj0.ia.key : '';
+      const vp = aj0 && aj0.vozpro && typeof aj0.vozpro === 'object' && aj0.vozpro.clave ? clone(aj0.vozpro) : null;
       for (const k of Object.keys(data)) {
         if (!/^[\w-]{1,40}$/.test(k)) continue;
         this.data[k] = fill(this.def(k), data[k]);
         this.mark(k);
       }
-      if (key && this.data.perfil.ajustes && this.data.perfil.ajustes.ia && !this.data.perfil.ajustes.ia.key) this.data.perfil.ajustes.ia.key = key;
+      const aj = this.data.perfil.ajustes;
+      if (key && aj && aj.ia && !aj.ia.key) aj.ia.key = key;
+      // Voces premium: se conserva la clave de este móvil. Si la copia usa otro servicio (sin su clave), sigue el de aquí.
+      if (vp && aj) {
+        const nv = aj.vozpro;
+        if (!nv || typeof nv !== 'object') aj.vozpro = vp;
+        else if (!nv.clave) {
+          if (!nv.proveedor || nv.proveedor === vp.proveedor) {
+            nv.proveedor = vp.proveedor; nv.clave = vp.clave; nv.claveDe = vp.claveDe || vp.proveedor;
+            if (!nv.region) nv.region = vp.region || '';
+          } else aj.vozpro = vp;
+        }
+      }
       return true;
     },
     async persist() {
