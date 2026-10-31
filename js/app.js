@@ -890,7 +890,7 @@
       <label class="check"><input type="checkbox" data-set="autoAudio" ${a.autoAudio ? 'checked' : ''}> Leer en voz alta tarjetas y respuestas automáticamente</label>
       <label class="check"><input type="checkbox" data-set="escucharme" ${a.escucharme ? 'checked' : ''}> Escucharme con el micrófono en el audio para hablar</label>
       <div class="row-btns">${sayBtn('pl', 'Dzień dobry! Miło mi Panią poznać.', 'Probar voz polaca')}<span class="muted">Polaco</span>${sayBtn('la', 'Cōgitō, ergō sum. Vīta brevis, ars longa.', 'Probar latín')}<span class="muted">Latín</span></div>
-      ${VO.TTS.ok && !VO.TTS.list('pl').length ? '<p class="hint">No veo ninguna voz polaca. En Android: Ajustes › Sistema › Idiomas › Salida de texto a voz › Motor de Google › Instalar datos de voz › Polaco.</p>' : ''}
+      ${VO.TTS.ok && !VO.TTS.list('pl').length ? '<p class="hint">No veo ninguna voz polaca. En los ajustes del móvil busca «texto a voz», elige como motor «Servicios de voz de Google» e instala en él la voz polaca. Después cierra y vuelve a abrir Glossa.</p>' : ''}
       ${VO.STT.ok ? '' : '<p class="hint">Este navegador no reconoce la voz: abre Glossa con Chrome para usar el micrófono.</p>'}</section>`;
     h += `<section class="card form"><h2>Claude</h2><p class="muted small">La conversación, las correcciones, las lecturas nuevas y tus textos usan Claude con tu propia clave de la API. Se guarda solo en este móvil y nunca sale en las copias de seguridad.</p>
       <label class="field"><span>Clave de la API</span><input type="password" id="f-key" data-set="ia.key" value="${esc(a.ia.key)}" autocomplete="off" spellcheck="false" placeholder="sk-ant-…"></label>

@@ -1,5 +1,5 @@
 // Glossa · service worker (generado por tools/release.js: no lo edites a mano)
-const VERSION = '2026.10.31-86441f81d0';
+const VERSION = '2026.10.31-b2e527bbc0';
 const CACHE = 'glossa-' + VERSION;
 const ASSETS = [
  "./",

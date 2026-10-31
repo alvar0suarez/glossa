@@ -10,7 +10,7 @@ Todo vive en una sola app con un único estado: lecciones, tarjetas con repetici
 
 - **Android (Chrome):** abre el enlace › menú ⋮ › *Instalar aplicación*. Funciona sin conexión salvo lo que usa Claude.
 - **iPhone (Safari):** Compartir › *Añadir a pantalla de inicio*. En iPhone el reconocimiento de voz depende de Safari y puede no estar disponible.
-- **Voz polaca en Android:** Ajustes › Sistema › Idiomas › Salida de texto a voz › Motor de Google › Instalar datos de voz › Polaco.
+- **Voz polaca en Android:** en los ajustes del móvil busca «texto a voz», elige como motor *Servicios de voz de Google* e instala en él la voz polaca (en Samsung suele estar en Administración general › Texto a voz).
 - **Claude:** crea una clave en [platform.claude.com](https://platform.claude.com) (*API Keys*), carga saldo en *Billing* y pégala en Ajustes › Claude. La clave se guarda solo en el dispositivo y no sale en las copias de seguridad.
 
 ## Qué hay dentro
