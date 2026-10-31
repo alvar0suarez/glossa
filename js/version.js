@@ -1,0 +1,1 @@
+window.GLOSSA_VERSION = '2026.10.31-86441f81d0';
