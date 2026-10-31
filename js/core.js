@@ -224,8 +224,9 @@
     return 1 - lev(x, y) / Math.max(x.length, y.length);
   }
   function bestMatch(alts, target) {
-    let best = { text: '', score: 0 };
+    let best = { text: '', score: -1 };
     for (const a of alts || []) { const sc = similarity(a, target); if (sc > best.score) best = { text: a, score: sc }; }
+    if (best.score < 0) best.score = 0;
     return best;
   }
 

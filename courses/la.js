@@ -146,7 +146,7 @@ window.CONTENT.la = {
               ['&', 'et (y)', '& per modum = et per modum'], ['raya o tilde sobre vocal', 'esa vocal + m o n', 'habitudinē = habitudinem; nō = non'],
               ['acento grave', 'nada: marca adverbios y partículas', 'secundùm = secundum; à = a']] },
             { t: 'p', x: 'Ojo con la *ſ*: se parece a la *f*, pero el travesaño de la *f* cruza la letra entera y el de la *ſ* solo asoma por la izquierda, o no existe.' },
-            { t: 'p', x: 'Las citas también van abreviadas: *D. Thom.* = *Dīvus Thomās* (santo Tomás); *Ariſt.* = Aristóteles; *lect.* = *lēctiō* (lección); *§* = párrafo.' },
+            { t: 'p', x: 'Las citas también van abreviadas: *D. Thom.* = *Dīvus Thōmās* (santo Tomás); *Ariſt.* = Aristóteles; *lect.* = *lēctiō* (lección); *§* = párrafo.' },
             { t: 'ej', items: [['dēfīnītiō terminī', 'la definición del término'], ['per modum praedicātī et subiectī', 'a modo de predicado y de sujeto'], ['ut in praedicātum et subiectum', 'como en predicado y sujeto']] },
             { t: 'nota', x: 'Tu meta para la semana 8: leer entera esa página. Ya tienes su primera frase en Lecturas, con cada palabra explicada.' }
           ],
@@ -212,14 +212,14 @@ window.CONTENT.la = {
         },
         {
           id: 'la1-r4', titulo: 'Logica in scholā', nivel: 'Inicial',
-          texto: 'Magister et discipulī in scholā sunt. Magister logicam docet. Discipulus magistrum interrogat: «Quid est logica?» Magister respondet: «Logica ars est. Logica nōs docet bene cōgitāre.» Discipulus iterum interrogat: «Quid est terminus?» Magister respondet: «Terminus est nōmen vel verbum, ut homo vel currit. Ex terminīs fit prōpositiō: Homo currit. Ex prōpositiōnibus fit syllogismus.» Discipulus: «Logica difficilis est!» Magister: «Difficilis, sed pulchra.»',
+          texto: 'Magister et discipulī in scholā sunt. Magister logicam docet. Discipulus magistrum interrogat: «Quid est logica?» Magister respondet: «Logica ars est. Logica nōs docet bene cōgitāre.» Discipulus iterum interrogat: «Quid est terminus?» Magister respondet: «Terminus est nōmen vel verbum, ut homō vel currit. Ex terminīs fit prōpositiō: Homō currit. Ex prōpositiōnibus fit syllogismus.» Discipulus: «Logica difficilis est!» Magister: «Difficilis, sed pulchra.»',
           traduccion: 'El maestro y los alumnos están en la escuela. El maestro enseña lógica. Un alumno le pregunta al maestro: «¿Qué es la lógica?». El maestro responde: «La lógica es un arte. La lógica nos enseña a pensar bien». El alumno pregunta otra vez: «¿Qué es un término?». El maestro responde: «Un término es un nombre o un verbo, como hombre o corre. Con términos se forma una proposición: El hombre corre. Con proposiciones se forma un silogismo». El alumno: «¡La lógica es difícil!». El maestro: «Difícil, pero hermosa».',
           glosa: {
             'magister': 'maestro', 'et': 'y', 'discipulī': 'alumnos', 'in': 'en (+ ablativo)', 'scholā': 'escuela (ablativo)', 'sunt': 'están',
             'logicam': 'la lógica (acusativo)', 'docet': 'enseña', 'discipulus': 'alumno', 'magistrum': 'al maestro (acusativo)', 'interrogat': 'pregunta',
             'quid': 'qué', 'est': 'es', 'logica': 'la lógica', 'respondet': 'responde', 'ars': 'arte, técnica', 'nōs': 'a nosotros (acusativo)',
             'bene': 'bien', 'cōgitāre': 'pensar (infinitivo)', 'iterum': 'otra vez', 'terminus': 'término', 'nōmen': 'nombre, sustantivo',
-            'vel': 'o', 'verbum': 'verbo, palabra', 'ut': 'como, por ejemplo', 'homo': 'hombre, ser humano', 'currit': 'corre', 'ex': 'a partir de, de (+ ablativo)',
+            'vel': 'o', 'verbum': 'verbo, palabra', 'ut': 'como, por ejemplo', 'homō': 'hombre, ser humano', 'currit': 'corre', 'ex': 'a partir de, de (+ ablativo)',
             'terminīs': 'términos (ablativo plural)', 'fit': 'se hace, se forma (de fierī)', 'prōpositiō': 'proposición',
             'prōpositiōnibus': 'proposiciones (ablativo plural)', 'syllogismus': 'silogismo', 'difficilis': 'difícil', 'sed': 'pero', 'pulchra': 'hermosa'
           },

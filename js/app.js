@@ -7,7 +7,32 @@
   const courseOf = id => COURSES.find(c => c.id === id) || ACTIVE[0];
   const VERSION = window.GLOSSA_VERSION || 'dev';
   const START = '2026-11-02';
-  const WIDE_Q = window.matchMedia ? window.matchMedia('(min-width: 680px)') : { matches: false, addEventListener() {} };
+  // Disposición según el ancho real. Si el navegador simula una pantalla de escritorio en un móvil
+  // (Chrome «Sitio de escritorio», p. ej. en la pantalla exterior del Fold), se amplía la página
+  // para que se vea como en un móvil. Pone las clases .wide y .mid en <html>.
+  const WIDE_Q = (() => {
+    const fns = [], de = document.documentElement;
+    const o = { matches: false, mid: false, zoom: 1, addEventListener(type, fn) { fns.push(fn); } };
+    const touch = (navigator.maxTouchPoints || 0) > 0 || 'ontouchstart' in window;
+    function measure() {
+      const iw = window.innerWidth || de.clientWidth || 400, ih = window.innerHeight || de.clientHeight || 800;
+      const s1 = (window.screen && screen.width) || iw, s2 = (window.screen && screen.height) || ih;
+      const sw = iw > ih ? Math.max(s1, s2) : Math.min(s1, s2);
+      let z = 1;
+      if (touch && sw > 0 && iw > sw * 1.25) z = Math.min(4, Math.round(iw / sw * 100) / 100);
+      const ew = iw / z, wide = ew >= 680, mid = wide && ew <= 900;
+      const changed = wide !== o.matches || mid !== o.mid || z !== o.zoom;
+      o.matches = wide; o.mid = mid; o.zoom = z;
+      de.classList.toggle('wide', wide); de.classList.toggle('mid', mid);
+      de.style.zoom = z === 1 ? '' : String(z);
+      de.style.setProperty('--z', String(z));
+      return changed;
+    }
+    measure();
+    let t = 0;
+    window.addEventListener('resize', () => { clearTimeout(t); t = setTimeout(() => { if (measure()) fns.forEach(f => f()); }, 120); });
+    return o;
+  })();
 
   const $ = (s, el) => (el || document).querySelector(s);
   const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
@@ -62,6 +87,7 @@
 
   // ---------------- Contenido ----------------
   const C = c => CONTENT[c];
+  for (const k in CONTENT) if (Array.isArray(CONTENT[k].semanas)) CONTENT[k].semanas.sort((a, b) => a.n - b.n);
   const weekData = (c, n) => (C(c).semanas || []).find(s => s.n === n) || null;
   function allLessons(c) {
     const out = [];

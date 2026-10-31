@@ -155,6 +155,22 @@ async def main():
             # llamadas a la API
             h = CALLS[0]['headers'] if CALLS else {}
             print('API llamadas:', len(CALLS), '· cabecera navegador:', h.get('anthropic-dangerous-direct-browser-access'), '· clave:', h.get('x-api-key'), '· modelo:', CALLS[1]['body'].get('model') if len(CALLS) > 1 else None, '· effort:', CALLS[1]['body'].get('output_config') if len(CALLS) > 1 else None)
+            # Fold plegado con Chrome en «Sitio de escritorio»: 980 px de página en una pantalla de 412
+            dk = await b.new_context(viewport={'width': 980, 'height': 2178}, screen={'width': 412, 'height': 915}, has_touch=True, device_scale_factor=1)
+            dp = await dk.new_page()
+            dp.on('pageerror', lambda e: errors.append('pageerror (escritorio): ' + str(e)))
+            await dp.goto('http://localhost:8765/#hoy'); await dp.wait_for_timeout(700)
+            info = await dp.evaluate("({zoom: document.documentElement.style.zoom, wide: document.documentElement.classList.contains('wide'), tabs: getComputedStyle(document.querySelector('nav.tabs')).display})")
+            print('modo escritorio plegado:', info)
+            await dp.screenshot(path=f'{SHOTS}/20_hoy_plegado_escritorio.png')
+            await dp.goto('http://localhost:8765/#leccion/pl2-1'); await dp.wait_for_timeout(500)
+            await dp.screenshot(path=f'{SHOTS}/21_leccion_plegado_escritorio.png')
+            # semanas nuevas: una lección y una lectura de cada idioma
+            await pg.set_viewport_size({'width': 412, 'height': 915})
+            for route in ['#leccion/pl8-2', '#lectura/pl7-r2', '#leccion/la7-7', '#lectura/la8-r1']:
+                await pg.goto('http://localhost:8765/' + route); await pg.wait_for_timeout(500)
+                print('ruta', route, '→', (await text())[:110])
+            await pg.screenshot(path=f'{SHOTS}/22_lectura_la8_movil.png')
             await b.close()
     finally:
         srv.terminate()

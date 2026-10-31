@@ -203,7 +203,7 @@ tr.cur td { background: var(--accent-soft); font-weight: 600; }
 .overlay { position: fixed; inset: 0; background: rgba(10, 15, 25, .35); z-index: 25; }
 .sheet { position: fixed; left: 0; right: 0; bottom: 0; z-index: 30; padding: 0 10px calc(10px + env(safe-area-inset-bottom)); }
 .word-sheet { bottom: calc(66px + env(safe-area-inset-bottom)); padding-bottom: 6px; }
-.sheet-in { max-width: 640px; margin: 0 auto; background: var(--surface); border: 1px solid var(--line); border-top: 4px solid var(--accent); border-radius: 14px; padding: 12px 14px; box-shadow: 0 10px 30px rgba(10, 20, 40, .2); max-height: 70vh; overflow-y: auto; }
+.sheet-in { max-width: 640px; margin: 0 auto; background: var(--surface); border: 1px solid var(--line); border-top: 4px solid var(--accent); border-radius: 14px; padding: 12px 14px; box-shadow: 0 10px 30px rgba(10, 20, 40, .2); max-height: calc(70vh / var(--z, 1)); overflow-y: auto; }
 .sheet-top { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; }
 .sheet-top strong { font-size: 1.2rem; flex: 1; }
 .x { border: 0; background: none; font-size: 1.6rem; line-height: 1; width: 40px; height: 40px; color: var(--muted); }
@@ -268,7 +268,7 @@ audio { width: 100%; margin: 6px 0; }
 .settings { display: grid; gap: 0 16px; }
 
 /* ---------- Conversación ---------- */
-.chatlog { display: grid; gap: 10px; max-height: 56vh; overflow-y: auto; padding: 4px 2px; margin-bottom: 10px; }
+.chatlog { display: grid; gap: 10px; max-height: calc(56vh / var(--z, 1)); overflow-y: auto; padding: 4px 2px; margin-bottom: 10px; }
 .msg { max-width: 88%; padding: 10px 13px; border-radius: 14px; }
 .msg p { margin: 0; }
 .msg.ai { background: var(--surface); border: 1px solid var(--line); justify-self: start; border-bottom-left-radius: 4px; }
@@ -294,41 +294,37 @@ audio { width: 100%; margin: 6px 0; }
 .kv dt { color: var(--muted); }
 .kv dd { margin: 0; font-weight: 600; text-align: right; }
 
-/* ---------- Pantalla grande (Fold abierta, tableta) ---------- */
-@media (min-width: 680px) {
-  .shell { display: grid; grid-template-columns: 104px minmax(0, 1fr); }
-  .rail { display: flex; flex-direction: column; gap: 14px; position: sticky; top: 0; height: 100vh; height: 100dvh; padding: calc(14px + env(safe-area-inset-top)) 8px 14px; background: var(--surface); border-right: 1px solid var(--line); overflow-y: auto; }
-  .rail-brand { display: grid; justify-items: center; gap: 4px; font-weight: 700; font-size: .85rem; }
-  .rail-brand .logo { width: 38px; height: 38px; border-radius: 10px; }
-  .rail-courses { display: grid; gap: 6px; }
-  .rc { display: flex; align-items: center; gap: 6px; border: 1px solid var(--line); background: var(--bg); border-radius: 10px; padding: 7px 8px; font-weight: 600; font-size: .85rem; min-height: 38px; }
-  .rc.on { border-color: var(--accent); background: var(--accent-soft); color: var(--accent); }
-  .rc.more { justify-content: center; color: var(--muted); font-size: .78rem; background: transparent; border-style: dashed; }
-  .rail-nav { display: grid; gap: 4px; margin-top: 4px; }
-  .rail-nav button { position: relative; border: 0; background: none; display: grid; justify-items: center; gap: 2px; padding: 8px 2px; border-radius: 12px; color: var(--muted); font-size: .78rem; font-weight: 600; }
-  .rail-nav button svg { width: 24px; height: 24px; }
-  .rail-nav button.on { color: var(--accent); background: var(--accent-soft); }
-  .rail-nav .badge { left: 58%; }
-  .top, .tabs { display: none; }
-  .content { max-width: 1120px; width: 100%; padding: calc(18px + env(safe-area-inset-top)) 28px 40px; }
-  .toast { bottom: 24px; }
-  .two { grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); align-items: start; }
-  .two.lesson .col-side, .two.reading-two .col-side { position: sticky; top: 16px; max-height: calc(100dvh - 32px); overflow-y: auto; padding-bottom: 8px; }
-  .two.lesson .col-side > h2:first-child { margin-top: 0; }
-  .gloss-panel { display: block; margin-top: 0; border-top: 4px solid var(--accent); }
-  .word-sheet { display: none; }
-  body.sheet-open .content { padding-bottom: 40px; }
-  .chat-two .col-side { position: sticky; top: 16px; }
-  .chatlog { max-height: 62vh; }
-  .settings { grid-template-columns: 1fr 1fr; align-items: start; }
-  .settings .card { margin: 0 0 16px; }
-  .sheet { padding-bottom: 24px; }
-  .hero-title { font-size: 1.35rem; }
-}
-@media (min-width: 680px) and (max-width: 900px) {
-  .two.lesson, .two.reading-two { grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 0 18px; }
-  .content { padding-left: 18px; padding-right: 18px; }
-}
+/* ---------- Pantalla grande (Fold abierta, tableta): clase .wide que pone js/app.js ---------- */
+html.wide .shell { display: grid; grid-template-columns: 104px minmax(0, 1fr); }
+html.wide .rail { display: flex; flex-direction: column; gap: 14px; position: sticky; top: 0; height: calc(100vh / var(--z, 1)); height: calc(100dvh / var(--z, 1)); padding: calc(14px + env(safe-area-inset-top)) 8px 14px; background: var(--surface); border-right: 1px solid var(--line); overflow-y: auto; }
+html.wide .rail-brand { display: grid; justify-items: center; gap: 4px; font-weight: 700; font-size: .85rem; }
+html.wide .rail-brand .logo { width: 38px; height: 38px; border-radius: 10px; }
+html.wide .rail-courses { display: grid; gap: 6px; }
+html.wide .rc { display: flex; align-items: center; gap: 6px; border: 1px solid var(--line); background: var(--bg); border-radius: 10px; padding: 7px 8px; font-weight: 600; font-size: .85rem; min-height: 38px; }
+html.wide .rc.on { border-color: var(--accent); background: var(--accent-soft); color: var(--accent); }
+html.wide .rc.more { justify-content: center; color: var(--muted); font-size: .78rem; background: transparent; border-style: dashed; }
+html.wide .rail-nav { display: grid; gap: 4px; margin-top: 4px; }
+html.wide .rail-nav button { position: relative; border: 0; background: none; display: grid; justify-items: center; gap: 2px; padding: 8px 2px; border-radius: 12px; color: var(--muted); font-size: .78rem; font-weight: 600; }
+html.wide .rail-nav button svg { width: 24px; height: 24px; }
+html.wide .rail-nav button.on { color: var(--accent); background: var(--accent-soft); }
+html.wide .rail-nav .badge { left: 58%; }
+html.wide .top, html.wide .tabs { display: none; }
+html.wide .content { max-width: 1120px; width: 100%; padding: calc(18px + env(safe-area-inset-top)) 28px 40px; }
+html.wide .toast { bottom: 24px; }
+html.wide .two { grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); align-items: start; }
+html.wide .two.lesson .col-side, html.wide .two.reading-two .col-side { position: sticky; top: 16px; max-height: calc(100dvh / var(--z, 1) - 32px); overflow-y: auto; padding-bottom: 8px; }
+html.wide .two.lesson .col-side > h2:first-child { margin-top: 0; }
+html.wide .gloss-panel { display: block; margin-top: 0; border-top: 4px solid var(--accent); }
+html.wide .word-sheet { display: none; }
+html.wide body.sheet-open .content { padding-bottom: 40px; }
+html.wide .chat-two .col-side { position: sticky; top: 16px; }
+html.wide .chatlog { max-height: calc(62vh / var(--z, 1)); }
+html.wide .settings { grid-template-columns: 1fr 1fr; align-items: start; }
+html.wide .settings .card { margin: 0 0 16px; }
+html.wide .sheet { padding-bottom: 24px; }
+html.wide .hero-title { font-size: 1.35rem; }
+html.wide.mid .two.lesson, html.wide.mid .two.reading-two { grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 0 18px; }
+html.wide.mid .content { padding-left: 18px; padding-right: 18px; }
 @media (max-width: 380px) {
   .grades { grid-template-columns: 1fr 1fr; }
   .field-row { grid-template-columns: 1fr; }

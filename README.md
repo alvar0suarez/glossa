@@ -1,6 +1,6 @@
 # Glossa
 
-App de idiomas instalable (PWA) para estudiar desde el móvil: **polaco** para la Navidad en familia y **latín** para leer lógica escolástica. Griego antiguo e italiano quedan preparados como cursos futuros.
+App de idiomas instalable (PWA) para estudiar desde el móvil: **polaco** para la Navidad en familia y **latín** para leer lógica escolástica, ocho semanas de cada uno. Griego antiguo e italiano quedan preparados como cursos futuros.
 
 Todo vive en una sola app con un único estado: lecciones, tarjetas con repetición espaciada, lecturas con glosa palabra a palabra, audio, micrófono, conversación con Claude y sesiones con tu chica.
 
@@ -24,7 +24,7 @@ Todo vive en una sola app con un único estado: lecciones, tarjetas con repetici
 | Progreso | Racha, minutos, hitos, repaso del domingo, errores recientes |
 | Ajustes | Nombres y familia, voces, clave de Claude, copia de seguridad |
 
-En pantallas anchas (Fold abierto, tablet) la navegación pasa a un carril lateral y las vistas usan dos columnas.
+En pantallas anchas (Fold abierto, tablet) la navegación pasa a un carril lateral y las vistas usan dos columnas. Si el navegador simula una página de escritorio en una pantalla estrecha (Chrome «Sitio de escritorio» en la pantalla exterior del Fold), la app lo detecta y se amplía para verse como en un móvil.
 
 ## Estructura
 
@@ -39,13 +39,14 @@ js/speech.js            voz (síntesis), oído (reconocimiento), grabación
 js/ai.js                API de Claude desde el navegador, en streaming
 js/app.js               interfaz y vistas
 courses/index.js        lista de cursos
-courses/pl.js, la.js    contenido de cada curso
+courses/pl.js, la.js    semana 1 de cada curso (títulos y programa de las 8 semanas)
+courses/pl-2.js … la-8.js  una semana por archivo
 tools/                  publicar versión y pruebas
 ```
 
 ## Añadir contenido
 
-Cada curso registra `window.CONTENT[id]`:
+Cada curso registra `window.CONTENT[id]` en `courses/<id>.js` con la semana 1; cada semana siguiente va en su propio archivo, `courses/<id>-<n>.js`, que hace `window.CONTENT.<id>.semanas.push({ n, … })` y se carga en `index.html`. La forma de una semana:
 
 ```js
 {
@@ -65,6 +66,8 @@ Cada curso registra `window.CONTENT[id]`:
 ```
 
 Para un idioma nuevo: añadirlo en `courses/index.js` con `estado:'activo'`, crear `courses/<id>.js` y cargarlo en `index.html`.
+
+`node tools/test-content.js` revisa todo el contenido (forma, ids, tarjetas repetidas entre semanas, que cada palabra de las lecturas tenga glosa…); `node tools/test-content.js courses/pl-3.js` revisa solo esa semana frente a la semana 1.
 
 ## Publicar una versión
 
